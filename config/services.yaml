@@ -1,0 +1,23 @@
+parameters:
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        bind:
+            string $encryptionKey: '%env(resolve:ENCRYPTION_KEY)%'
+            string $frontUrl: '%env(resolve:FRONT_URL)%'
+            string $publicJwt: '%env(resolve:PUBLIC_JWT)%'
+
+    App\:
+        resource: '../src/'
+        exclude:
+            - '../src/DependencyInjection/'
+            - '../src/Entity/'
+            - '../src/Kernel.php'
+
+    App\Serializer\GroupsContextBuilder:
+        decorates: 'api_platform.serializer.context_builder'
+        arguments: [ '@App\Serializer\GroupsContextBuilder.inner' ]
+        autoconfigure: false
+
