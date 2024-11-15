@@ -5,22 +5,14 @@ namespace App\Entity;
 use ApiPlatform\Doctrine\Orm\Filter\SearchFilter;
 use ApiPlatform\Metadata\ApiFilter;
 use ApiPlatform\Metadata\ApiResource;
-use ApiPlatform\Metadata\Delete;
-use ApiPlatform\Metadata\Get;
-use ApiPlatform\Metadata\GetCollection;
 use App\Entity\Traits\UuidTrait;
-use App\Enum\PostStatus;
-use App\Enum\SocialAccountStatus;
 use App\Repository\SocialAccountRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use Doctrine\Common\Collections\Criteria;
-use Doctrine\Common\Collections\Order;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Timestampable\Traits\TimestampableEntity;
 use Ramsey\Uuid\Uuid;
-use Symfony\Component\Serializer\Attribute\Groups;
 
 #[ORM\Entity(repositoryClass: SocialAccountRepository::class)]
 #[ORM\InheritanceType('SINGLE_TABLE')]
@@ -40,59 +32,45 @@ class SocialAccount
     use TimestampableEntity;
 
     #[ORM\Column(type: Types::STRING, unique: false)]
-    #[Groups(['social-accounts:full', 'posts:full'])]
     private ?string $socialAccountId = null;
 
     #[ORM\Column(type: Types::BOOLEAN)]
-    #[Groups(['social-accounts:full', 'posts:full'])]
     private ?bool $isVerified;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
-    #[Groups(['social-accounts:full', 'posts:full'])]
     private ?string $username = null;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
-    #[Groups(['social-accounts:full', 'posts:full'])]
     private ?string $name = null;
 
     #[ORM\Column(type: Types::TEXT, nullable: true)]
-    #[Groups(['social-accounts:full', 'posts:full'])]
     private ?string $avatarUrl = null;
 
     #[ORM\Column(type: Types::TEXT)]
-    #[Groups(['social-accounts:full', 'posts:full'])]
     private ?string $socialAccountTypeAvatarUrl = null;
 
     #[ORM\Column(type: Types::STRING)]
-    #[Groups(['social-accounts:full', 'posts:full'])]
     private string $socialAccountType;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
-    #[Groups(['social-accounts:full', 'posts:full'])]
     private ?string $email = null;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
-    #[Groups(['social-accounts:full', 'posts:full'])]
     private ?string $givenName = null;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
-    #[Groups(['social-accounts:full', 'posts:full'])]
     private ?string $familyName = null;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
-    #[Groups(['social-accounts:full'])]
     private ?int $followersCount = null;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
-    #[Groups(['social-accounts:full'])]
     private ?int $followingCount = null;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
-    #[Groups(['social-accounts:full'])]
     private ?int $likeCount = null;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
-    #[Groups(['social-accounts:full'])]
     private ?int $postCount = null;
 
     #[ORM\OneToMany(targetEntity: Post::class, mappedBy: 'socialAccount', cascade: ['remove'])]
@@ -247,19 +225,11 @@ class SocialAccount
         return $this;
     }
 
-    #[Groups(['social-accounts:full'])]
     public function getCreatedAt(): ?\DateTime
     {
         return $this->createdAt;
     }
 
-    #[Groups(['social-accounts:full', 'posts:full'])]
-    public function getUrl(): string
-    {
-        return sprintf('https://x.com/%s', $this->username);
-    }
-
-    #[Groups(['social-accounts:full'])]
     public function getUpdatedAt(): ?\DateTime
     {
         return $this->updatedAt;

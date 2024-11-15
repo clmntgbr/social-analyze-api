@@ -2,25 +2,17 @@
 
 namespace App\Repository;
 
-use App\Entity\FacebookSocialAccount;
-use App\Entity\SocialAccount;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Persistence\ManagerRegistry;
 
 abstract class AbstractRepository extends ServiceEntityRepository
 {
-    public function __construct(ManagerRegistry $registry)
-    {
-        parent::__construct($registry, self::class);
-    }
-
-    public function delete(SocialAccount $entity): void
+    public function delete(self $entity): void
     {
         $this->getEntityManager()->remove($entity);
         $this->getEntityManager()->flush();
     }
 
-    private function findOneByCriteria(array $criteria): ?self
+    public function findOneByCriteria(array $criteria): ?self
     {
         $queryBuilder = $this->createQueryBuilder('p');
 

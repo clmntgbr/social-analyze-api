@@ -13,7 +13,7 @@ use Symfony\Component\Security\Core\User\PasswordUpgraderInterface;
 /**
  * @extends ServiceEntityRepository<User>
  */
-class UserRepository extends ServiceEntityRepository implements PasswordUpgraderInterface
+class UserRepository extends AbstractRepository implements PasswordUpgraderInterface
 {
     public function __construct(ManagerRegistry $registry)
     {
@@ -31,36 +31,9 @@ class UserRepository extends ServiceEntityRepository implements PasswordUpgrader
         $this->getEntityManager()->flush();
     }
 
-    public function update(User $entity, array $data): User
-    {
-        foreach ($data as $key => $value) {
-            $method = 'set' . ucfirst($key);
-                if (method_exists($entity, $method)) {
-                $entity->$method($value);
-            }
-        }
-
-        $this->getEntityManager()->persist($entity);
-        $this->getEntityManager()->flush();
-
-        return $entity;
-    }
-
-    private function findByCriteria(array $criteria): ?User
-    {
-        $queryBuilder = $this->createQueryBuilder('p');
-
-        foreach ($criteria as $key => $value) {
-            $queryBuilder->andWhere("p.$key = :$key")
-                ->setParameter($key, $value);
-        }
-
-        return $queryBuilder->getQuery()->getOneOrNullResult();
-    }
-
     public function updateOrCreate(array $searchPayload, array $updatePayload): User
     {
-        $account = $this->findByCriteria($searchPayload);
+        $account = $this->findOneByCriteria($searchPayload);
         if (!$account) {
             $account = new User();
         }

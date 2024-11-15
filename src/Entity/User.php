@@ -4,9 +4,6 @@ namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
 use ApiPlatform\Metadata\Get;
-use ApiPlatform\Metadata\Patch;
-use App\ApiResource\Controller\GetUserAction;
-use App\ApiResource\Controller\PatchUserActiveWorkspaceAction;
 use App\Repository\UserRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
@@ -22,7 +19,12 @@ use Symfony\Component\Serializer\Attribute\Groups;
 #[ORM\Table(name: '`user`')]
 #[ORM\UniqueConstraint(name: 'UNIQ_IDENTIFIER_EMAIL', fields: ['email'])]
 #[ApiResource(
-    operations: []
+    operations: [
+        new Get(
+            uriTemplate: '/me',
+            normalizationContext: ['skip_null_values' => false, 'groups' => ['user:get']],
+        ),
+    ]
 )]
 class User implements UserInterface, PasswordAuthenticatedUserInterface
 {
@@ -34,21 +36,26 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     private ?int $id = null;
 
     #[ORM\Column(type: Types::GUID, length: 36, unique: true)]
+    #[Groups(['user:get'])]
     private ?string $uuid;
 
     #[ORM\Column(length: 180)]
+    #[Groups(['user:get'])]
     private ?string $email = null;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
     private ?string $plainPassword = null;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
+    #[Groups(['user:get'])]
     private ?string $givenName = null;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
+    #[Groups(['user:get'])]
     private ?string $familyName = null;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
+    #[Groups(['user:get'])]
     private ?string $avatarUrl = null;
 
     #[ORM\Column]
@@ -57,13 +64,14 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column]
     private ?string $password = null;
 
-    #[ORM\ManyToMany(targetEntity: Analyze::class, mappedBy: 'users', cascade: ['persist', 'remove'])]
-    private Collection $analyzes;
+    #[ORM\ManyToMany(targetEntity: Analysis::class, mappedBy: 'users', cascade: ['persist', 'remove'])]
+    private Collection $analyses;
 
     public function __construct()
     {
+        $this->avatarUrl = 'images/avatar.jpg';
         $this->uuid = Uuid::uuid4()->toString();
-        $this->analyzes = new ArrayCollection();
+        $this->analyses = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -200,27 +208,27 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     }
 
     /**
-     * @return Collection<int, Analyze>
+     * @return Collection<int, Analysis>
      */
-    public function getAnalyzes(): Collection
+    public function getAnalyses(): Collection
     {
-        return $this->analyzes;
+        return $this->analyses;
     }
 
-    public function addAnalyze(Analyze $analyze): static
+    public function addAnalysis(Analysis $analysis): static
     {
-        if (!$this->analyzes->contains($analyze)) {
-            $this->analyzes->add($analyze);
-            $analyze->addUser($this);
+        if (!$this->analyses->contains($analysis)) {
+            $this->analyses->add($analysis);
+            $analysis->addUser($this);
         }
 
         return $this;
     }
 
-    public function removeAnalyze(Analyze $analyze): static
+    public function removeAnalysis(Analysis $analysis): static
     {
-        if ($this->analyzes->removeElement($analyze)) {
-            $analyze->removeUser($this);
+        if ($this->analyses->removeElement($analysis)) {
+            $analysis->removeUser($this);
         }
 
         return $this;

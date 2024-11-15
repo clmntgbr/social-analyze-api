@@ -74,9 +74,10 @@ class JwtAuthenticator extends AbstractAuthenticator
 
     private function getUser(array $payload): User
     {
-        $user = $this->userRepository->updateOrCreate([
+        $user = $this->userRepository->updateOrCreate(
+            [
             'email' => $payload['user_primary_email_address']
-        ],
+            ],
             [
                 'email' => $payload['user_primary_email_address'],
                 'password' => Uuid::uuid4()->toString(),

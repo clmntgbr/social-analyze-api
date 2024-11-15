@@ -3,21 +3,24 @@
 namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
+use ApiPlatform\Metadata\GetCollection;
 use App\Entity\Traits\UuidTrait;
-use App\Repository\AnalyzeRepository;
+use App\Repository\AnalysisRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\Serializer\Attribute\Groups;
 
-#[ORM\Entity(repositoryClass: AnalyzeRepository::class)]
-#[ORM\Table(name: '`analyze`')]
-#[ApiResource]
-class Analyze
+#[ORM\Entity(repositoryClass: AnalysisRepository::class)]
+#[ApiResource(
+    operations: [
+        new GetCollection(),
+    ]
+)]
+class Analysis
 {
     use UuidTrait;
 
-    #[ORM\ManyToMany(targetEntity: User::class, inversedBy: 'users')]
+    #[ORM\ManyToMany(targetEntity: User::class, inversedBy: 'analyses')]
     private Collection $users;
 
     #[ORM\ManyToOne(targetEntity: User::class, cascade: ['persist'])]

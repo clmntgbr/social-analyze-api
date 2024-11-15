@@ -3,7 +3,6 @@
 namespace App\Repository;
 
 use App\Entity\FacebookSocialAccount;
-use App\Entity\SocialAccount;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
@@ -12,4 +11,8 @@ use Doctrine\Persistence\ManagerRegistry;
  */
 class FacebookSocialAccountRepository extends AbstractRepository
 {
+    public function __construct(ManagerRegistry $registry)
+    {
+        parent::__construct($registry, FacebookSocialAccount::class);
+    }
 }

@@ -39,8 +39,6 @@ readonly class UserEvent
         if (!$entity instanceof User) {
             return;
         }
-
-        $this->createWorkspace($entity);
     }
 
     #[NoReturn]

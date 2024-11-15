@@ -5,9 +5,6 @@ namespace App\Entity;
 use ApiPlatform\Doctrine\Orm\Filter\SearchFilter;
 use ApiPlatform\Metadata\ApiFilter;
 use ApiPlatform\Metadata\ApiResource;
-use ApiPlatform\Metadata\Get;
-use ApiPlatform\Metadata\GetCollection;
-use ApiPlatform\Metadata\Post as CreatePost;
 use App\ApiResource\Controller\CreatePostsAction;
 use App\ApiResource\Controller\GetPostAction;
 use App\Entity\Traits\UuidTrait;
@@ -20,7 +17,6 @@ use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Timestampable\Traits\TimestampableEntity;
 use Ramsey\Uuid\Uuid;
-use Symfony\Component\Serializer\Attribute\Groups;
 
 #[ORM\Entity(repositoryClass: PostRepository::class)]
 #[ApiResource(
@@ -34,54 +30,42 @@ class Post
     use TimestampableEntity;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
-    #[Groups(['posts:full', 'social-accounts:full'])]
     private ?string $postId = null;
 
     #[ORM\Column(type: Types::STRING)]
-    #[Groups(['posts:create', 'posts:full', 'social-accounts:full'])]
     private ?string $groupType;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
-    #[Groups(['posts:create', 'posts:full', 'social-accounts:full'])]
     private ?string $header = null;
 
     #[ORM\Column(type: Types::TEXT, nullable: true)]
-    #[Groups(['posts:create', 'posts:full'])]
     private ?string $body = null;
 
     #[ORM\Column(type: Types::JSON)]
-    #[Groups(['posts:create', 'posts:full', 'social-accounts:full'])]
     private array $pictures;
 
     #[ORM\Column(type: Types::STRING)]
-    #[Groups(['posts:full', 'social-accounts:full'])]
     private string $status;
 
     #[ORM\Column(type: Types::DATETIME_MUTABLE, nullable: true)]
-    #[Groups(['posts:create', 'posts:full', 'social-accounts:full'])]
     private ?\DateTime $postAt = null;
 
     #[ORM\ManyToOne(targetEntity: SocialAccount::class, inversedBy: 'posts')]
     #[ORM\JoinColumn(nullable: false)]
-    #[Groups(['posts:full'])]
     private ?SocialAccount $socialAccount = null;
 
     #[ORM\ManyToOne(targetEntity: Post::class, inversedBy: 'children')]
     #[ORM\JoinColumn(nullable: true)]
-    #[Groups(['posts:full'])]
     private ?Post $parent = null;
 
     #[ORM\OneToMany(targetEntity: Post::class, mappedBy: 'parent')]
     #[ORM\OrderBy(['position' => 'ASC'])]
-    #[Groups(['posts:full'])]
     private Collection $children;
 
     public function __construct()
     {
         $this->uuid = Uuid::uuid4()->toString();
-        $this->groupType = PostGroupType::CHILDREN->toString();
         $this->pictures = [];
-        $this->status = PostStatus::DRAFT->toString();
         $this->children = new ArrayCollection();
     }
 
@@ -97,13 +81,11 @@ class Post
         return $this;
     }
 
-    #[Groups(['posts:full'])]
     public function getCreatedAt(): ?\DateTime
     {
         return $this->createdAt;
     }
 
-    #[Groups(['posts:full'])]
     public function getUpdatedAt(): ?\DateTime
     {
         return $this->updatedAt;

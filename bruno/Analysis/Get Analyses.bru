@@ -1,0 +1,15 @@
+meta {
+  name: Get Analyses
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{url}}/api/analyses
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}

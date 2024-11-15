@@ -2,7 +2,6 @@
 
 namespace App\Repository;
 
-use App\Entity\SocialAccount;
 use App\Entity\TwitterSocialAccount;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
@@ -12,4 +11,8 @@ use Doctrine\Persistence\ManagerRegistry;
  */
 class TwitterSocialAccountRepository extends AbstractRepository
 {
+    public function __construct(ManagerRegistry $registry)
+    {
+        parent::__construct($registry, TwitterSocialAccount::class);
+    }
 }
