@@ -1,6 +1,6 @@
-App\Entity\Analysis:
-  analysis_{1..100}:
-    socialAccount: '@social_account_*'
-    title: '<sentence(4)>'
-    username: '<username()>'
-    platform: '<randomElement(["linkedin", "facebook", "twitter"])>'
+#App\Entity\Analysis:
+#  analysis_{1..100}:
+#    socialAccount: '@social_account_*'
+#    title: '<sentence(4)>'
+#    username: '<username()>'
+#    platform: '<randomElement(["linkedin", "facebook", "twitter"])>'

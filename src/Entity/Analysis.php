@@ -8,7 +8,7 @@ use ApiPlatform\Metadata\GetCollection;
 use ApiPlatform\Metadata\Post;
 use App\ApiResource\Controller\GetAnalysesFavoritesAction;
 use App\ApiResource\Controller\GetAnalysesRecentsAction;
-use App\ApiResource\Controller\PostAnalysesAction;
+use App\ApiResource\Controller\CreateAnalysisAction;
 use App\Entity\Traits\UuidTrait;
 use App\Enum\AnalysisStatus;
 use App\Repository\AnalysisRepository;
@@ -22,7 +22,7 @@ use Symfony\Component\Serializer\Attribute\Groups;
 #[ApiResource(
     operations: [
         new Post(
-            controller: PostAnalysesAction::class,
+            controller: CreateAnalysisAction::class,
         ),
         new Get(
             uriTemplate: '/analyses/recents',

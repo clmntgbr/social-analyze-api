@@ -4,7 +4,7 @@ namespace App\Dto;
 
 use Symfony\Component\Validator\Constraints as Assert;
 
-class PostAnalyses
+class CreateAnalysis
 {
     #[Assert\NotBlank()]
     #[Assert\Type('string')]

@@ -2,8 +2,9 @@
 
 namespace App\ApiResource\Controller;
 
-use App\Dto\PostAnalyses;
+use App\Dto\CreateAnalysis;
 use App\Entity\User;
+use App\Message\CreateAnalysisMessage;
 use App\Repository\AnalysisRepository;
 use App\Repository\UserRepository;
 use Doctrine\ORM\EntityManagerInterface;
@@ -11,21 +12,23 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Attribute\AsController;
+use Symfony\Component\Messenger\Bridge\Amqp\Transport\AmqpStamp;
+use Symfony\Component\Messenger\MessageBusInterface;
+use Symfony\Component\Messenger\Stamp\DelayStamp;
 use Symfony\Component\Security\Http\Attribute\CurrentUser;
 use Symfony\Component\Serializer\Context\Normalizer\ObjectNormalizerContextBuilder;
 use Symfony\Component\Serializer\SerializerInterface;
 
 #[AsController]
-class PostAnalysesAction extends AbstractController
+class CreateAnalysisAction extends AbstractController
 {
     public function __construct(
         private readonly SerializerInterface $serializer,
         private readonly AnalysisRepository $analysisRepository,
-        private readonly UserRepository $userRepository,
-        private readonly EntityManagerInterface $em
+        private readonly UserRepository $userRepository
     ) {}
 
-    public function __invoke(PostAnalyses $postAnalyses, #[CurrentUser] User $user): JsonResponse
+    public function __invoke(CreateAnalysis $postAnalyses, #[CurrentUser] User $user): JsonResponse
     {
         $analysis = $this->analysisRepository->updateOrCreate(
             [
@@ -35,7 +38,7 @@ class PostAnalysesAction extends AbstractController
             [
                 'username' => $postAnalyses->username,
                 'platform' => $postAnalyses->platform,
-                'title' => sprintf('%s : %s', (new  \DateTime('now'))->format('d/m/Y'), $postAnalyses->username),
+                'title' => sprintf('@%s', $postAnalyses->username),
             ]
         );
 

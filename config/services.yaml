@@ -8,6 +8,9 @@ services:
             string $encryptionKey: '%env(resolve:ENCRYPTION_KEY)%'
             string $frontUrl: '%env(resolve:FRONT_URL)%'
             string $publicJwt: '%env(resolve:PUBLIC_JWT)%'
+            string $rapidApiKey: '%env(resolve:RAPIDAPI_KEY)%'
+            string $rapidApiLinkedinHost: '%env(resolve:RAPIDAPI_LINKEDIN_HOST)%'
+            string $rapidApiLinkedinGetProfileUrl: '%env(resolve:RAPIDAPI_LINKEDIN_GET_PROFILE_URL)%'
 
     App\:
         resource: '../src/'

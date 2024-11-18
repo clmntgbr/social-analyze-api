@@ -2,7 +2,7 @@
 
 namespace App\Resolver;
 
-use App\Dto\PostAnalyses;
+use App\Dto\CreateAnalysis;
 use App\Service\ValidatorError;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Controller\ValueResolverInterface;
@@ -11,7 +11,7 @@ use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 use Symfony\Component\Serializer\SerializerInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 
-readonly class PostAnalysesResolver implements ValueResolverInterface
+readonly class CreateAnalysisResolver implements ValueResolverInterface
 {
     public function __construct(
         private SerializerInterface $serializer,
@@ -21,18 +21,18 @@ readonly class PostAnalysesResolver implements ValueResolverInterface
 
     public function resolve(Request $request, ArgumentMetadata $argument): iterable
     {
-        if ($argument->getType() !== PostAnalyses::class) {
+        if ($argument->getType() !== CreateAnalysis::class) {
             return;
         }
 
         $content = $request->getContent();
-        $postAnalyses = $this->serializer->deserialize($content, PostAnalyses::class, 'json');
+        $createAnalysis = $this->serializer->deserialize($content, CreateAnalysis::class, 'json');
 
-        $errors = $this->validator->validate($postAnalyses);
+        $errors = $this->validator->validate($createAnalysis);
         if (count($errors) > 0) {
             throw new BadRequestHttpException($this->validatorError->getMessageToString($errors));
         }
 
-        yield $postAnalyses;
+        yield $createAnalysis;
     }
 }
