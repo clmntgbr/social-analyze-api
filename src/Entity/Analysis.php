@@ -3,67 +3,146 @@
 namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
+use ApiPlatform\Metadata\Get;
 use ApiPlatform\Metadata\GetCollection;
+use ApiPlatform\Metadata\Post;
+use App\ApiResource\Controller\GetAnalysesFavoritesAction;
+use App\ApiResource\Controller\GetAnalysesRecentsAction;
+use App\ApiResource\Controller\PostAnalysesAction;
 use App\Entity\Traits\UuidTrait;
+use App\Enum\AnalysisStatus;
 use App\Repository\AnalysisRepository;
-use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
+use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Timestampable\Traits\TimestampableEntity;
+use Ramsey\Uuid\Uuid;
+use Symfony\Component\Serializer\Attribute\Groups;
 
 #[ORM\Entity(repositoryClass: AnalysisRepository::class)]
 #[ApiResource(
     operations: [
-        new GetCollection(),
+        new Post(
+            controller: PostAnalysesAction::class,
+        ),
+        new Get(
+            uriTemplate: '/analyses/recents',
+            controller: GetAnalysesRecentsAction::class,
+
+        ),
+        new Get(
+            uriTemplate: '/analysis/{uuid}',
+            normalizationContext: ['skip_null_values' => false, 'groups' => ['analyses:full', 'social-accounts:full']],
+        ),
+        new Get(
+            uriTemplate: '/analyses/favorites',
+            controller: GetAnalysesFavoritesAction::class,
+
+        ),
+        new GetCollection(
+            normalizationContext: ['skip_null_values' => false, 'groups' => ['analyses:full', 'social-accounts:full']],
+        )
     ]
 )]
 class Analysis
 {
     use UuidTrait;
+    use TimestampableEntity;
 
-    #[ORM\ManyToMany(targetEntity: User::class, inversedBy: 'analyses')]
-    private Collection $users;
+    #[ORM\Column(type: Types::STRING)]
+    #[Groups(['analyses:full'])]
+    private ?string $title;
 
-    #[ORM\ManyToOne(targetEntity: User::class, cascade: ['persist'])]
-    #[ORM\JoinColumn(nullable: false)]
-    private User $admin;
+    #[ORM\Column(type: Types::STRING)]
+    #[Groups(['analyses:full'])]
+    private ?string $status;
+
+    #[ORM\Column(type: Types::STRING)]
+    #[Groups(['analyses:full'])]
+    private ?string $username;
+
+    #[ORM\Column(type: Types::STRING)]
+    #[Groups(['analyses:full'])]
+    private ?string $platform;
+
+    #[ORM\ManyToOne(targetEntity: SocialAccount::class)]
+    #[ORM\JoinColumn(nullable: true)]
+    #[Groups(['analyses:full'])]
+    private ?SocialAccount $socialAccount = null;
 
     public function __construct()
     {
-        $this->users = new ArrayCollection();
+        $this->uuid = Uuid::uuid4()->toString();
+        $this->status = AnalysisStatus::LOADING->toString();
     }
 
-    /**
-     * @return Collection<int, User>
-     */
-    public function getUsers(): Collection
+    public function getTitle(): ?string
     {
-        return $this->users;
+        return $this->title;
     }
 
-    public function addUser(User $user): static
+    public function setTitle(string $title): static
     {
-        if (!$this->users->contains($user)) {
-            $this->users->add($user);
-        }
+        $this->title = $title;
 
         return $this;
     }
 
-    public function removeUser(User $user): static
+    #[Groups(['analyses:full'])]
+    public function getCreatedAt(): ?\DateTime
     {
-        $this->users->removeElement($user);
+        return $this->createdAt;
+    }
+
+    #[Groups(['analyses:full'])]
+    public function getUpdatedAt(): ?\DateTime
+    {
+        return $this->updatedAt;
+    }
+
+    public function getSocialAccount(): ?SocialAccount
+    {
+        return $this->socialAccount;
+    }
+
+    public function setSocialAccount(?SocialAccount $socialAccount): static
+    {
+        $this->socialAccount = $socialAccount;
 
         return $this;
     }
 
-    public function getAdmin(): ?User
+    public function getStatus(): ?string
     {
-        return $this->admin;
+        return $this->status;
     }
 
-    public function setAdmin(?User $admin): static
+    public function setStatus(string $status): static
     {
-        $this->admin = $admin;
+        $this->status = $status;
+
+        return $this;
+    }
+
+    public function getUsername(): ?string
+    {
+        return $this->username;
+    }
+
+    public function setUsername(string $username): static
+    {
+        $this->username = $username;
+
+        return $this;
+    }
+
+    public function getPlatform(): ?string
+    {
+        return $this->platform;
+    }
+
+    public function setPlatform(string $platform): static
+    {
+        $this->platform = $platform;
 
         return $this;
     }

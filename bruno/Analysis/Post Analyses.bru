@@ -1,0 +1,22 @@
+meta {
+  name: Post Analyses
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{url}}/api/analyses
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "username": "clele",
+    "platform": "linkedin"
+  }
+}

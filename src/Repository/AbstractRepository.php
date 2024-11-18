@@ -12,7 +12,7 @@ abstract class AbstractRepository extends ServiceEntityRepository
         $this->getEntityManager()->flush();
     }
 
-    public function findOneByCriteria(array $criteria): ?self
+    public function findOneByCriteria(array $criteria): ?object
     {
         $queryBuilder = $this->createQueryBuilder('p');
 
@@ -22,5 +22,25 @@ abstract class AbstractRepository extends ServiceEntityRepository
         }
 
         return $queryBuilder->getQuery()->getOneOrNullResult();
+    }
+
+    public function update(object $entity, array $data): object
+    {
+        foreach ($data as $key => $value) {
+            $method = 'set' . ucfirst($key);
+            if (method_exists($entity, $method)) {
+                $entity->$method($value);
+            }
+
+            $method = 'add' . ucfirst($key);
+            if (method_exists($entity, $method)) {
+                $entity->$method($value);
+            }
+        }
+
+        $this->getEntityManager()->persist($entity);
+        $this->getEntityManager()->flush();
+
+        return $entity;
     }
 }

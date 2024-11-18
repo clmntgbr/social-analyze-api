@@ -7,6 +7,8 @@ use ApiPlatform\Metadata\Get;
 use App\Repository\UserRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
+use Doctrine\Common\Collections\Criteria;
+use Doctrine\Common\Collections\Order;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Timestampable\Traits\TimestampableEntity;
@@ -64,14 +66,19 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column]
     private ?string $password = null;
 
-    #[ORM\ManyToMany(targetEntity: Analysis::class, mappedBy: 'users', cascade: ['persist', 'remove'])]
+    #[ORM\ManyToMany(targetEntity: Analysis::class, cascade: ['persist', 'remove'])]
+    #[ORM\JoinTable(name: 'users_analyses')]
     private Collection $analyses;
+
+    #[ORM\ManyToMany(targetEntity: Analysis::class, cascade: ['persist', 'remove'])]
+    #[ORM\JoinTable(name: 'users_analyses_favorites')]
+    private Collection $favorites;
 
     public function __construct()
     {
-        $this->avatarUrl = 'images/avatar.jpg';
         $this->uuid = Uuid::uuid4()->toString();
         $this->analyses = new ArrayCollection();
+        $this->favorites = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -188,11 +195,27 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
         return $this->familyName;
     }
 
+    #[Groups(['user:get'])]
+    public function getName(): ?string
+    {
+        return sprintf('%s %s', $this->givenName, $this->familyName);
+    }
+
     public function setFamilyName(?string $familyName): static
     {
         $this->familyName = $familyName;
 
         return $this;
+    }
+
+    public function getRecents(int $maxResults = 10): array
+    {
+        return array_values(
+            $this->analyses
+                ->matching(
+                    Criteria::create()->orderBy(['createdAt' => Order::Descending])->setMaxResults($maxResults)
+            )->toArray()
+        );
     }
 
     public function getAvatarUrl(): ?string
@@ -219,7 +242,6 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     {
         if (!$this->analyses->contains($analysis)) {
             $this->analyses->add($analysis);
-            $analysis->addUser($this);
         }
 
         return $this;
@@ -227,9 +249,31 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
     public function removeAnalysis(Analysis $analysis): static
     {
-        if ($this->analyses->removeElement($analysis)) {
-            $analysis->removeUser($this);
+        $this->analyses->removeElement($analysis);
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Analysis>
+     */
+    public function getFavorites(): Collection
+    {
+        return $this->favorites;
+    }
+
+    public function addFavorite(Analysis $favorite): static
+    {
+        if (!$this->favorites->contains($favorite)) {
+            $this->favorites->add($favorite);
         }
+
+        return $this;
+    }
+
+    public function removeFavorite(Analysis $favorite): static
+    {
+        $this->favorites->removeElement($favorite);
 
         return $this;
     }

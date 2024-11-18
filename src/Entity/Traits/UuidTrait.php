@@ -5,6 +5,7 @@ namespace App\Entity\Traits;
 use ApiPlatform\Metadata\ApiProperty;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Attribute\Groups;
 
 trait UuidTrait
 {
@@ -16,6 +17,7 @@ trait UuidTrait
 
     #[ORM\Column(type: Types::GUID, length: 36, unique: true)]
     #[ApiProperty(identifier: true)]
+    #[Groups(['analyses:full'])]
     private ?string $uuid = null;
 
     public function getId(): ?int

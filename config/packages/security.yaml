@@ -49,9 +49,6 @@ security:
         - { path: ^/api/docs, roles: PUBLIC_ACCESS }
         - { path: ^/api/auth/register, roles: PUBLIC_ACCESS }
         - { path: ^/api/auth/token, roles: PUBLIC_ACCESS }
-        - { path: ^/api/facebook/callback, roles: PUBLIC_ACCESS }
-        - { path: ^/api/linkedin/callback, roles: PUBLIC_ACCESS }
-        - { path: ^/api/twitter/callback, roles: PUBLIC_ACCESS }
         - { path: ^/api, roles: ROLE_USER }
 
 when@test:

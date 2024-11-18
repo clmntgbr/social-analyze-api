@@ -15,4 +15,15 @@ class AnalysisRepository extends AbstractRepository
     {
         parent::__construct($registry, Analysis::class);
     }
+
+    public function updateOrCreate(array $searchPayload, array $updatePayload): Analysis
+    {
+        $account = $this->findOneByCriteria($searchPayload);
+        if (!$account) {
+            $account = new Analysis();
+        }
+
+        $this->update($account, $updatePayload);
+        return $account;
+    }
 }
