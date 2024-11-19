@@ -5,6 +5,7 @@ namespace App\Entity;
 use ApiPlatform\Doctrine\Orm\Filter\SearchFilter;
 use ApiPlatform\Metadata\ApiFilter;
 use ApiPlatform\Metadata\ApiResource;
+use ApiPlatform\Metadata\GetCollection;
 use App\Entity\Traits\UuidTrait;
 use App\Repository\SocialAccountRepository;
 use Doctrine\Common\Collections\ArrayCollection;
@@ -24,7 +25,9 @@ use Symfony\Component\Serializer\Attribute\Groups;
     'facebook_social_account' => 'FacebookSocialAccount',
 ])]
 #[ApiResource(
-    operations: []
+    operations: [
+        new GetCollection(),
+    ]
 )]
 #[ApiFilter(SearchFilter::class, properties: ['socialAccountType' => 'exact'])]
 class SocialAccount
@@ -46,15 +49,19 @@ class SocialAccount
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
     #[Groups(['social-accounts:full'])]
-    private ?string $name = null;
+    private ?string $firstName = null;
+
+    #[ORM\Column(type: Types::STRING, nullable: true)]
+    #[Groups(['social-accounts:full'])]
+    private ?string $lastName = null;
 
     #[ORM\Column(type: Types::TEXT, nullable: true)]
     #[Groups(['social-accounts:full'])]
-    private ?string $avatarUrl = null;
+    private ?string $profilePicture = null;
 
-    #[ORM\Column(type: Types::TEXT)]
+    #[ORM\Column(type: Types::TEXT, nullable: true)]
     #[Groups(['social-accounts:full'])]
-    private ?string $socialAccountTypeAvatarUrl = null;
+    private ?string $backgroundImage = null;
 
     #[ORM\Column(type: Types::STRING)]
     #[Groups(['social-accounts:full'])]
@@ -64,17 +71,9 @@ class SocialAccount
     #[Groups(['social-accounts:full'])]
     private ?string $email = null;
 
-    #[ORM\Column(type: Types::STRING, nullable: true)]
-    #[Groups(['social-accounts:full'])]
-    private ?string $givenName = null;
-
-    #[ORM\Column(type: Types::STRING, nullable: true)]
-    #[Groups(['social-accounts:full'])]
-    private ?string $familyName = null;
-
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
     #[Groups(['social-accounts:full'])]
-    private ?int $followersCount = null;
+    private ?int $followerCount = null;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
     #[Groups(['social-accounts:full'])]
@@ -114,58 +113,33 @@ class SocialAccount
         return $this->id;
     }
 
+    #[Groups(['social-accounts:full'])]
+    public function getCreatedAt(): ?\DateTime
+    {
+        return $this->createdAt;
+    }
+
+    #[Groups(['social-accounts:full'])]
+    public function getName(): string
+    {
+        return sprintf('%s %s', $this->firstName, $this->lastName);
+    }
+
+    #[Groups(['social-accounts:full'])]
+    public function getUpdatedAt(): ?\DateTime
+    {
+        return $this->updatedAt;
+    }
+
     public function getSocialAccountId(): ?string
     {
         return $this->socialAccountId;
     }
 
-    public function setSocialAccountId(?string $socialAccountId): static
+    public function setSocialAccountId(string $socialAccountId): static
     {
         $this->socialAccountId = $socialAccountId;
-        return $this;
-    }
 
-    public function getIsVerified(): ?bool
-    {
-        return $this->isVerified;
-    }
-
-    public function setIsVerified(?bool $isVerified): static
-    {
-        $this->isVerified = $isVerified;
-        return $this;
-    }
-
-    public function getUsername(): ?string
-    {
-        return $this->username;
-    }
-
-    public function setUsername(?string $username): static
-    {
-        $this->username = $username;
-        return $this;
-    }
-
-    public function getName(): ?string
-    {
-        return $this->name;
-    }
-
-    public function setName(?string $name): static
-    {
-        $this->name = $name;
-        return $this;
-    }
-
-    public function getEmail(): ?string
-    {
-        return $this->email;
-    }
-
-    public function setEmail(?string $email): static
-    {
-        $this->email = $email;
         return $this;
     }
 
@@ -181,37 +155,38 @@ class SocialAccount
         return $this;
     }
 
-    public function getAvatarUrl(): ?string
+    public function getUsername(): ?string
     {
-        return $this->avatarUrl;
+        return $this->username;
     }
 
-    public function setAvatarUrl(?string $avatarUrl): static
+    public function setUsername(?string $username): static
     {
-        $this->avatarUrl = $avatarUrl;
-
-        return $this;
-    }
-    public function getGivenName(): ?string
-    {
-        return $this->givenName;
-    }
-
-    public function setGivenName(?string $givenName): static
-    {
-        $this->givenName = $givenName;
+        $this->username = $username;
 
         return $this;
     }
 
-    public function getFamilyName(): ?string
+    public function getFirstName(): ?string
     {
-        return $this->familyName;
+        return $this->firstName;
     }
 
-    public function setFamilyName(?string $familyName): static
+    public function setFirstName(?string $firstName): static
     {
-        $this->familyName = $familyName;
+        $this->firstName = $firstName;
+
+        return $this;
+    }
+
+    public function getLastName(): ?string
+    {
+        return $this->lastName;
+    }
+
+    public function setLastName(?string $lastName): static
+    {
+        $this->lastName = $lastName;
 
         return $this;
     }
@@ -228,67 +203,26 @@ class SocialAccount
         return $this;
     }
 
-    public function getSocialAccountTypeAvatarUrl(): ?string
+    public function getEmail(): ?string
     {
-        return $this->socialAccountTypeAvatarUrl;
+        return $this->email;
     }
 
-    public function setSocialAccountTypeAvatarUrl(string $socialAccountTypeAvatarUrl): static
+    public function setEmail(?string $email): static
     {
-        $this->socialAccountTypeAvatarUrl = $socialAccountTypeAvatarUrl;
+        $this->email = $email;
 
         return $this;
     }
 
-    #[Groups(['social-accounts:full'])]
-    public function getCreatedAt(): ?\DateTime
+    public function getFollowerCount(): ?int
     {
-        return $this->createdAt;
+        return $this->followerCount;
     }
 
-    #[Groups(['social-accounts:full'])]
-    public function getUpdatedAt(): ?\DateTime
+    public function setFollowerCount(?int $followerCount): static
     {
-        return $this->updatedAt;
-    }
-
-    /**
-     * @return Collection<int, Post>
-     */
-    public function getPosts(): Collection
-    {
-        return $this->posts;
-    }
-
-    public function addPost(Post $post): static
-    {
-        if (!$this->posts->contains($post)) {
-            $this->posts->add($post);
-            $post->setSocialAccount($this);
-        }
-
-        return $this;
-    }
-
-    public function removePost(Post $post): static
-    {
-        if ($this->posts->removeElement($post)) {
-            if ($post->getSocialAccount() === $this) {
-                $post->setSocialAccount(null);
-            }
-        }
-
-        return $this;
-    }
-
-    public function getFollowersCount(): ?int
-    {
-        return $this->followersCount;
-    }
-
-    public function setFollowersCount(?int $followersCount): static
-    {
-        $this->followersCount = $followersCount;
+        $this->followerCount = $followerCount;
 
         return $this;
     }
@@ -325,6 +259,60 @@ class SocialAccount
     public function setPostCount(?int $postCount): static
     {
         $this->postCount = $postCount;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Post>
+     */
+    public function getPosts(): Collection
+    {
+        return $this->posts;
+    }
+
+    public function addPost(Post $post): static
+    {
+        if (!$this->posts->contains($post)) {
+            $this->posts->add($post);
+            $post->setSocialAccount($this);
+        }
+
+        return $this;
+    }
+
+    public function removePost(Post $post): static
+    {
+        if ($this->posts->removeElement($post)) {
+            // set the owning side to null (unless already changed)
+            if ($post->getSocialAccount() === $this) {
+                $post->setSocialAccount(null);
+            }
+        }
+
+        return $this;
+    }
+
+    public function getProfilePicture(): ?string
+    {
+        return $this->profilePicture;
+    }
+
+    public function setProfilePicture(?string $profilePicture): static
+    {
+        $this->profilePicture = $profilePicture;
+
+        return $this;
+    }
+
+    public function getBackgroundImage(): ?string
+    {
+        return $this->backgroundImage;
+    }
+
+    public function setBackgroundImage(?string $backgroundImage): static
+    {
+        $this->backgroundImage = $backgroundImage;
 
         return $this;
     }

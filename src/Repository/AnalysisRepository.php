@@ -18,12 +18,12 @@ class AnalysisRepository extends AbstractRepository
 
     public function updateOrCreate(array $searchPayload, array $updatePayload): Analysis
     {
-        $account = $this->findOneByCriteria($searchPayload);
-        if (!$account) {
-            $account = new Analysis();
+        $entity = $this->findOneByCriteria($searchPayload);
+        if (!$entity) {
+            $entity = new Analysis();
         }
 
-        $this->update($account, $updatePayload);
-        return $account;
+        $this->update($entity, $updatePayload);
+        return $entity;
     }
 }

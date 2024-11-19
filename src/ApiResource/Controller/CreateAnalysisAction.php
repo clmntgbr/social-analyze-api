@@ -4,17 +4,13 @@ namespace App\ApiResource\Controller;
 
 use App\Dto\CreateAnalysis;
 use App\Entity\User;
-use App\Message\CreateAnalysisMessage;
 use App\Repository\AnalysisRepository;
 use App\Repository\UserRepository;
-use Doctrine\ORM\EntityManagerInterface;
+use App\Service\SocialAccount\SocialAccountFactory;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Attribute\AsController;
-use Symfony\Component\Messenger\Bridge\Amqp\Transport\AmqpStamp;
-use Symfony\Component\Messenger\MessageBusInterface;
-use Symfony\Component\Messenger\Stamp\DelayStamp;
 use Symfony\Component\Security\Http\Attribute\CurrentUser;
 use Symfony\Component\Serializer\Context\Normalizer\ObjectNormalizerContextBuilder;
 use Symfony\Component\Serializer\SerializerInterface;
@@ -25,11 +21,22 @@ class CreateAnalysisAction extends AbstractController
     public function __construct(
         private readonly SerializerInterface $serializer,
         private readonly AnalysisRepository $analysisRepository,
-        private readonly UserRepository $userRepository
+        private readonly UserRepository $userRepository,
+        private readonly SocialAccountFactory $socialAccountFactory
     ) {}
 
     public function __invoke(CreateAnalysis $postAnalyses, #[CurrentUser] User $user): JsonResponse
     {
+        $service = $this->socialAccountFactory->getService($postAnalyses->platform);
+
+        if (!$service->isProfileExist($postAnalyses->username)) {
+            return new JsonResponse(
+                data: json_encode(['message' => 'This profile does not exist']),
+                status: Response::HTTP_BAD_REQUEST,
+                json: true
+            );
+        }
+
         $analysis = $this->analysisRepository->updateOrCreate(
             [
                 'username' => $postAnalyses->username,

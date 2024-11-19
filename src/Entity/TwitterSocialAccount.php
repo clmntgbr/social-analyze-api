@@ -13,6 +13,5 @@ class TwitterSocialAccount extends SocialAccount
     {
         parent::__construct();
         $this->setSocialAccountType(SocialAccountType::TWITTER->toString());
-        $this->setSocialAccountTypeAvatarUrl('/images/twitter-logo.png');
     }
 }

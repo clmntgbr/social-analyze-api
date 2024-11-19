@@ -13,6 +13,5 @@ class FacebookSocialAccount extends SocialAccount
     {
         parent::__construct();
         $this->setSocialAccountType(SocialAccountType::FACEBOOK->toString());
-        $this->setSocialAccountTypeAvatarUrl('/images/facebook-logo.png');
     }
 }

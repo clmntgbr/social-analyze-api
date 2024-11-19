@@ -4,11 +4,10 @@ namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
 use ApiPlatform\Metadata\Get;
-use ApiPlatform\Metadata\GetCollection;
 use ApiPlatform\Metadata\Post;
+use App\ApiResource\Controller\CreateAnalysisAction;
 use App\ApiResource\Controller\GetAnalysesFavoritesAction;
 use App\ApiResource\Controller\GetAnalysesRecentsAction;
-use App\ApiResource\Controller\CreateAnalysisAction;
 use App\Entity\Traits\UuidTrait;
 use App\Enum\AnalysisStatus;
 use App\Repository\AnalysisRepository;
@@ -37,9 +36,6 @@ use Symfony\Component\Serializer\Attribute\Groups;
             uriTemplate: '/analyses/favorites',
             controller: GetAnalysesFavoritesAction::class,
 
-        ),
-        new GetCollection(
-            normalizationContext: ['skip_null_values' => false, 'groups' => ['analyses:full', 'social-accounts:full']],
         )
     ]
 )]
@@ -64,7 +60,7 @@ class Analysis
     #[Groups(['analyses:full'])]
     private ?string $platform;
 
-    #[ORM\ManyToOne(targetEntity: SocialAccount::class)]
+    #[ORM\ManyToOne(targetEntity: SocialAccount::class, fetch: 'EAGER')]
     #[ORM\JoinColumn(nullable: true)]
     #[Groups(['analyses:full'])]
     private ?SocialAccount $socialAccount = null;
