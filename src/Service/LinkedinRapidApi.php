@@ -41,14 +41,25 @@ readonly class LinkedinRapidApi implements RapidApiInterface
      */
     public function getProfile(string $username): array
     {
-        $response = $this->httpClient->request('GET', sprintf('%s%s?username=%s', $this->rapidApiLinkedinUrl, 'profile-data-connection-count-posts', $username), [
-            'headers' => [
-                'x-rapidapi-host' => $this->rapidApiLinkedinHost,
-                'x-rapidapi-key' => $this->rapidApiKey,
-            ],
-        ]);
+        try {
+            $response = $this->httpClient->request('GET', sprintf('%s%s?username=%s', $this->rapidApiLinkedinUrl, 'profile-data-connection-count-posts', $username), [
+                'headers' => [
+                    'x-rapidapi-host' => $this->rapidApiLinkedinHost,
+                    'x-rapidapi-key' => $this->rapidApiKey,
+                ],
+            ]);
 
-        return $response->toArray();
+            if ($response->getStatusCode() === 200 && !array_key_exists('success', $response->toArray())) {
+                return array_merge(['success' => true], $response->toArray());
+            }
+
+            return array_merge(['code' => 404, 'success' => false], $response->toArray());
+        } catch (ClientExceptionInterface $e) {
+            return [
+                'success' => false,
+                'code' => $e->getCode(),
+            ];
+        }
     }
 
     public function getPosts(string $username)
@@ -58,7 +69,28 @@ readonly class LinkedinRapidApi implements RapidApiInterface
 
     public function mockGetProfile(string $username): array
     {
-        $jsonString = file_get_contents('src/GetProfile.json');
+        $jsonString = file_get_contents('../src/GetProfile.json');
         return json_decode($jsonString, true);
+    }
+
+    public function mockGetProfileFull(string $username): array
+    {
+        $jsonString = file_get_contents('../src/GetProfileFull.json');
+        return json_decode($jsonString, true);
+    }
+
+    public function mockGetProfileFail(string $username): array
+    {
+        $jsonString = file_get_contents('../src/GetProfileFail.json');
+        return json_decode($jsonString, true);
+    }
+
+    public function mockGetProfileApiError(string $username): array
+    {
+        return [
+            'success' => false,
+            'status' => false,
+            'code' => 429,
+        ];
     }
 }

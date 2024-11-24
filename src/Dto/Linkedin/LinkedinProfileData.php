@@ -16,27 +16,33 @@ class LinkedinProfileData
     public string $firstName;
     public string $lastName;
     public ?string $headline = null;
+
+    #[SerializedName("geo")]
+    public ?string $location = null;
+
     public ?string $summary = null;
-    public ?string $backgroundImage = null;
+    public ?array $backgroundImage = null;
     public ?string $profilePicture = null;
     public bool $isHiring = false;
     public bool $isOpenToWork = false;
+    public int $givenRecommendationCount = 0;
+    public int $receivedRecommendationCount = 0;
 
     #[SerializedName("languages")]
     #[Assert\Valid]
-    public array $languages = [];
+    public ?array $languages = [];
 
     #[SerializedName("skills")]
     #[Assert\Valid]
-    public array $skills = [];
+    public ?array $skills = [];
 
     #[SerializedName("educations")]
     #[Assert\Valid]
-    public array $educations = [];
+    public ?array $educations = [];
 
     #[SerializedName("fullPositions")]
     #[Assert\Valid]
-    public array $positions = [];
+    public ?array $positions = [];
 
     public function toArray(): array
     {
@@ -47,6 +53,9 @@ class LinkedinProfileData
             'lastName' => $this->lastName,
             'headline' => $this->headline,
             'summary' => $this->summary,
+            'location' => $this->location,
+            'receivedRecommendationCount' => $this->receivedRecommendationCount,
+            'givenRecommendationCount' => $this->givenRecommendationCount,
             'backgroundImage' => $this->backgroundImage,
             'profilePicture' => $this->profilePicture,
             'isHiring' => $this->isHiring,
@@ -68,6 +77,14 @@ class LinkedinProfileData
         return array_map(fn($position) => $position->toArray(), $this->skills);
     }
 
+    public function backgroundImageToString(): ?string
+    {
+        if (is_null($this->backgroundImage)) {
+            return null;
+        }
+        return $this->backgroundImage[0]['url'];
+    }
+
     public function educationsToArray(): array
     {
         return array_map(fn($position) => $position->toArray(), $this->educations);
@@ -78,47 +95,56 @@ class LinkedinProfileData
         return array_map(fn($position) => $position->toArray(), $this->positions);
     }
 
-    public function setLanguages(array $languages): self
+    public function setLocation(?array $geo): self
+    {
+        if (array_key_exists('full', $geo ?? [])) {
+            $this->location = $geo['full'];
+        }
+
+        return $this;
+    }
+
+    public function setLanguages(?array $languages): self
     {
         $this->languages = array_map(function($data) {
             $language = new LinkedinProfileLanguage();
             $language->setName($data['name']);
             return $language;
-        }, $languages);
+        }, $languages ?? []);
         return $this;
     }
 
-    public function setSkills(array $skills): self
+    public function setSkills(?array $skills): self
     {
         $this->skills = array_map(function($data) {
             $skill = new LinkedinProfileSkill();
             $skill->setName($data['name']);
             return $skill;
-        }, $skills);
+        }, $skills ?? []);
         return $this;
     }
 
-    public function setEducations(array $languages): self
+    public function setEducations(?array $languages): self
     {
         $this->educations = array_map(function($data) {
             $education = new LinkedinProfileEducation();
-            $education->setEnd($data['end']);
+            $education->setEnd($data['end'] ?? []);
             $education->setDegree($data['degree']);
             $education->setDescription($data['description']);
             $education->setUrl($data['url']);
-            $education->setStart($data['start']);
+            $education->setStart($data['start'] ?? []);
             $education->setSchoolName($data['schoolName']);
             return $education;
-        }, $languages);
+        }, $languages ?? []);
         return $this;
     }
 
-    public function setPositions(array $positions): self
+    public function setPositions(?array $positions): self
     {
         $this->positions = array_map(function($data) {
             $position = new LinkedinProfilePosition();
-            $position->setStart($data['start']);
-            $position->setEnd($data['end']);
+            $position->setStart($data['start'] ?? []);
+            $position->setEnd($data['end'] ?? []);
             $position->setTitle($data['title']);
             $position->setDescription($data['description']);
             $position->setCompanyIndustry($data['companyIndustry']);
@@ -130,7 +156,7 @@ class LinkedinProfileData
             $position->setLocation($data['location']);
             $position->setEmploymentType($data['employmentType']);
             return $position;
-        }, $positions);
+        }, $positions ?? []);
         return $this;
     }
 }

@@ -7,12 +7,11 @@ use ApiPlatform\Metadata\ApiFilter;
 use ApiPlatform\Metadata\ApiResource;
 use App\Entity\Traits\UuidTrait;
 use App\Repository\PostRepository;
-use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Timestampable\Traits\TimestampableEntity;
 use Ramsey\Uuid\Uuid;
+use Symfony\Component\Serializer\Attribute\Groups;
 
 #[ORM\Entity(repositoryClass: PostRepository::class)]
 #[ApiResource(
@@ -26,43 +25,48 @@ class Post
     use TimestampableEntity;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
+    #[Groups(['social-accounts:full'])]
     private ?string $postId = null;
 
-    #[ORM\Column(type: Types::STRING)]
-    private ?string $groupType;
-
-    #[ORM\Column(type: Types::STRING, nullable: true)]
-    private ?string $header = null;
-
     #[ORM\Column(type: Types::TEXT, nullable: true)]
+    #[Groups(['social-accounts:full'])]
     private ?string $body = null;
 
     #[ORM\Column(type: Types::JSON)]
-    private array $pictures;
+    #[Groups(['social-accounts:full'])]
+    private array $images = [];
 
-    #[ORM\Column(type: Types::STRING)]
-    private string $status;
+    #[ORM\Column(type: Types::INTEGER)]
+    #[Groups(['social-accounts:full'])]
+    private ?int $likeCount = 0;
+
+    #[ORM\Column(type: Types::INTEGER)]
+    #[Groups(['social-accounts:full'])]
+    private ?int $commentsCount = 0;
+
+    #[ORM\Column(type: Types::INTEGER)]
+    #[Groups(['social-accounts:full'])]
+    private ?int $repostsCount = 0;
+
+    #[ORM\Column(type: Types::FLOAT)]
+    #[Groups(['social-accounts:full'])]
+    private ?float $engagementRate = 0;
+
+    #[ORM\Column(type: Types::STRING, nullable: true)]
+    #[Groups(['social-accounts:full'])]
+    private ?string $url = null;
 
     #[ORM\Column(type: Types::DATETIME_MUTABLE, nullable: true)]
+    #[Groups(['social-accounts:full'])]
     private ?\DateTime $postAt = null;
 
     #[ORM\ManyToOne(targetEntity: SocialAccount::class, inversedBy: 'posts')]
     #[ORM\JoinColumn(nullable: false)]
     private ?SocialAccount $socialAccount = null;
 
-    #[ORM\ManyToOne(targetEntity: Post::class, inversedBy: 'children')]
-    #[ORM\JoinColumn(nullable: true)]
-    private ?Post $parent = null;
-
-    #[ORM\OneToMany(targetEntity: Post::class, mappedBy: 'parent')]
-    #[ORM\OrderBy(['position' => 'ASC'])]
-    private Collection $children;
-
     public function __construct()
     {
         $this->uuid = Uuid::uuid4()->toString();
-        $this->pictures = [];
-        $this->children = new ArrayCollection();
     }
 
     public function getPostId(): ?string
@@ -87,30 +91,6 @@ class Post
         return $this->updatedAt;
     }
 
-    public function getGroupType(): ?string
-    {
-        return $this->groupType;
-    }
-
-    public function setGroupType(string $groupType): static
-    {
-        $this->groupType = $groupType;
-
-        return $this;
-    }
-
-    public function getHeader(): ?string
-    {
-        return $this->header;
-    }
-
-    public function setHeader(?string $header): static
-    {
-        $this->header = $header;
-
-        return $this;
-    }
-
     public function getBody(): ?string
     {
         return $this->body;
@@ -123,26 +103,50 @@ class Post
         return $this;
     }
 
-    public function getPictures(): array
+    public function getLikeCount(): ?int
     {
-        return $this->pictures;
+        return $this->likeCount;
     }
 
-    public function setPictures(array $pictures): static
+    public function setLikeCount(int $likeCount): static
     {
-        $this->pictures = $pictures;
+        $this->likeCount = $likeCount;
 
         return $this;
     }
 
-    public function getStatus(): ?string
+    public function getCommentsCount(): ?int
     {
-        return $this->status;
+        return $this->commentsCount;
     }
 
-    public function setStatus(string $status): static
+    public function setCommentsCount(int $commentsCount): static
     {
-        $this->status = $status;
+        $this->commentsCount = $commentsCount;
+
+        return $this;
+    }
+
+    public function getRepostsCount(): ?int
+    {
+        return $this->repostsCount;
+    }
+
+    public function setRepostsCount(int $repostsCount): static
+    {
+        $this->repostsCount = $repostsCount;
+
+        return $this;
+    }
+
+    public function getUrl(): ?string
+    {
+        return $this->url;
+    }
+
+    public function setUrl(?string $url): static
+    {
+        $this->url = $url;
 
         return $this;
     }
@@ -171,44 +175,26 @@ class Post
         return $this;
     }
 
-    public function getParent(): ?self
+    public function getEngagementRate(): ?float
     {
-        return $this->parent;
+        return $this->engagementRate;
     }
 
-    public function setParent(?self $parent): static
+    public function setEngagementRate(float $engagementRate): static
     {
-        $this->parent = $parent;
+        $this->engagementRate = $engagementRate;
 
         return $this;
     }
 
-    /**
-     * @return Collection<int, Post>
-     */
-    public function getChildren(): Collection
+    public function getImages(): array
     {
-        return $this->children;
+        return $this->images;
     }
 
-    public function addChild(Post $child): static
+    public function setImages(array $images): static
     {
-        if (!$this->children->contains($child)) {
-            $this->children->add($child);
-            $child->setParent($this);
-        }
-
-        return $this;
-    }
-
-    public function removeChild(Post $child): static
-    {
-        if ($this->children->removeElement($child)) {
-            // set the owning side to null (unless already changed)
-            if ($child->getParent() === $this) {
-                $child->setParent(null);
-            }
-        }
+        $this->images = $images;
 
         return $this;
     }

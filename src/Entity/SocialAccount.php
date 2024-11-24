@@ -71,6 +71,10 @@ class SocialAccount
     #[Groups(['social-accounts:full'])]
     private ?string $email = null;
 
+    #[ORM\Column(type: Types::STRING, nullable: true)]
+    #[Groups(['social-accounts:full'])]
+    private ?string $location = null;
+
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
     #[Groups(['social-accounts:full'])]
     private ?int $followerCount = null;
@@ -85,9 +89,18 @@ class SocialAccount
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
     #[Groups(['social-accounts:full'])]
-    private ?int $postCount = null;
+    private ?int $commentCount = null;
+
+    #[ORM\Column(type: Types::INTEGER, nullable: true)]
+    #[Groups(['social-accounts:full'])]
+    private ?int $shareCount = null;
+
+    #[ORM\Column(type: Types::FLOAT, nullable: true)]
+    #[Groups(['social-accounts:full'])]
+    private ?float $engagementRate = null;
 
     #[ORM\OneToMany(targetEntity: Post::class, mappedBy: 'socialAccount', cascade: ['remove'])]
+    #[Groups(['social-accounts:full'])]
     private Collection $posts;
 
     public function __construct()
@@ -251,16 +264,10 @@ class SocialAccount
         return $this;
     }
 
+    #[Groups(['social-accounts:full'])]
     public function getPostCount(): ?int
     {
-        return $this->postCount;
-    }
-
-    public function setPostCount(?int $postCount): static
-    {
-        $this->postCount = $postCount;
-
-        return $this;
+        return $this->posts->count();
     }
 
     /**
@@ -313,6 +320,54 @@ class SocialAccount
     public function setBackgroundImage(?string $backgroundImage): static
     {
         $this->backgroundImage = $backgroundImage;
+
+        return $this;
+    }
+
+    public function getLocation(): ?string
+    {
+        return $this->location;
+    }
+
+    public function setLocation(?string $location): static
+    {
+        $this->location = $location;
+
+        return $this;
+    }
+
+    public function getCommentCount(): ?int
+    {
+        return $this->commentCount;
+    }
+
+    public function setCommentCount(?int $commentCount): static
+    {
+        $this->commentCount = $commentCount;
+
+        return $this;
+    }
+
+    public function getShareCount(): ?int
+    {
+        return $this->shareCount;
+    }
+
+    public function setShareCount(?int $shareCount): static
+    {
+        $this->shareCount = $shareCount;
+
+        return $this;
+    }
+
+    public function getEngagementRate(): ?float
+    {
+        return $this->engagementRate;
+    }
+
+    public function setEngagementRate(float $engagementRate): static
+    {
+        $this->engagementRate = $engagementRate;
 
         return $this;
     }

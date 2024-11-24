@@ -15,4 +15,11 @@ class PostRepository extends AbstractRepository
     {
         parent::__construct($registry, Post::class);
     }
+
+    public function create(array $updatePayload): Post
+    {
+        $entity = new Post();
+        $this->update($entity, $updatePayload);
+        return $entity;
+    }
 }

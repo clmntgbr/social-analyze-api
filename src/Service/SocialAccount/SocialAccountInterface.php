@@ -2,11 +2,9 @@
 
 namespace App\Service\SocialAccount;
 
-use App\Dto\ProfileInterface;
-
 interface SocialAccountInterface
 {
-    public function getProfile(string $username);
-    public function hydrate(ProfileInterface $profile);
+    public function getProfile(string $username): ?array;
+    public function hydrate(array $payload);
     public function isProfileExist(string $username): bool;
 }

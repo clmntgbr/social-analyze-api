@@ -2,11 +2,12 @@
 
 namespace App\Message;
 
-final class CreateAnalysisMessage
+final readonly class CreateAnalysisMessage
 {
     public function __construct(
-        private ?string $username,
-        private ?string $platform
+        private ?string          $username,
+        private ?string          $platform,
+        private array            $payload
     ){}
 
     public function getUsername(): ?string
@@ -17,5 +18,10 @@ final class CreateAnalysisMessage
     public function getPlatform(): ?string
     {
         return $this->platform;
+    }
+
+    public function getPayload(): array
+    {
+        return $this->payload;
     }
 }

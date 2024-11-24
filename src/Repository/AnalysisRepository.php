@@ -26,4 +26,11 @@ class AnalysisRepository extends AbstractRepository
         $this->update($entity, $updatePayload);
         return $entity;
     }
+
+    public function create(array $updatePayload): Analysis
+    {
+        $entity = new Analysis();
+        $this->update($entity, $updatePayload);
+        return $entity;
+    }
 }
