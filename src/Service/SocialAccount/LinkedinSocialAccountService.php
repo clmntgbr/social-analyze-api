@@ -19,6 +19,12 @@ use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
 
 readonly class LinkedinSocialAccountService implements SocialAccountInterface
 {
+    private const ENGAGEMENT_WEIGHTS = [
+        'like' => 1,
+        'comment' => 2,
+        'repost' => 3,
+    ];
+
     public function __construct(
         private LinkedinRapidApi     $linkedinRapidApi,
         private AnalysisRepository $analysisRepository,
@@ -94,7 +100,7 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
             'likeCount' => $data['like'],
             'shareCount' => $data['repost'],
             'commentCount' => $data['comment'],
-            'engagementRate' => $this->calculateEngagementRate($data['like'], $data['repost'], $data['comment'], $data['post'] * $socialAccount->getFollowerCount()),
+            'engagementRate' => round($data['post'] > 0 ? $data['engagementRate'] / $data['post'] : 0, 2),
         ]);
 
         $this->analysisRepository->update($analysis, [
@@ -109,6 +115,7 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
             'comment' => 0,
             'repost' => 0,
             'post' => 0,
+            'engagementRate' => 0,
         ];
 
         /** @var LinkedinProfilePost $post */
@@ -116,6 +123,8 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
             if (!array_key_exists('username', $post->author) || $post->author['username'] !== $socialAccount->getUsername()) {
                 continue;
             }
+
+            $engagementRate = $this->calculateEngagementRate($post->commentsCount, $post->likeCount, $post->repostsCount, $socialAccount->getFollowerCount());
 
             $this->postRepository->create([
                 'body' => $post->body,
@@ -127,12 +136,14 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
                 'repostsCount' => $post->repostsCount ?? 0,
                 'postAt' => $post->postAt,
                 'socialAccount' => $socialAccount,
-                'engagementRate' => $this->calculateEngagementRate($post->commentsCount, $post->likeCount, $post->repostsCount, $socialAccount->getFollowerCount()),
+                'engagementRate' => $engagementRate,
             ]);
 
             $calculate['like'] += $post->likeCount ?? 0;
             $calculate['comment'] += $post->commentsCount ?? 0;
             $calculate['repost'] += $post->repostsCount ?? 0;
+            $calculate['repost'] += $post->repostsCount ?? 0;
+            $calculate['engagementRate'] += $engagementRate;
             $calculate['post']++;
         }
 
@@ -141,6 +152,21 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
 
     private function calculateEngagementRate(?float $likes = 0, ?float $comments = 0, ?float $reposts = 0, ?float $followers = 0): float
     {
-        return round((($likes + $comments + $reposts) / $followers) * 100, 2);
+        $likes = $likes ?? 0;
+        $comments = $comments ?? 0;
+        $reposts = $reposts ?? 0;
+        $followers = $followers ?? 0;
+
+        if ($followers <= 0) {
+            return 0.0;
+        }
+
+        $weightedEngagement =
+            ($likes * self::ENGAGEMENT_WEIGHTS['like']) +
+            ($comments * self::ENGAGEMENT_WEIGHTS['comment']) +
+            ($reposts * self::ENGAGEMENT_WEIGHTS['repost']);
+
+        $engagementRate = ($weightedEngagement / $followers) * 100;
+        return round($engagementRate, 2);
     }
 }

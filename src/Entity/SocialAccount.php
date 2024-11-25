@@ -133,6 +133,18 @@ class SocialAccount
     }
 
     #[Groups(['social-accounts:full'])]
+    public function getTopPosts(int $limit = 6): array
+    {
+        $postsArray = $this->posts->toArray();
+
+        usort($postsArray, function (Post $a, Post $b) {
+            return $b->getEngagementRate() <=> $a->getEngagementRate();
+        });
+
+        return array_slice($postsArray, 0, $limit);
+    }
+
+    #[Groups(['social-accounts:full'])]
     public function getName(): string
     {
         return sprintf('%s %s', $this->firstName, $this->lastName);
