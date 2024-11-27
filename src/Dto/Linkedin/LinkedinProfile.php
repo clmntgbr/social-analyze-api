@@ -25,6 +25,7 @@ class LinkedinProfile implements ProfileInterface
             'following' => $this->following,
             'follower' => $this->follower,
             'data' => $this->data->toArray(),
+            'posts' => json_decode(json_encode($this->posts), true),
         ];
     }
 
@@ -34,10 +35,13 @@ class LinkedinProfile implements ProfileInterface
             $post = new LinkedinProfilePost();
             $post->setPostId($data['urn']);
             $post->setAuthor($data['author']);
+            $post->setArticle($data['article']);
+            $post->setDocument($data['document']);
             $post->setPostAt(new \DateTime('@' . $data['postedDateTimestamp']/1000));
             $post->setUrl($data['postUrl'] ?? null);
             $post->setImages($data['image'] ?? []);
             $post->setBody($data['text'] ?? null);
+            $post->setReposted($data['reposted'] ?? false);
             $post->setCommentsCount($data['commentsCount'] ?? null);
             $post->setRepostsCount($data['repostsCount'] ?? null);
             $post->setLikeCount($data['totalReactionCount'] ?? null);

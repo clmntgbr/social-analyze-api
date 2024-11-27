@@ -51,7 +51,7 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
      */
     public function getProfile(string $username): ?array
     {
-        return $this->linkedinRapidApi->mockGetProfileFull($username);
+        return $this->linkedinRapidApi->mockGetProfile($username);
     }
 
     public function hydrate(array $payload): void
@@ -120,7 +120,15 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
 
         /** @var LinkedinProfilePost $post */
         foreach ($profile->posts as $post) {
-            if (!array_key_exists('username', $post->author) || $post->author['username'] !== $socialAccount->getUsername()) {
+            if (!array_key_exists('username', $post->author)) {
+                continue;
+            }
+
+            if ($post->author['username'] !== $socialAccount->getUsername() && $post->reposted) {
+                continue;
+            }
+
+            if ($post->body === '') {
                 continue;
             }
 
@@ -131,6 +139,8 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
                 'postId' => $post->postId,
                 'url' => $post->url,
                 'images' => $post->images ?? [],
+                'article' => $post->article ?? [],
+                'document' => $post->document ?? [],
                 'likeCount' => $post->likeCount ?? 0,
                 'commentsCount' => $post->commentsCount ?? 0,
                 'repostsCount' => $post->repostsCount ?? 0,

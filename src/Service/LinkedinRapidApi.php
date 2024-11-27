@@ -69,28 +69,17 @@ readonly class LinkedinRapidApi implements RapidApiInterface
 
     public function mockGetProfile(string $username): array
     {
-        $jsonString = file_get_contents('../src/GetProfile.json');
+        try {
+            $jsonString = file_get_contents("../src/Mock/$username.json");
+        } catch (\Exception $exception) {
+            return $this->mockGetProfileFail();
+        }
         return json_decode($jsonString, true);
     }
 
-    public function mockGetProfileFull(string $username): array
+    public function mockGetProfileFail(): array
     {
-        $jsonString = file_get_contents('../src/GetProfileFull.json');
+        $jsonString = file_get_contents('../src/Mock/fail.json');
         return json_decode($jsonString, true);
-    }
-
-    public function mockGetProfileFail(string $username): array
-    {
-        $jsonString = file_get_contents('../src/GetProfileFail.json');
-        return json_decode($jsonString, true);
-    }
-
-    public function mockGetProfileApiError(string $username): array
-    {
-        return [
-            'success' => false,
-            'status' => false,
-            'code' => 429,
-        ];
     }
 }

@@ -13,6 +13,8 @@ class LinkedinProfilePost
     public ?string $body = null;
 
     public array $author = [];
+    public array $article = [];
+    public array $document = [];
 
     #[SerializedName("image")]
     public ?array $images = [];
@@ -22,6 +24,7 @@ class LinkedinProfilePost
 
     public ?int $commentsCount = 0;
     public ?int $repostsCount = 0;
+    public bool $reposted = false;
     public ?\DateTime $postAt = null;
 
     #[SerializedName("postUrl")]
@@ -34,6 +37,7 @@ class LinkedinProfilePost
             'postId' => $this->postId,
             'likeCount' => $this->likeCount,
             'commentsCount' => $this->commentsCount,
+            'reposted' => $this->reposted,
             'repostsCount' => $this->repostsCount,
             'postAt' => $this->postAt,
         ];
@@ -75,6 +79,12 @@ class LinkedinProfilePost
         return $this;
     }
 
+    public function setReposted(?bool $reposted): LinkedinProfilePost
+    {
+        $this->reposted = $reposted ?? false;
+        return $this;
+    }
+
     public function setPostAt(?\DateTime $postAt): LinkedinProfilePost
     {
         $this->postAt = $postAt;
@@ -84,6 +94,27 @@ class LinkedinProfilePost
     public function setUrl(?string $url): LinkedinProfilePost
     {
         $this->url = $url;
+        return $this;
+    }
+
+    public function setArticle(?array $article): LinkedinProfilePost
+    {
+        $this->article = $article;
+        return $this;
+    }
+
+    public function setDocument(?array $document): LinkedinProfilePost
+    {
+        if (!$document) {
+            return $this;
+        }
+
+        $this->document = [
+            'url' => $document['TranscribedDocumentUrl'],
+            'title' => $document['title'],
+            'totalPageCount' => $document['totalPageCount'],
+        ];
+
         return $this;
     }
 

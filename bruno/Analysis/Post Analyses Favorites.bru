@@ -1,0 +1,22 @@
+meta {
+  name: Post Analyses Favorites
+  type: http
+  seq: 6
+}
+
+post {
+  url: {{url}}/api/analysis/favorites
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+      "uuid": "c337e3b7-d619-4839-a328-1a0869c05baf",
+      "status": false
+  }
+}

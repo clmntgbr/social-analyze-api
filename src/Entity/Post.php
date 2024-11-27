@@ -36,6 +36,14 @@ class Post
     #[Groups(['social-accounts:full'])]
     private array $images = [];
 
+    #[ORM\Column(type: Types::JSON)]
+    #[Groups(['social-accounts:full'])]
+    private array $article = [];
+
+    #[ORM\Column(type: Types::JSON)]
+    #[Groups(['social-accounts:full'])]
+    private array $document = [];
+
     #[ORM\Column(type: Types::INTEGER)]
     #[Groups(['social-accounts:full'])]
     private ?int $likeCount = 0;
@@ -195,6 +203,30 @@ class Post
     public function setImages(array $images): static
     {
         $this->images = $images;
+
+        return $this;
+    }
+
+    public function getArticle(): array
+    {
+        return $this->article;
+    }
+
+    public function setArticle(array $article): static
+    {
+        $this->article = $article;
+
+        return $this;
+    }
+
+    public function getDocument(): array
+    {
+        return $this->document;
+    }
+
+    public function setDocument(array $document): static
+    {
+        $this->document = $document;
 
         return $this;
     }

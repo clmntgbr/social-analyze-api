@@ -1,0 +1,15 @@
+meta {
+  name: Get Analysis Insights
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{url}}/api/analysis/c337e3b7-d619-4839-a328-1a0869c05baf/insights
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}

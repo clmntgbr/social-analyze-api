@@ -2,7 +2,9 @@
 
 namespace App\ApiResource\Controller;
 
+use App\Dto\AnalysisToFavorites;
 use App\Dto\GetAnalysis;
+use App\Entity\Analysis;
 use App\Entity\User;
 use App\Repository\AnalysisRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -29,21 +31,12 @@ class GetAnalysisAction extends AbstractController
             ->withGroups(['analyses:full', 'social-accounts:full'])
             ->toArray();
 
-//        // Debug
-//        $serializer = $this->serializer;
-//        $reflectionMethod = new \ReflectionMethod($serializer, 'serialize');
-//        $reflectionMethod->setAccessible(true);
-//
-//        $serializerDebug = fn($obj, $format, $context) => $reflectionMethod->invoke($serializer, $obj, $format, $context);
-//
-//        $debug = [
-//            'object_class' => get_class($analysis->getSocialAccount()),
-//            'reflection_properties' => array_map(fn($p) => $p->getName(), (new \ReflectionClass($analysis->getSocialAccount()))->getProperties()),
-//            'groups' => $context['groups'],
-//            'serialized_data' => json_decode($serializerDebug($analysis, 'json', $context), true)
-//        ];
-//
-//        dd($debug);
+        if ($analysis instanceof Analysis) {
+            $uuidExists = $user->getFavorites()->exists(function($key, $favorite) use ($getAnalysis) {
+                return $favorite->getUuid() === $getAnalysis->uuid;
+            });
+            $analysis->setIsFavorite($uuidExists);
+        }
 
         return new JsonResponse(
             data: $this->serializer->serialize($analysis, 'json', $context),

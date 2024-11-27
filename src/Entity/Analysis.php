@@ -8,6 +8,9 @@ use ApiPlatform\Metadata\Post;
 use App\ApiResource\Controller\CreateAnalysisAction;
 use App\ApiResource\Controller\GetAnalysesFavoritesAction;
 use App\ApiResource\Controller\GetAnalysesRecentsAction;
+use App\ApiResource\Controller\GetAnalysisAction;
+use App\ApiResource\Controller\GetAnalysisInsightsAction;
+use App\ApiResource\Controller\PostAnalysisFavoritesAction;
 use App\Entity\Traits\UuidTrait;
 use App\Enum\AnalysisStatus;
 use App\Repository\AnalysisRepository;
@@ -23,6 +26,15 @@ use Symfony\Component\Serializer\Attribute\Groups;
         new Post(
             controller: CreateAnalysisAction::class,
         ),
+        new Post(
+            uriTemplate: '/analysis/favorites',
+            controller: PostAnalysisFavoritesAction::class,
+        ),
+        new Get(
+            uriTemplate: '/analysis/{uuid}/insights',
+            controller: GetAnalysisInsightsAction::class,
+
+        ),
         new Get(
             uriTemplate: '/analyses/recents',
             controller: GetAnalysesRecentsAction::class,
@@ -30,7 +42,8 @@ use Symfony\Component\Serializer\Attribute\Groups;
         ),
         new Get(
             uriTemplate: '/analysis/{uuid}',
-            normalizationContext: ['skip_null_values' => false, 'groups' => ['analyses:full', 'social-accounts:full']],
+            controller: GetAnalysisAction::class,
+            normalizationContext: ['skip_null_values' => false],
         ),
         new Get(
             uriTemplate: '/analyses/favorites',
@@ -59,6 +72,9 @@ class Analysis
     #[ORM\Column(type: Types::STRING)]
     #[Groups(['analyses:full'])]
     private ?string $platform;
+
+    #[Groups(['analyses:full'])]
+    private bool $isFavorite = false;
 
     #[ORM\ManyToOne(targetEntity: SocialAccount::class, fetch: 'EAGER')]
     #[ORM\JoinColumn(nullable: true)]
@@ -110,6 +126,18 @@ class Analysis
     public function getStatus(): ?string
     {
         return $this->status;
+    }
+
+    public function getIsFavorite(): bool
+    {
+        return $this->isFavorite;
+    }
+
+    public function setIsFavorite(bool $isFavorite): static
+    {
+        $this->isFavorite = $isFavorite;
+
+        return $this;
     }
 
     public function setStatus(string $status): static
