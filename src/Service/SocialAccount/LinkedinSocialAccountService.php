@@ -9,7 +9,7 @@ use App\Entity\LinkedinSocialAccount;
 use App\Entity\SocialAccount;
 use App\Enum\AnalysisStatus;
 use App\Repository\AnalysisRepository;
-use App\Repository\PostRepository;
+use App\Repository\LinkedinPostRepository;
 use App\Repository\SocialAccountRepository;
 use App\Service\LinkedinRapidApi;
 use Symfony\Component\Serializer\SerializerInterface;
@@ -29,7 +29,7 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
         private LinkedinRapidApi     $linkedinRapidApi,
         private AnalysisRepository $analysisRepository,
         private SocialAccountRepository $socialAccountRepository,
-        private PostRepository $postRepository,
+        private LinkedinPostRepository $postRepository,
         private SerializerInterface $serializer
     ){}
 

@@ -18,6 +18,13 @@ use Symfony\Component\Serializer\Attribute\Groups;
     operations: [],
     order: ['createdAt' => 'DESC']
 )]
+#[ORM\InheritanceType('SINGLE_TABLE')]
+#[ORM\DiscriminatorColumn(name: 'type', type: 'string')]
+#[ORM\DiscriminatorMap([
+    'linkedin_post' => 'LinkedinPost',
+    'twitter_post' => 'TwitterPost',
+    'facebook_post' => 'FacebookPost',
+])]
 #[ApiFilter(SearchFilter::class, properties: ['status' => 'exact'])]
 class Post
 {
@@ -35,14 +42,6 @@ class Post
     #[ORM\Column(type: Types::JSON)]
     #[Groups(['social-accounts:full'])]
     private array $images = [];
-
-    #[ORM\Column(type: Types::JSON)]
-    #[Groups(['social-accounts:full'])]
-    private array $article = [];
-
-    #[ORM\Column(type: Types::JSON)]
-    #[Groups(['social-accounts:full'])]
-    private array $document = [];
 
     #[ORM\Column(type: Types::INTEGER)]
     #[Groups(['social-accounts:full'])]
@@ -203,30 +202,6 @@ class Post
     public function setImages(array $images): static
     {
         $this->images = $images;
-
-        return $this;
-    }
-
-    public function getArticle(): array
-    {
-        return $this->article;
-    }
-
-    public function setArticle(array $article): static
-    {
-        $this->article = $article;
-
-        return $this;
-    }
-
-    public function getDocument(): array
-    {
-        return $this->document;
-    }
-
-    public function setDocument(array $document): static
-    {
-        $this->document = $document;
 
         return $this;
     }
