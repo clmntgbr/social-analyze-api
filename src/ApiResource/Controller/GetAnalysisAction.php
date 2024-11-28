@@ -2,7 +2,6 @@
 
 namespace App\ApiResource\Controller;
 
-use App\Dto\AnalysisToFavorites;
 use App\Dto\GetAnalysis;
 use App\Entity\Analysis;
 use App\Entity\User;

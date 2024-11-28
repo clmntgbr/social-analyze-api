@@ -25,7 +25,7 @@ class GetAnalysisInsightsAction extends AbstractController
     {
         $analysis = $this->analysisRepository->findOneByCriteria(['uuid' => $getAnalysis->uuid]);
 
-        if (!$analysis instanceof Analysis) {
+        if (!$analysis instanceof Analysis || !$analysis->getSocialAccount()) {
             return new JsonResponse(
                 data: [],
                 status: Response::HTTP_OK

@@ -71,6 +71,10 @@ class Post
     #[ORM\JoinColumn(nullable: false)]
     private ?SocialAccount $socialAccount = null;
 
+    #[ORM\Column(type: Types::STRING)]
+    #[Groups(['social-accounts:full'])]
+    private string $postType;
+
     public function __construct()
     {
         $this->uuid = Uuid::uuid4()->toString();
@@ -202,6 +206,18 @@ class Post
     public function setImages(array $images): static
     {
         $this->images = $images;
+
+        return $this;
+    }
+
+    public function getPostType(): ?string
+    {
+        return $this->postType;
+    }
+
+    public function setPostType(string $postType): static
+    {
+        $this->postType = $postType;
 
         return $this;
     }

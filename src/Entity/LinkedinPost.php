@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
+use App\Enum\PostType;
 use App\Repository\LinkedinPostRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
@@ -19,6 +20,12 @@ class LinkedinPost extends Post
     #[ORM\Column(type: Types::JSON)]
     #[Groups(['social-accounts:full'])]
     private array $document = [];
+
+    public function __construct()
+    {
+        parent::__construct();
+        $this->setPostType(PostType::LINKEDIN->toString());
+    }
 
     public function getArticle(): array
     {
