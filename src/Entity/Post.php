@@ -24,6 +24,8 @@ use Symfony\Component\Serializer\Attribute\Groups;
     'linkedin_post' => 'LinkedinPost',
     'twitter_post' => 'TwitterPost',
     'facebook_post' => 'FacebookPost',
+    'youtube_post' => 'YoutubePost',
+    'instagram_post' => 'InstagramPost',
 ])]
 #[ApiFilter(SearchFilter::class, properties: ['status' => 'exact'])]
 class Post

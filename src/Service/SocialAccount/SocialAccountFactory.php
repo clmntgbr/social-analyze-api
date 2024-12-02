@@ -22,9 +22,17 @@ readonly class SocialAccountFactory
     public function getService(string $type): SocialAccountInterface
     {
         return match ($type) {
-            PlatformType::LINKEDIN->toString() => new LinkedinSocialAccountService($this->linkedinRapidApi, $this->analysisRepository, $this->socialAccountRepository, $this->linkedinPostRepository, $this->serializer),
+            PlatformType::LINKEDIN->toString() => new LinkedinSocialAccountService(
+                $this->linkedinRapidApi,
+                $this->analysisRepository,
+                $this->socialAccountRepository,
+                $this->linkedinPostRepository,
+                $this->serializer
+            ),
             PlatformType::FACEBOOK->toString() => new FacebookSocialAccountService(),
             PlatformType::TWITTER->toString() => new TwitterSocialAccountService(),
+            PlatformType::YOUTUBE->toString() => new YoutubeSocialAccountService(),
+            PlatformType::INSTAGRAM->toString() => new InstagramSocialAccountService(),
         };
     }
 }

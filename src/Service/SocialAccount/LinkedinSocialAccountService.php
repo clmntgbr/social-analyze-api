@@ -51,7 +51,7 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
      */
     public function getProfile(string $username): ?array
     {
-        return $this->linkedinRapidApi->mockGetProfile($username);
+        return $this->linkedinRapidApi->getProfile($username);
     }
 
     public function hydrate(array $payload): void
@@ -78,8 +78,8 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
             'followingCount' => $profile->following,
             'isVerified' => false,
             'username' => $profile->data->username,
-            'firstName' => ucfirst(strtolower($profile->data->firstName)),
-            'lastName' => ucfirst(strtolower($profile->data->lastName)),
+            'firstName' => ucwords(strtolower($profile->data->firstName)),
+            'lastName' => ucwords(strtolower($profile->data->lastName)),
             'profilePicture' => $profile->data->profilePicture,
             'backgroundImage' => $profile->data->backgroundImageToString(),
             'isOpenToWork' => $profile->data->isOpenToWork,

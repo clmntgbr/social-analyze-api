@@ -4,9 +4,11 @@ namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
 use ApiPlatform\Metadata\Get;
+use ApiPlatform\Metadata\GetCollection;
 use ApiPlatform\Metadata\Post;
 use App\ApiResource\Controller\CreateAnalysisAction;
 use App\ApiResource\Controller\GetAnalysesFavoritesAction;
+use App\ApiResource\Controller\GetAnalysesPlatformsAction;
 use App\ApiResource\Controller\GetAnalysesRecentsAction;
 use App\ApiResource\Controller\GetAnalysisAction;
 use App\ApiResource\Controller\GetAnalysisInsightsAction;
@@ -29,6 +31,10 @@ use Symfony\Component\Serializer\Attribute\Groups;
         new Post(
             uriTemplate: '/analysis/favorites',
             controller: PostAnalysisFavoritesAction::class,
+        ),
+        new GetCollection(
+            uriTemplate: '/analyses/platforms',
+            controller: GetAnalysesPlatformsAction::class,
         ),
         new Get(
             uriTemplate: '/analysis/{uuid}/insights',

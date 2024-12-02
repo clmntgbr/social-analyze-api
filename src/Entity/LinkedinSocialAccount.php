@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
+use App\Enum\PlatformType;
 use App\Enum\SocialAccountType;
 use App\Repository\LinkedinSocialAccountRepository;
 use Doctrine\DBAL\Types\Types;
@@ -65,7 +66,7 @@ class LinkedinSocialAccount extends SocialAccount
         $this->educations = [];
         $this->payload = [];
         $this->positions = [];
-        $this->setSocialAccountType(SocialAccountType::LINKEDIN->toString());
+        $this->setSocialAccountType(sprintf('%s_social_account', PlatformType::LINKEDIN->toString()));
     }
 
     public function getIsOpenToWork(): ?bool

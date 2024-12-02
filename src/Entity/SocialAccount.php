@@ -23,6 +23,8 @@ use Symfony\Component\Serializer\Attribute\Groups;
     'linkedin_social_account' => 'LinkedinSocialAccount',
     'twitter_social_account' => 'TwitterSocialAccount',
     'facebook_social_account' => 'FacebookSocialAccount',
+    'instagram_social_account' => 'InstagramSocialAccount',
+    'youtube_social_account' => 'YoutubeSocialAccount',
 ])]
 #[ApiResource(
     operations: [
