@@ -12,6 +12,7 @@ use App\ApiResource\Controller\GetAnalysesPlatformsAction;
 use App\ApiResource\Controller\GetAnalysesRecentsAction;
 use App\ApiResource\Controller\GetAnalysisAction;
 use App\ApiResource\Controller\GetAnalysisInsightsAction;
+use App\ApiResource\Controller\GetAnalysisTestAction;
 use App\ApiResource\Controller\PostAnalysisFavoritesAction;
 use App\Entity\Traits\UuidTrait;
 use App\Enum\AnalysisStatus;
@@ -39,7 +40,10 @@ use Symfony\Component\Serializer\Attribute\Groups;
         new Get(
             uriTemplate: '/analysis/{uuid}/insights',
             controller: GetAnalysisInsightsAction::class,
-
+        ),
+        new Get(
+            uriTemplate: '/analysis/{uuid}/test',
+            controller: GetAnalysisTestAction::class,
         ),
         new Get(
             uriTemplate: '/analyses/recents',
@@ -64,7 +68,7 @@ class Analysis
     use TimestampableEntity;
 
     #[ORM\Column(type: Types::STRING)]
-    #[Groups(['analyses:full'])]
+    #[Groups(['analyses:full', 'analyses:openAi'])]
     private ?string $title;
 
     #[ORM\Column(type: Types::STRING)]
@@ -76,7 +80,7 @@ class Analysis
     private ?string $username;
 
     #[ORM\Column(type: Types::STRING)]
-    #[Groups(['analyses:full'])]
+    #[Groups(['analyses:full', 'analyses:openAi'])]
     private ?string $platform;
 
     #[Groups(['analyses:full'])]
@@ -84,7 +88,7 @@ class Analysis
 
     #[ORM\ManyToOne(targetEntity: SocialAccount::class, fetch: 'EAGER')]
     #[ORM\JoinColumn(nullable: true)]
-    #[Groups(['analyses:full'])]
+    #[Groups(['analyses:full', 'analyses:openAi'])]
     private ?SocialAccount $socialAccount = null;
 
     public function __construct()

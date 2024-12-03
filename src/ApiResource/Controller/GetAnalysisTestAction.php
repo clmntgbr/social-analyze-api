@@ -6,19 +6,20 @@ use App\Dto\GetAnalysis;
 use App\Entity\Analysis;
 use App\Entity\User;
 use App\Repository\AnalysisRepository;
-use App\Service\AnalysisInsight;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Attribute\AsController;
 use Symfony\Component\Security\Http\Attribute\CurrentUser;
+use Symfony\Component\Serializer\Context\Normalizer\ObjectNormalizerContextBuilder;
+use Symfony\Component\Serializer\SerializerInterface;
 
 #[AsController]
-class GetAnalysisInsightsAction extends AbstractController
+class GetAnalysisTestAction extends AbstractController
 {
     public function __construct(
-        private readonly AnalysisRepository $analysisRepository,
-        private readonly AnalysisInsight $analysisInsight
+        private readonly SerializerInterface $serializer,
+        private readonly AnalysisRepository $analysisRepository
     ) {}
 
     public function __invoke(GetAnalysis $getAnalysis, #[CurrentUser] User $user): JsonResponse
@@ -32,15 +33,14 @@ class GetAnalysisInsightsAction extends AbstractController
             );
         }
 
-        $data['monthlyStats'] = $this->analysisInsight->calculateMonthlyStats($analysis->getSocialAccount());
-        $data['hourlyStats'] = $this->analysisInsight->calculateHourlyStats($analysis->getSocialAccount());
-        $data['averageLikes'] = round($analysis->getSocialAccount()->getLikeCount() / $analysis->getSocialAccount()->getPostCount());
-        $data['averageComments'] = round($analysis->getSocialAccount()->getCommentCount() / $analysis->getSocialAccount()->getPostCount());
-        $data['averageReposts'] = round($analysis->getSocialAccount()->getShareCount() / $analysis->getSocialAccount()->getPostCount());
+        $context = (new ObjectNormalizerContextBuilder())
+            ->withGroups(['analyses:openAi'])
+            ->toArray();
 
         return new JsonResponse(
-            data: $data,
-            status: Response::HTTP_OK
+            data: $this->serializer->serialize($analysis, 'json', $context),
+            status: Response::HTTP_OK,
+            json: true
         );
     }
 }

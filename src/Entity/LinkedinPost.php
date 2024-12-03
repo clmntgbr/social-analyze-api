@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
+use App\Enum\PlatformType;
 use App\Enum\PostType;
 use App\Repository\LinkedinPostRepository;
 use Doctrine\DBAL\Types\Types;
@@ -24,7 +25,7 @@ class LinkedinPost extends Post
     public function __construct()
     {
         parent::__construct();
-        $this->setPostType(PostType::LINKEDIN->toString());
+        $this->setPostType(sprintf('%s_post', PlatformType::LINKEDIN->toString()));
     }
 
     public function getArticle(): array

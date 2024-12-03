@@ -3,7 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
-use App\Enum\PostType;
+use App\Enum\PlatformType;
 use App\Repository\InstagramPostRepository;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -14,6 +14,6 @@ class InstagramPost extends Post
     public function __construct()
     {
         parent::__construct();
-        $this->setPostType(PostType::INSTAGRAM->toString());
+        $this->setPostType(sprintf('%s_post', PlatformType::INSTAGRAM->toString()));
     }
 }

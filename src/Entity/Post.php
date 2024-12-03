@@ -38,7 +38,7 @@ class Post
     private ?string $postId = null;
 
     #[ORM\Column(type: Types::TEXT, nullable: true)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?string $body = null;
 
     #[ORM\Column(type: Types::JSON)]
@@ -46,19 +46,19 @@ class Post
     private array $images = [];
 
     #[ORM\Column(type: Types::INTEGER)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?int $likeCount = 0;
 
     #[ORM\Column(type: Types::INTEGER)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?int $commentsCount = 0;
 
     #[ORM\Column(type: Types::INTEGER)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?int $repostsCount = 0;
 
     #[ORM\Column(type: Types::FLOAT)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?float $engagementRate = 0;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
@@ -66,7 +66,7 @@ class Post
     private ?string $url = null;
 
     #[ORM\Column(type: Types::DATETIME_MUTABLE, nullable: true)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?\DateTime $postAt = null;
 
     #[ORM\ManyToOne(targetEntity: SocialAccount::class, inversedBy: 'posts')]
@@ -74,7 +74,7 @@ class Post
     private ?SocialAccount $socialAccount = null;
 
     #[ORM\Column(type: Types::STRING)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private string $postType;
 
     public function __construct()

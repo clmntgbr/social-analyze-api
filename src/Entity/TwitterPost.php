@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
+use App\Enum\PlatformType;
 use App\Enum\PostType;
 use App\Repository\TwitterPostRepository;
 use Doctrine\ORM\Mapping as ORM;
@@ -14,6 +15,6 @@ class TwitterPost extends Post
     public function __construct()
     {
         parent::__construct();
-        $this->setPostType(PostType::TWITTER->toString());
+        $this->setPostType(sprintf('%s_post', PlatformType::TWITTER->toString()));
     }
 }

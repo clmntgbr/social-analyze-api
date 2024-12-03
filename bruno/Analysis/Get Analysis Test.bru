@@ -1,0 +1,15 @@
+meta {
+  name: Get Analysis Test
+  type: http
+  seq: 9
+}
+
+get {
+  url: {{url}}/api/analysis/50ebcacc-8d62-426e-9384-882470bc8ae2/test
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}

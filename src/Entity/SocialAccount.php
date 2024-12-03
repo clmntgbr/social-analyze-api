@@ -66,7 +66,7 @@ class SocialAccount
     private ?string $backgroundImage = null;
 
     #[ORM\Column(type: Types::STRING)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private string $socialAccountType;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
@@ -74,35 +74,36 @@ class SocialAccount
     private ?string $email = null;
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?string $location = null;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?int $followerCount = null;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?int $followingCount = null;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?int $likeCount = null;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?int $commentCount = null;
 
     #[ORM\Column(type: Types::INTEGER, nullable: true)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?int $shareCount = null;
 
     #[ORM\Column(type: Types::FLOAT, nullable: true)]
-    #[Groups(['social-accounts:full'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private ?float $engagementRate = null;
 
     #[ORM\OneToMany(targetEntity: Post::class, mappedBy: 'socialAccount', cascade: ['remove'])]
-    #[Groups(['social-accounts:full'])]
+    #[ORM\OrderBy(['postAt' => 'DESC'])]
+    #[Groups(['social-accounts:full', 'analyses:openAi'])]
     private Collection $posts;
 
     public function __construct()
