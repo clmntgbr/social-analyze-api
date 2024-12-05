@@ -1,0 +1,2423 @@
+{
+  "success": true,
+  "connection": 6132,
+  "data": {
+    "id": 37048631,
+    "urn": "ACoAAAI1UTcBt-mKubnfzfCugfYxzt7d6vmjYjg",
+    "username": "jlondiche",
+    "firstName": "Jeanne",
+    "lastName": "LONDICHE",
+    "isCreator": true,
+    "isOpenToWork": false,
+    "isHiring": false,
+    "profilePicture": "https://media.licdn.com/dms/image/v2/C4D03AQGqGzdlGOAtig/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1526490838718?e=1737590400\u0026v=beta\u0026t=5a58tDvIhjNyh4e42U7y3eNFyFl6HK28ESry6R_oE9g",
+    "backgroundImage": [
+      {
+        "width": 800,
+        "height": 200,
+        "url": "https://media.licdn.com/dms/image/v2/C4E16AQGjMaxBzKhfbg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1537362222215?e=1737590400\u0026v=beta\u0026t=hoppWHopgXF_a7SVFgxJUWNvky4d1fmrFSx2JGGvcog"
+      },
+      {
+        "width": 1400,
+        "height": 350,
+        "url": "https://media.licdn.com/dms/image/v2/C4E16AQGjMaxBzKhfbg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1537362222210?e=1737590400\u0026v=beta\u0026t=LGoiFlAJ_zCCoTOJLctsJdY5xnyCt6ObJdJO-DzHHfE"
+      }
+    ],
+    "summary": "J’arrête le recrutement propriétaire, je démarre l’Open Source. 👉 👉 Ma démarche de transparence orientée 100% développeur expliquée sur Medium : http://bit.ly/2KZZqOE\n\nJe souhaite améliorer l'image du recrutement et de mon métier de consultante/coach en recrutement. J’ai donc décidé d’appliquer ce que je dis et ce que je défends de la manière la plus visible possible : j’arrête de cacher les noms des entreprises dans mes annonces. Tout est ouvert. Un peu comme le code Open Source !\n\njeanne.londiche@jlrecrutement.com\n06 49 35 64 30",
+    "headline": "Fondatrice, Détectrice de compétences - JL Recrutement",
+    "geo": {
+      "country": "France",
+      "city": "Paris, Île-de-France",
+      "full": "Paris, Île-de-France, France"
+    },
+    "languages": null,
+    "educations": [
+      {
+        "start": {
+          "year": 2008,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2010,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "Management of International Business",
+        "degree": "Master's",
+        "grade": "",
+        "schoolName": "IAE FRANCE - Écoles Universitaires de Management",
+        "description": "",
+        "activities": "2009 - Vice-president of the I.A.E.’s student association\nCurrently - Launching of the Human Resource Section and working on an humanitarian project within Senegal.",
+        "url": "https://www.linkedin.com/school/iae-france---%C3%A9coles-universitaires-de-management/",
+        "schoolId": "15104776"
+      },
+      {
+        "start": {
+          "year": 2008,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2008,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "Economics and Business",
+        "degree": "Bachelor",
+        "grade": "",
+        "schoolName": "University of Technology Sydney",
+        "description": "Exchange University program",
+        "activities": "6 months",
+        "url": "https://www.linkedin.com/school/university-of-technology-sydney/",
+        "schoolId": "166678"
+      },
+      {
+        "start": {
+          "year": 2005,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2007,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "Economie et Gestion",
+        "degree": "Licence",
+        "grade": "",
+        "schoolName": "Université de Toulon",
+        "description": "Three-year university degree in Economics and Management, \nWith distinction, ranked 10th in a class of 100.\nConcentration: Economics - International Business - Managing People – Law - Accounting",
+        "activities": "Part of the Administration Councel of the University",
+        "url": "https://www.linkedin.com/school/univtoulon/",
+        "schoolId": "127062"
+      }
+    ],
+    "position": [
+      {
+        "companyId": 3663948,
+        "companyName": "JL Recrutement",
+        "companyUsername": "jl-recrutement",
+        "companyURL": "https://www.linkedin.com/company/jl-recrutement/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQHTlJLocEWSFw/company-logo_400_400/company-logo_400_400/0/1631371827686/jl_recrutement_logo?e=1740009600\u0026v=beta\u0026t=sVsPh0sITKjUgjh3GPg3nD2vlvMCLSK6HPJMb0MRda0",
+        "companyIndustry": "Staffing \u0026 Recruiting",
+        "companyStaffCountRange": "",
+        "title": "Fondatrice - Consultante en recrutement",
+        "multiLocaleTitle": {
+          "en_US": "Fondatrice - Consultante en recrutement",
+          "fr_FR": "Independant tech' talent hunter"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "JL Recrutement",
+          "fr_FR": "JL Recrutement"
+        },
+        "location": "Région de Paris , France",
+        "description": "Votre temps est précieux, faites vous accompagner par une spécialiste.\n* Coaching entretiens\n* Rencontre des meilleurs sociétés PHP\n* Négociation du contrat / salaire\n* Suivi après embauche\n\n👉 Le Job Board PHP : 👉 https://github.com/jlondiche/job-board-php\n\nJe souhaite aider les développeurs à trouver un poste qui correspond réellement à leurs envies techniques, personnelles et professionnelles. \n\nSpécialisée dans l'écosystème PHP, je vous permets de comparer en un rien de temps plusieurs opportunités / entreprises, de la petite startup au grand groupe média.\n\nÀ l'écoute de vos attentes, je vous accompagne dans vos choix de carrières.\n\njeanne.londiche@jlrecrutement.com\n06 49 35 64 30",
+        "employmentType": "",
+        "start": {
+          "year": 2013,
+          "month": 7,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 225056,
+        "companyName": "Progressive Recruitment",
+        "companyUsername": "progressive-recruitment",
+        "companyURL": "https://www.linkedin.com/company/progressive-recruitment/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFy5w0MwggTjQ/company-logo_400_400/company-logo_400_400/0/1630495161566/progressive_recruitment_logo?e=1740009600\u0026v=beta\u0026t=kSIIR9O-8YbvGhmiY3RYRP5FR9mE6wTbvZsOp-dCBsQ",
+        "companyIndustry": "Staffing \u0026 Recruiting",
+        "companyStaffCountRange": "201 - 500",
+        "title": "Consultant en recrutement - pôle développement PHP",
+        "multiLocaleTitle": {
+          "en_US": "",
+          "fr_FR": "Consultant en recrutement - pôle développement PHP"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "",
+          "fr_FR": "Progressive Recruitment"
+        },
+        "location": "Région de Paris, France",
+        "description": "- Progressive est un cabinet de recrutement spécialisé sur les marchés de l'ingénierie et de l'informatique. \n\n- Consultante pour Progressive depuis 2011, je suis spécialisée sur les profils PHP dans le domaine du e-commerce. \n\n- Diplomée d'un master 2 - Management des Affaires Internationales de l'IAE d'Aix en Provence, j'ai décidé de me spécialiser dans le recrutement. Depuis je recrute des professionnels du secteur Informatique pour des startups et des grandes entreprises Françaises.\n\nProfils recherchés (H/F) :\n- Développeur, lead developer\n- Chef de projet technique / fonctionnel\n- Architecte PHP\n- Directeur Technique\n\nVoici nos offres d'emploi en Ingénierie et Informatique :\nhttp://www.progressiverecruitment.com/ \n\nN'hésitez pas à prendre contact avec moi pour connaître toutes nos opportunités :\njeanne.londiche@progressiverecruitment.com",
+        "employmentType": "",
+        "start": {
+          "year": 2011,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2013,
+          "month": 7,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 1168331,
+        "companyName": "Modani",
+        "companyUsername": "modani-furniture",
+        "companyURL": "https://www.linkedin.com/company/modani-furniture/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQHTUqHFCVHhzQ/company-logo_400_400/company-logo_400_400/0/1630575422368/modani_furniture_logo?e=1740009600\u0026v=beta\u0026t=FZrsTN3Znv_9e2tdHI0SnbBRIzZPXuwb9NKzWS78mzM",
+        "companyIndustry": "Retail",
+        "companyStaffCountRange": "51 - 200",
+        "title": "National Retail Manager",
+        "multiLocaleTitle": {
+          "en_US": "",
+          "fr_FR": "National Retail Manager"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "",
+          "fr_FR": "Modani"
+        },
+        "location": "",
+        "description": "Ultra modern and contemporary furniture, turnover §15M - 3 showrooms: Miami, Los Angeles and New York\n•\tLogistics / Importing management: 18 container per month,\n•\tInventory analyzes and adjustments,\n•\tNational marketing campaigns to increase sales,\n•\tManagers training and support.",
+        "employmentType": "",
+        "start": {
+          "year": 2010,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2011,
+          "month": 7,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 1168331,
+        "companyName": "Modani Furniture",
+        "companyUsername": "modani-furniture",
+        "companyURL": "https://www.linkedin.com/company/modani-furniture/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQHTUqHFCVHhzQ/company-logo_400_400/company-logo_400_400/0/1630575422368/modani_furniture_logo?e=1740009600\u0026v=beta\u0026t=FZrsTN3Znv_9e2tdHI0SnbBRIzZPXuwb9NKzWS78mzM",
+        "companyIndustry": "Retail",
+        "companyStaffCountRange": "51 - 200",
+        "title": "Manager Assistant",
+        "multiLocaleTitle": {
+          "en_US": "Manager Assistant",
+          "fr_FR": "Showroom Manager"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "Modani Furniture",
+          "fr_FR": "Modani Furniture New York"
+        },
+        "location": "",
+        "description": "I am assisting the manager on all phases of store operations to ensure maximum sales and profitability by focusing on key business initiatives, store presentation, marketing execution, inventory/delivery management with the warehouse, loss prevention - customer service, payroll management, and daily operational cost control. \n\nWith an annual revenue of 3,000,000 USD in New York, 4,000,000 in Miami, and with a new showroom just opened in Los Angeles in August 2010; Modani is planning to expend all other the US.",
+        "employmentType": "",
+        "start": {
+          "year": 2010,
+          "month": 4,
+          "day": 0
+        },
+        "end": {
+          "year": 2010,
+          "month": 8,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "France Telecom - Orange",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Communication Assistant",
+        "multiLocaleTitle": {
+          "en_US": "Communication Assistant",
+          "fr_FR": "Communication Assistant"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "France Telecom - Orange",
+          "fr_FR": "France Telecom - Orange"
+        },
+        "location": "",
+        "description": "•\tInternal communication on a patronage project in 7 different offices\n•\tOrganization of 2 events : lottery and Tongasoa day",
+        "employmentType": "",
+        "start": {
+          "year": 2010,
+          "month": 1,
+          "day": 0
+        },
+        "end": {
+          "year": 2010,
+          "month": 4,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "Humanitarian Project",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Humanitarian project in Senegal",
+        "multiLocaleTitle": {
+          "en_US": "Humanitarian project in Senegal",
+          "fr_FR": "I.A.E Sponsored Humanitarian Project"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "Humanitarian Project",
+          "fr_FR": "Humanitarian Project"
+        },
+        "location": "",
+        "description": "• Organizing several events in order to raise funds,\n• Creating brochures, calendars, and greetings cards, \n• Sending a container with computers and medical materiels to Dakar,\n• Doing business development in an handicap training center in Sokone.",
+        "employmentType": "",
+        "start": {
+          "year": 2009,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2010,
+          "month": 3,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 2343,
+        "companyName": "Hudson Legal - based in Budapest",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Legal Researcher",
+        "multiLocaleTitle": {
+          "en_US": "Legal Researcher",
+          "fr_FR": "Intern, Researcher"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "Hudson Legal - based in Budapest",
+          "fr_FR": "Hudson Legal"
+        },
+        "location": "",
+        "description": "• Contacting and interviewing lawyers \n• Liasing with partners and HR staff at international law firms around CEE\n• Creating candidate research lists\n• Operating as a part of a team supporting consultants for Russia, \n• Ukraine and around CEE",
+        "employmentType": "",
+        "start": {
+          "year": 2009,
+          "month": 3,
+          "day": 0
+        },
+        "end": {
+          "year": 2009,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "MJK Instruments",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Consulting",
+        "multiLocaleTitle": {
+          "en_US": "",
+          "fr_FR": "Consulting"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "",
+          "fr_FR": "MJK Instruments"
+        },
+        "location": "",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2009,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2009,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "The goods organics",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Barista and Waitress - Sydney, Australia",
+        "multiLocaleTitle": {
+          "en_US": "Barista and Waitress - Sydney, Australia",
+          "fr_FR": "Barista and waitress in Sydney, Australia"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "The goods organics",
+          "fr_FR": "The goods organics"
+        },
+        "location": "",
+        "description": "• Barista and Waitress at “The goods organic” in Sydney, Australia for 5 months. \n• Managed the finances of the coffee shop and customer contact and service.",
+        "employmentType": "",
+        "start": {
+          "year": 2008,
+          "month": 1,
+          "day": 0
+        },
+        "end": {
+          "year": 2008,
+          "month": 8,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 500504,
+        "companyName": "INRA",
+        "companyUsername": "french-national-institute-for-agricultural-research",
+        "companyURL": "https://www.linkedin.com/company/french-national-institute-for-agricultural-research/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQHQo3hIOQOfDQ/company-logo_400_400/company-logo_400_400/0/1630573575777/french_national_institute_for_agricultural_research_logo?e=1740009600\u0026v=beta\u0026t=6nlrX88rwWSt-EeiKU5Ogo-x3DG5DBDoZDkjAldP3_8",
+        "companyIndustry": "Research",
+        "companyStaffCountRange": "10001+",
+        "title": "Human Resources Internship",
+        "multiLocaleTitle": {
+          "en_US": "Human Resources Internship",
+          "fr_FR": "Human Resources work experience"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "INRA",
+          "fr_FR": "INRA"
+        },
+        "location": "",
+        "description": "• Developing a survey to monitor the efficiency of an innovative reintegration program that the Institute had created for the disabled.",
+        "employmentType": "",
+        "start": {
+          "year": 2007,
+          "month": 5,
+          "day": 0
+        },
+        "end": {
+          "year": 2007,
+          "month": 6,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "Blanc du Nil",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Store Manager",
+        "multiLocaleTitle": {
+          "en_US": "Store Manager",
+          "fr_FR": "Store Manager"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "Blanc du Nil",
+          "fr_FR": "Blanc du Nil"
+        },
+        "location": "",
+        "description": "• Store Manager for “Blanc du Nil” (clothes shop) at Sanary/mer, 83, France. \n• Managed the finance and re-orders \n• Supervised a team of 2 employees",
+        "employmentType": "",
+        "start": {
+          "year": 2006,
+          "month": 6,
+          "day": 0
+        },
+        "end": {
+          "year": 2006,
+          "month": 8,
+          "day": 0
+        }
+      }
+    ],
+    "fullPositions": [
+      {
+        "companyId": 3663948,
+        "companyName": "JL Recrutement",
+        "companyUsername": "jl-recrutement",
+        "companyURL": "https://www.linkedin.com/company/jl-recrutement/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQHTlJLocEWSFw/company-logo_400_400/company-logo_400_400/0/1631371827686/jl_recrutement_logo?e=1740009600\u0026v=beta\u0026t=sVsPh0sITKjUgjh3GPg3nD2vlvMCLSK6HPJMb0MRda0",
+        "companyIndustry": "Staffing \u0026 Recruiting",
+        "companyStaffCountRange": "",
+        "title": "Fondatrice - Consultante en recrutement",
+        "multiLocaleTitle": {
+          "en_US": "Fondatrice - Consultante en recrutement",
+          "fr_FR": "Independant tech' talent hunter"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "JL Recrutement",
+          "fr_FR": "JL Recrutement"
+        },
+        "location": "Région de Paris , France",
+        "description": "Votre temps est précieux, faites vous accompagner par une spécialiste.\n* Coaching entretiens\n* Rencontre des meilleurs sociétés PHP\n* Négociation du contrat / salaire\n* Suivi après embauche\n\n👉 Le Job Board PHP : 👉 https://github.com/jlondiche/job-board-php\n\nJe souhaite aider les développeurs à trouver un poste qui correspond réellement à leurs envies techniques, personnelles et professionnelles. \n\nSpécialisée dans l'écosystème PHP, je vous permets de comparer en un rien de temps plusieurs opportunités / entreprises, de la petite startup au grand groupe média.\n\nÀ l'écoute de vos attentes, je vous accompagne dans vos choix de carrières.\n\njeanne.londiche@jlrecrutement.com\n06 49 35 64 30",
+        "employmentType": "",
+        "start": {
+          "year": 2013,
+          "month": 7,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 225056,
+        "companyName": "Progressive Recruitment",
+        "companyUsername": "progressive-recruitment",
+        "companyURL": "https://www.linkedin.com/company/progressive-recruitment/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFy5w0MwggTjQ/company-logo_400_400/company-logo_400_400/0/1630495161566/progressive_recruitment_logo?e=1740009600\u0026v=beta\u0026t=kSIIR9O-8YbvGhmiY3RYRP5FR9mE6wTbvZsOp-dCBsQ",
+        "companyIndustry": "Staffing \u0026 Recruiting",
+        "companyStaffCountRange": "201 - 500",
+        "title": "Consultant en recrutement - pôle développement PHP",
+        "multiLocaleTitle": {
+          "en_US": "",
+          "fr_FR": "Consultant en recrutement - pôle développement PHP"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "",
+          "fr_FR": "Progressive Recruitment"
+        },
+        "location": "Région de Paris, France",
+        "description": "- Progressive est un cabinet de recrutement spécialisé sur les marchés de l'ingénierie et de l'informatique. \n\n- Consultante pour Progressive depuis 2011, je suis spécialisée sur les profils PHP dans le domaine du e-commerce. \n\n- Diplomée d'un master 2 - Management des Affaires Internationales de l'IAE d'Aix en Provence, j'ai décidé de me spécialiser dans le recrutement. Depuis je recrute des professionnels du secteur Informatique pour des startups et des grandes entreprises Françaises.\n\nProfils recherchés (H/F) :\n- Développeur, lead developer\n- Chef de projet technique / fonctionnel\n- Architecte PHP\n- Directeur Technique\n\nVoici nos offres d'emploi en Ingénierie et Informatique :\nhttp://www.progressiverecruitment.com/ \n\nN'hésitez pas à prendre contact avec moi pour connaître toutes nos opportunités :\njeanne.londiche@progressiverecruitment.com",
+        "employmentType": "",
+        "start": {
+          "year": 2011,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2013,
+          "month": 7,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 1168331,
+        "companyName": "Modani",
+        "companyUsername": "modani-furniture",
+        "companyURL": "https://www.linkedin.com/company/modani-furniture/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQHTUqHFCVHhzQ/company-logo_400_400/company-logo_400_400/0/1630575422368/modani_furniture_logo?e=1740009600\u0026v=beta\u0026t=FZrsTN3Znv_9e2tdHI0SnbBRIzZPXuwb9NKzWS78mzM",
+        "companyIndustry": "Retail",
+        "companyStaffCountRange": "51 - 200",
+        "title": "National Retail Manager",
+        "multiLocaleTitle": {
+          "en_US": "",
+          "fr_FR": "National Retail Manager"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "",
+          "fr_FR": "Modani"
+        },
+        "location": "",
+        "description": "Ultra modern and contemporary furniture, turnover §15M - 3 showrooms: Miami, Los Angeles and New York\n•\tLogistics / Importing management: 18 container per month,\n•\tInventory analyzes and adjustments,\n•\tNational marketing campaigns to increase sales,\n•\tManagers training and support.",
+        "employmentType": "",
+        "start": {
+          "year": 2010,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2011,
+          "month": 7,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 1168331,
+        "companyName": "Modani Furniture",
+        "companyUsername": "modani-furniture",
+        "companyURL": "https://www.linkedin.com/company/modani-furniture/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQHTUqHFCVHhzQ/company-logo_400_400/company-logo_400_400/0/1630575422368/modani_furniture_logo?e=1740009600\u0026v=beta\u0026t=FZrsTN3Znv_9e2tdHI0SnbBRIzZPXuwb9NKzWS78mzM",
+        "companyIndustry": "Retail",
+        "companyStaffCountRange": "51 - 200",
+        "title": "Manager Assistant",
+        "multiLocaleTitle": {
+          "en_US": "Manager Assistant",
+          "fr_FR": "Showroom Manager"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "Modani Furniture",
+          "fr_FR": "Modani Furniture New York"
+        },
+        "location": "",
+        "description": "I am assisting the manager on all phases of store operations to ensure maximum sales and profitability by focusing on key business initiatives, store presentation, marketing execution, inventory/delivery management with the warehouse, loss prevention - customer service, payroll management, and daily operational cost control. \n\nWith an annual revenue of 3,000,000 USD in New York, 4,000,000 in Miami, and with a new showroom just opened in Los Angeles in August 2010; Modani is planning to expend all other the US.",
+        "employmentType": "",
+        "start": {
+          "year": 2010,
+          "month": 4,
+          "day": 0
+        },
+        "end": {
+          "year": 2010,
+          "month": 8,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "France Telecom - Orange",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Communication Assistant",
+        "multiLocaleTitle": {
+          "en_US": "Communication Assistant",
+          "fr_FR": "Communication Assistant"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "France Telecom - Orange",
+          "fr_FR": "France Telecom - Orange"
+        },
+        "location": "",
+        "description": "•\tInternal communication on a patronage project in 7 different offices\n•\tOrganization of 2 events : lottery and Tongasoa day",
+        "employmentType": "",
+        "start": {
+          "year": 2010,
+          "month": 1,
+          "day": 0
+        },
+        "end": {
+          "year": 2010,
+          "month": 4,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "Humanitarian Project",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Humanitarian project in Senegal",
+        "multiLocaleTitle": {
+          "en_US": "Humanitarian project in Senegal",
+          "fr_FR": "I.A.E Sponsored Humanitarian Project"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "Humanitarian Project",
+          "fr_FR": "Humanitarian Project"
+        },
+        "location": "",
+        "description": "• Organizing several events in order to raise funds,\n• Creating brochures, calendars, and greetings cards, \n• Sending a container with computers and medical materiels to Dakar,\n• Doing business development in an handicap training center in Sokone.",
+        "employmentType": "",
+        "start": {
+          "year": 2009,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2010,
+          "month": 3,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 2343,
+        "companyName": "Hudson Legal - based in Budapest",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Legal Researcher",
+        "multiLocaleTitle": {
+          "en_US": "Legal Researcher",
+          "fr_FR": "Intern, Researcher"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "Hudson Legal - based in Budapest",
+          "fr_FR": "Hudson Legal"
+        },
+        "location": "",
+        "description": "• Contacting and interviewing lawyers \n• Liasing with partners and HR staff at international law firms around CEE\n• Creating candidate research lists\n• Operating as a part of a team supporting consultants for Russia, \n• Ukraine and around CEE",
+        "employmentType": "",
+        "start": {
+          "year": 2009,
+          "month": 3,
+          "day": 0
+        },
+        "end": {
+          "year": 2009,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "MJK Instruments",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Consulting",
+        "multiLocaleTitle": {
+          "en_US": "",
+          "fr_FR": "Consulting"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "",
+          "fr_FR": "MJK Instruments"
+        },
+        "location": "",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2009,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2009,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "The goods organics",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Barista and Waitress - Sydney, Australia",
+        "multiLocaleTitle": {
+          "en_US": "Barista and Waitress - Sydney, Australia",
+          "fr_FR": "Barista and waitress in Sydney, Australia"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "The goods organics",
+          "fr_FR": "The goods organics"
+        },
+        "location": "",
+        "description": "• Barista and Waitress at “The goods organic” in Sydney, Australia for 5 months. \n• Managed the finances of the coffee shop and customer contact and service.",
+        "employmentType": "",
+        "start": {
+          "year": 2008,
+          "month": 1,
+          "day": 0
+        },
+        "end": {
+          "year": 2008,
+          "month": 8,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 500504,
+        "companyName": "INRA",
+        "companyUsername": "french-national-institute-for-agricultural-research",
+        "companyURL": "https://www.linkedin.com/company/french-national-institute-for-agricultural-research/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C560BAQHQo3hIOQOfDQ/company-logo_400_400/company-logo_400_400/0/1630573575777/french_national_institute_for_agricultural_research_logo?e=1740009600\u0026v=beta\u0026t=6nlrX88rwWSt-EeiKU5Ogo-x3DG5DBDoZDkjAldP3_8",
+        "companyIndustry": "Research",
+        "companyStaffCountRange": "10001+",
+        "title": "Human Resources Internship",
+        "multiLocaleTitle": {
+          "en_US": "Human Resources Internship",
+          "fr_FR": "Human Resources work experience"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "INRA",
+          "fr_FR": "INRA"
+        },
+        "location": "",
+        "description": "• Developing a survey to monitor the efficiency of an innovative reintegration program that the Institute had created for the disabled.",
+        "employmentType": "",
+        "start": {
+          "year": 2007,
+          "month": 5,
+          "day": 0
+        },
+        "end": {
+          "year": 2007,
+          "month": 6,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "Blanc du Nil",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Store Manager",
+        "multiLocaleTitle": {
+          "en_US": "Store Manager",
+          "fr_FR": "Store Manager"
+        },
+        "multiLocaleCompanyName": {
+          "en_US": "Blanc du Nil",
+          "fr_FR": "Blanc du Nil"
+        },
+        "location": "",
+        "description": "• Store Manager for “Blanc du Nil” (clothes shop) at Sanary/mer, 83, France. \n• Managed the finance and re-orders \n• Supervised a team of 2 employees",
+        "employmentType": "",
+        "start": {
+          "year": 2006,
+          "month": 6,
+          "day": 0
+        },
+        "end": {
+          "year": 2006,
+          "month": 8,
+          "day": 0
+        }
+      }
+    ],
+    "skills": [
+      {
+        "name": "Négociations",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "Service client",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "PHP",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "symfony",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Recrutement technique",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      }
+    ],
+    "givenRecommendation": null,
+    "givenRecommendationCount": 0,
+    "receivedRecommendation": null,
+    "receivedRecommendationCount": 0,
+    "courses": null,
+    "certifications": null,
+    "honors": null,
+    "projects": {
+      "total": 1,
+      "items": [
+        {
+          "title": "J’arrête le recrutement propriétaire, je démarre l’Open Source",
+          "description": "Toutes mes annonces sont ouvertes. Si vous voulez les voir, c’est par ici : https://github.com/jlondiche/job-board-php/blob/master/README.md",
+          "start": {
+            "year": 2018,
+            "month": 5,
+            "day": 0
+          },
+          "end": {
+            "year": 2018,
+            "month": 5,
+            "day": 0
+          },
+          "contributors": [
+            {
+              "urn": "ACoAAAI1UTcBt-mKubnfzfCugfYxzt7d6vmjYjg",
+              "username": "jlondiche",
+              "fullName": "Jeanne LONDICHE",
+              "firstName": "Jeanne",
+              "lastName": "LONDICHE",
+              "profilePicture": [
+                {
+                  "width": 100,
+                  "height": 100,
+                  "url": "https://media.licdn.com/dms/image/v2/C4D03AQGqGzdlGOAtig/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1526490838980?e=1737590400\u0026v=beta\u0026t=n_0aKl8rb1Dd6Cn5vFFMiE4JqHYPqkJLpHDokvk8XAo"
+                },
+                {
+                  "width": 200,
+                  "height": 200,
+                  "url": "https://media.licdn.com/dms/image/v2/C4D03AQGqGzdlGOAtig/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1526490839153?e=1737590400\u0026v=beta\u0026t=IErQURfVeb_Ptsna501EzQyGqaS-gU47Tq6QeYCtvgc"
+                },
+                {
+                  "width": 400,
+                  "height": 400,
+                  "url": "https://media.licdn.com/dms/image/v2/C4D03AQGqGzdlGOAtig/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1526490839057?e=1737590400\u0026v=beta\u0026t=KKW_q9tZEc93SUXrR20WS5p2uqvgHfyXTKm1xD7VVNY"
+                },
+                {
+                  "width": 511,
+                  "height": 511,
+                  "url": "https://media.licdn.com/dms/image/v2/C4D03AQGqGzdlGOAtig/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1526490838718?e=1737590400\u0026v=beta\u0026t=5a58tDvIhjNyh4e42U7y3eNFyFl6HK28ESry6R_oE9g"
+                }
+              ],
+              "headline": "Fondatrice, Détectrice de compétences - JL Recrutement",
+              "url": "https://www.linkedin.com/in/jlondiche"
+            }
+          ]
+        }
+      ]
+    },
+    "volunteering": null,
+    "supportedLocales": [
+      {
+        "country": "FR",
+        "language": "fr"
+      },
+      {
+        "country": "US",
+        "language": "en"
+      }
+    ],
+    "multiLocaleFirstName": {
+      "en": "Jeanne",
+      "fr": "Jeanne"
+    },
+    "multiLocaleLastName": {
+      "en": "LONDICHE",
+      "fr": "LONDICHE"
+    },
+    "multiLocaleHeadline": {
+      "en": "Fondatrice, Détectrice de compétences - JL Recrutement",
+      "fr": "Fondatrice - Cabinet de recrutement PHP - JL Recrutement\nJ’arrête le recrutement propriétaire, je démarre l’Open Source "
+    }
+  },
+  "follower": 8364,
+  "posts": [
+    {
+      "text": "[CDI] Nouveau poste à Lyon pour Vivlio : Vous souhaitez travailler sur des produits numériques utilisés par des milliers de lecteurs ? Des produits qui sont tous connectés au Cloud Vivlio, développé en #PHP, en micro-services, hébergés sur #Kubernetes qui communiquent entre eux via un système de messaging #RabbitMQ ? #TDD, pair-programming, tests manuels/auto, merge requests, Azure, plan de tests … vous connaissez ces termes ? Plus d'infos : \n\nhttps://lnkd.in/dKBDsU_2\n\nVous intégrerez une équipe Scrum et participerez de manière active aux choix techniques. (cloud, architecture, choix des solutions techniques). Vous devez avoir une forte notion de qualité dans vos développements (gestion de la complexité algorithmique, tests unitaires, intégration continue, documentation, …).\n\nEVOLUTION : Vous commencerez en tant que développeur·se puis passerez lead dans les mois à venir.\n\nSalaire : Fourchette 50-60K€\n\nJodia Pansart\nJL Recrutement",
+      "totalReactionCount": 8,
+      "likeCount": 7,
+      "empathyCount": 1,
+      "commentsCount": 1,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7264940576855244800/",
+      "postedAt": "50m",
+      "postedDate": "2024-11-20 10:00:09.591 +0000 UTC",
+      "postedDateTimestamp": 1732096809591,
+      "urn": "7264940576855244800",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGGOMIp6lHxmA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1731486939328?e=1735171200\u0026v=beta\u0026t=6XuGqn_8vFz3KmgugYAWR5ESgzWSjTzv6eMjPmWd6f0"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "job-board-php/VIVLIO.md at master · jlondiche/job-board-php",
+        "subtitle": "github.com",
+        "link": "https://github.com/jlondiche/job-board-php/blob/master/VIVLIO.md"
+      },
+      "entity": {}
+    },
+    {
+      "text": "[COUP DE GUEULE] Un cabinet vient de publier 2 offres de postes sur linkedin en cachant les noms des entreprises, et avec un simple copier / coller sur google, devinez quoi... j'ai trouvé les 2 entreprises qui recrutent. Je trouve ça tellement inutile. \nNe trouvez-vous pas que c'est une perte de temps ? Peut-être pensent-ils que vous n'êtes pas capables de faire une recherche sur google 😂😂 😅... \n\nVoilà pourquoi je suis passée au recrutement en toute transparence, pour éviter tout ça. VIVE le #recrutementopensource. \n\nAllez, belle journée !\n\n#PHP\nJodia Pansart\nJL Recrutement",
+      "totalReactionCount": 37,
+      "likeCount": 33,
+      "empathyCount": 1,
+      "praiseCount": 2,
+      "funnyCount": 1,
+      "commentsCount": 1,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7264610419330232322/",
+      "postedAt": "22h",
+      "postedDate": "2024-11-19 12:08:13.903 +0000 UTC",
+      "postedDateTimestamp": 1732018093903,
+      "urn": "7264610419330232322",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "GitHub - jlondiche/job-board-php",
+        "subtitle": "github.com",
+        "link": "https://github.com/jlondiche/job-board-php"
+      },
+      "entity": {}
+    },
+    {
+      "text": "[CDI] Plusieurs postes à Lyon dans de belles entreprises. N'hésitez pas à nous contacter si vous voulez plus infos ! https://lnkd.in/ddgQpmi\nJodia Pansart\n#Recrutementopensource\n#PHP\nJL Recrutement",
+      "totalReactionCount": 10,
+      "likeCount": 10,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7264282728026542081/",
+      "postedAt": "1d",
+      "postedDate": "2024-11-18 14:26:06.208 +0000 UTC",
+      "postedDateTimestamp": 1731939966208,
+      "urn": "7264282728026542081",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "GitHub - jlondiche/job-board-php",
+        "subtitle": "github.com",
+        "link": "https://github.com/jlondiche/job-board-php"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Nous y sommes ! \nQuel plaisir de participer à la première édition de la #SyliusCon en France à Lyon ! Merci Sylius ! \n\nN’oubliez pas ce soir, apéro communautaire que JL Recrutement sponsorise ! 🍻🐘\n\n\nJodia Pansart",
+      "totalReactionCount": 31,
+      "likeCount": 24,
+      "empathyCount": 4,
+      "praiseCount": 3,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7262382601355628545/",
+      "postedAt": "1w",
+      "postedDate": "2024-11-13 08:35:40.707 +0000 UTC",
+      "postedDateTimestamp": 1731486940707,
+      "urn": "7262382601355628545",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGGOMIp6lHxmA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1731486939328?e=1735171200\u0026v=beta\u0026t=6XuGqn_8vFz3KmgugYAWR5ESgzWSjTzv6eMjPmWd6f0"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Hey ! L'équipe de JL Recrutement est à Lyon pour 2 jours ! Qui sera là ?\nCe soir nous serons au meetup AFUP Lyon chez Les-Tilleuls.coop où je présenterai un talk sur les tests techniques !\nDemain, nous serons à la Sylius Con pour la journée + soirée car nous sommes sponsor de l'apéro ! Ne perdons pas les bonnes habitudes !!\nÀ demain ?\n\nJodia Pansart\n#SyliusCon\n#PHP \n#recrutementopensource",
+      "totalReactionCount": 35,
+      "likeCount": 25,
+      "empathyCount": 8,
+      "InterestCount": 1,
+      "praiseCount": 1,
+      "commentsCount": 7,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7262120454239236096/",
+      "postedAt": "1w",
+      "postedDate": "2024-11-12 15:13:59.964 +0000 UTC",
+      "postedDateTimestamp": 1731424439964,
+      "urn": "7262120454239236096",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGpbslsNaagHA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1731424438939?e=1735171200\u0026v=beta\u0026t=mbNTi-BHMZjb0M0pWrAOGX_JLuk_Eg3NHN1zNYn8Vsc"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "[CDI] Nouveau poste à Lille de développeur #PHP/#Symfony back-end pour Oneytrust, les pionniers dans la fraude web et digitale ! On en discute ?\n\nhttps://lnkd.in/eQFbgz3F\n\nJodia Pansart\nJL Recrutement",
+      "totalReactionCount": 38,
+      "likeCount": 38,
+      "commentsCount": 3,
+      "repostsCount": 6,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7259547608333828098/",
+      "postedAt": "2w",
+      "postedDate": "2024-11-05 12:50:25.699 +0000 UTC",
+      "postedDateTimestamp": 1730811025699,
+      "urn": "7259547608333828098",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "job-board-php/ONEY_TRUST.md at master · jlondiche/job-board-php",
+        "subtitle": "github.com",
+        "link": "https://github.com/jlondiche/job-board-php/blob/master/ONEY_TRUST.md"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Le baromètre des salaires en PHP 2024 est sorti aujourd'hui, dévoilant des résultats inédits depuis une décennie pour notre secteur: il annonce en effet une stagnation voire une baisse du niveau des salaires pour nos métiers, du jamais-vu depuis près de 10 ans dans notre milieu. \n\nSuite à une campagne de récolte d'informations menée entre mi-avril et mi-juillet 2024, l'équipe en charge du baromètre a étudié les participations de presque 600 personnes. Elle livre aujourd'hui ses conclusions sur l'état des conditions de travail et de salaire dans notre milieu professionnel. \nDécouvrez nos conclusions et analyses, jouez avec les filtres et positionnez-vous sur le marché du travail en fonction de votre expérience, de vos spécialités et de votre localisation géographique. \nbarometre.afup.org",
+      "totalReactionCount": 109,
+      "likeCount": 91,
+      "InterestCount": 9,
+      "praiseCount": 9,
+      "commentsCount": 1,
+      "repostsCount": 15,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7259545384128016384/",
+      "postedAt": "2w",
+      "postedDate": "2024-11-05 12:41:35.407 +0000 UTC",
+      "postedDateTimestamp": 1730810495407,
+      "reposted": true,
+      "urn": "7259545384128016384",
+      "author": {},
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQEhhN9E96fksw/image-shrink_1280/image-shrink_1280/0/1730791805474?e=1732705200\u0026v=beta\u0026t=D4E_D0bLJc_KK_AbvLxEiqA4U0zhzHd_IGleTNoyzV0"
+        }
+      ],
+      "company": {
+        "name": "AFUP",
+        "url": "https://www.linkedin.com/company/afup/",
+        "urn": "urn:li:fsd_company:46552943"
+      },
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "[CDI] Vous êtes passionnés par les AVIONS ? Et vous êtes manager ? J'ai le poste qu'il vous faut ! Publicatione d'#EM pour Display Interactive. \n-Excellent manager recherché, équipe en croissance, projets challengeants !\n-Paris Montrouge, 3/2jours de TT\n-Salaire autour de 70K€\n-Anglais courant demandé \nContactez-moi pour plus d'info !\n\nJodia Pansart",
+      "totalReactionCount": 27,
+      "likeCount": 26,
+      "empathyCount": 1,
+      "commentsCount": 1,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7259142415297449984/",
+      "postedAt": "2w",
+      "postedDate": "2024-11-04 10:00:20.151 +0000 UTC",
+      "postedDateTimestamp": 1730714420151,
+      "urn": "7259142415297449984",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQECkp4-omFyUA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1730450785001?e=1735171200\u0026v=beta\u0026t=c-FstC-ic_o3VdXlt4RDz-FbSaLI9vAB3eQYC0-7SY8"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "I have the pleasure to announce that starting January 6th 2025, I’ll start a new adventure as the CTO of WIMOVA! I’m thrilled and super excited to be part of this company, who has big ambitions towards sustainable mobility.\nThanks Jeanne LONDICHE for the connection, you’re the best!\n\n--\n\nJ’ai le plaisir d’annoncer qu’à partir du 6 janvier 2025 je commencerai une nouvelle aventure en tant que CTO chez WIMOVA ! Je suis ravi et très excité à l’idée de faire partie de cette entreprise, qui a de grandes ambitions dans le domaine de la mobilité durable.\nMerci à Jeanne LONDICHE pour la mise en relation, tu es la meilleure !",
+      "totalReactionCount": 166,
+      "likeCount": 76,
+      "appreciationCount": 1,
+      "empathyCount": 18,
+      "praiseCount": 71,
+      "commentsCount": 40,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7256611159397527553/",
+      "postedAt": "3w",
+      "postedDate": "2024-10-28 10:22:01.716 +0000 UTC",
+      "postedDateTimestamp": 1730110921716,
+      "reposted": true,
+      "urn": "7256611159397527553",
+      "author": {
+        "firstName": "Jérôme",
+        "lastName": "Vieilledent",
+        "username": "jeromevieilledent",
+        "url": "https://www.linkedin.com/in/jeromevieilledent"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Le #ForumPHP, c'était déjà la semaine dernière ! Quel bel évènement ! Bravo l'AFUP !\n\nLes nouveautés :\n- 3 tracks cette année, des conférences très pointues.\n- Le ForumPHP a obtenu la médaille d'argent du Label Evénement à Ambition Durable ! Une première pour Disneyland Paris et l'AFUP.\n\nC'était un plaisir de pouvoir échanger avec la communauté et faire le point sur l'année passée.\n\nNous serons, bien entendu, à l'AFUP Day Lyon et Lille !",
+      "totalReactionCount": 64,
+      "likeCount": 54,
+      "empathyCount": 6,
+      "praiseCount": 4,
+      "commentsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7253704694236114944/",
+      "postedAt": "1mo",
+      "postedDate": "2024-10-20 09:52:46.422 +0000 UTC",
+      "postedDateTimestamp": 1729417966422,
+      "urn": "7253704694236114944",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEFujNOVYX1mA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729417959681?e=1735171200\u0026v=beta\u0026t=9rs0PObpnlQ2B61E7nyG0eoodx2zOppN5VPirZr5YDc"
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHiaLfeTGTNCg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729417963340?e=1735171200\u0026v=beta\u0026t=jf-d6171Gb6ARV6jOGwwVqPZhcW7XjXXbOzcX-K91Rg"
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHtgN-JDDUPQw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729417955523?e=1735171200\u0026v=beta\u0026t=aDZVMLRPyzVUOX3lTSJiysn2N-7WuPQj8uiueoNYqzA"
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG_YzK91IVaDw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729417953967?e=1735171200\u0026v=beta\u0026t=UA8qnW2eBQitNNBRtXcKxeVx2KKPFeYfSsTRN_fQWM0"
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEHCYB01hyvhg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729417952184?e=1735171200\u0026v=beta\u0026t=rwRaRboeEODrHWLGuLx79A29Gfgr8hpEdBMHNLLFF2o"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "[CDI] Nouveau poste de Lead #DevOps - expert #AWS à Paris. \nSalaire : 100K€. \nVenez prendre le lead et être le bras droit du CTO sur la partie #Ops, #sécu et #infra. Equipe Ops de 4 personnes. Très belle entreprise, énorme croissance. Publicatione basé à Paris. \n\nMissions : \n- Architecturer l'infrastructure\n- Basculer sur du container pour être start of the art et optimiser les coûts et performances.\n- Améliorer l’infrastructure pour optimiser les capacités et rationaliser la platforme : #FinOps\n- Mettre en place des procédures, aspect RSSI : #Sécurité \n- Manager l'équipe Ops\n\nOn en discute ? \n\n#icicarecrute #AmazonWebService\nJodia Pansart\nJL Recrutement",
+      "totalReactionCount": 35,
+      "likeCount": 30,
+      "empathyCount": 3,
+      "praiseCount": 2,
+      "commentsCount": 10,
+      "repostsCount": 4,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7249699709466947584/",
+      "postedAt": "1mo",
+      "postedDate": "2024-10-09 08:38:23.644 +0000 UTC",
+      "postedDateTimestamp": 1728463103644,
+      "urn": "7249699709466947584",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "L'#OpenTechCon à commencé https://lnkd.in/dtCmC5hJ\n\nConférence en ligne gratuite : https://lnkd.in/dnQy7BxU\n\n#RDV à 13h30 pour vous raconter ma reconversion et vous donner des tips, from Zero to Hero 🔥🔥",
+      "totalReactionCount": 21,
+      "likeCount": 21,
+      "commentsCount": 1,
+      "repostsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7245750807000682496/",
+      "postedAt": "1mo",
+      "postedDate": "2024-09-28 11:06:51.929 +0000 UTC",
+      "postedDateTimestamp": 1727521611929,
+      "reposted": true,
+      "urn": "7245750807000682496",
+      "author": {
+        "firstName": "Smaïne",
+        "lastName": "Milianni",
+        "username": "smainemilianni",
+        "url": "https://www.linkedin.com/in/smainemilianni"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "OpenTechCon - Samedi 28 Septembre 2024: : OpenTechCon - Samedi 28 Septembre 2024",
+        "subtitle": "opentechcon.fr",
+        "link": "https://opentechcon.fr/programme/"
+      },
+      "entity": {}
+    },
+    {
+      "text": "[CDI] Nouveau poste pour DrData - Les Docteurs de la donnée de développeur.se intermédiaire/confirmé.e #PHP #Symfony autour d'une #architecturehexagonale et du #TDD. Venez rejoindre Franck Barsi, Ismaile Abdallah et Raphaël Geffroy dans l'équipe tech et travaillez sur de beaux projets ! \n\nLocaux à Paris, rythme hybride souhaité\nSalaire : 50/52K€\n\nPlus d'infos : \nhttps://lnkd.in/gCnt84eP\n\nPS: Ne postulez pas en direct, JL Recrutement a recruté toute l'équipe technique de cette entreprise. Faites-nous confiance, contactez-nous.\n\n#recrutementopensource #recrutementPHP\nJodia Pansart",
+      "totalReactionCount": 67,
+      "likeCount": 60,
+      "empathyCount": 7,
+      "commentsCount": 10,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7244643052886114305/",
+      "postedAt": "1mo",
+      "postedDate": "2024-09-25 09:45:02.767 +0000 UTC",
+      "postedDateTimestamp": 1727257502767,
+      "urn": "7244643052886114305",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHLuD9zvGRwbg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727187563205?e=1735171200\u0026v=beta\u0026t=9ORjp_y4WOrkNQKSOMpLGP0NkIUoHeVyPhBEzAuHB7w"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Bravo Les-Tilleuls.coop et big up Cécile Helary Hamerel  + toute l'équipe pour ce super évènement ! L'#APIPlatform 2024 était une parfaite réussite !\nJe retiendrai, entre autre, l'annonce du support de #Laravel dans #APIPlatform annoncé par Kévin Dunglas, qui va donner de nouvelles perspectives, j'en suis sûre, à ce beau framework et donc à #PHP. Bravo aussi Antoine Bluchet !\n\nPersonnellement c'était un évènement important :\n- Premier lightning talk. On se souviendra de mon démarrage sans micro 😅 ...\n- Première participation en physique à la table ronde avec Olivier Mansour et Clément Talleu animée par l'exceptionnel 👨‍💻 Grégoire Hébert !\n\nLe punch de JL Recrutement était toujours aussi bon et nous avons passé une super soirée communautaire aux Sales mômes.\n\nJ'espère être là l'année prochaine ! On se voit maintenant au #ForumPHP le 10-11 octobre !\n\nPS: un grand merci Jérémy Romey pour son aide. 😍",
+      "totalReactionCount": 76,
+      "likeCount": 55,
+      "appreciationCount": 1,
+      "empathyCount": 13,
+      "praiseCount": 7,
+      "commentsCount": 5,
+      "repostsCount": 4,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7244361715562266625/",
+      "postedAt": "1mo",
+      "postedDate": "2024-09-24 15:07:06.722 +0000 UTC",
+      "postedDateTimestamp": 1727190426722,
+      "urn": "7244361715562266625",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFoPcrbrAJVSg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727190342614?e=1735171200\u0026v=beta\u0026t=PhqZIAJgoj_H51nZOH900690LOa_XupeJaKtZETCcZU"
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFJauN9CAULFw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727190406798?e=1735171200\u0026v=beta\u0026t=vp5Vv4FpssIRGSL3WUG_yHAAXyVjKjw8uHOM77NZSlY"
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGY9E9-5WnF_g/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727190423544?e=1735171200\u0026v=beta\u0026t=bPyUELXZxuCw5wkCvlym1Bkv6XZDPldC8Ouy5ncb2HM"
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHTTNcSTR4HgQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727190389402?e=1735171200\u0026v=beta\u0026t=TJC0Id37JhJMqNxZlT2IETK25wY8a8cFasYE4YcjBQ0"
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHkzjz3t1l05A/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727190422486?e=1735171200\u0026v=beta\u0026t=9-aICg3fHhN2zI-pVQIibQ42rRVYirjIGo-W4I36EV8"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "𝐌𝐄𝐑𝐂𝐈 𝐩𝐨𝐮𝐫 𝐯𝐨𝐬 𝐫𝐞́𝐩𝐨𝐧𝐬𝐞𝐬. Chez JL Recrutement, nous sommes 2, bientôt 3, avec le retour JEUDI ( 🎉 ) de Jodia Pansart, nous faisons au mieux pour tous vous répondre !  \nPour info, nous avons déjà sélectionné plusieurs profils. Restez connectés, nous avons régulièrement des supers postes en #CDI / #missions! \nEntreprises engagées, sympathiques et en #PHP, si vous avez des besoins en recrutement, contactez-nous :) ! \n\n#recrutementPHP",
+      "totalReactionCount": 72,
+      "likeCount": 60,
+      "empathyCount": 5,
+      "InterestCount": 1,
+      "praiseCount": 6,
+      "commentsCount": 7,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7244262076980899840/",
+      "postedAt": "1mo",
+      "postedDate": "2024-09-24 08:31:11.033 +0000 UTC",
+      "postedDateTimestamp": 1727166671033,
+      "urn": "7244262076980899840",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEFxPD86lj0Qw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727166670115?e=1735171200\u0026v=beta\u0026t=EQczpLGoaDoI67DyCJCsf_MUjOf948OU2onGP8Ee_rk"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "resharedPublication": {
+        "text": "💥 Pendant que certain·e·s vous vendent leur dernier SaaS depuis des rooftops à Dubaï, moi, j’organise bénévolement une conférence tech en ligne... depuis un village paumé dans la Drôme ! 💻\n\nIl y a quelques mois, je me suis lancé un défi un peu fou : créer un événement tech 100% gratuit, ouvert à tous, avec des intervenant·e·s de qualité, le tout en ligne. Pas d'abonnement, pas de billets hors de prix, juste du contenu enrichissant, à suivre tranquillement depuis son canapé.\n\nLe 28 septembre 2024, l'OpenTechCon verra le jour ! C'est une journée de conférences dédiée au partage et à l'échange autour des sujets qui nous passionnent tous dans la tech. Que vous soyez novice ou expert·e, vous êtes les bienvenu·e·s. 🙌\n\nPourquoi je fais ça ? Parce que je crois en une tech plus accessible, plus ouverte et surtout plus humaine. J'ai voulu créer un espace bienveillant où l'on peut apprendre, échanger et surtout se sentir à l'aise.\n\nEnvie d’y participer ? Il suffit de se connecter en direct et de profiter de l’événement, sans pression. Le programme est varié, les intervenant·e·s sont prêt·e·s, et je suis plus motivé que jamais à faire de cette première édition une réussite ! 🚀\n\nAlors, qui est partant pour une journée tech depuis son canapé ? 🛋️",
+        "author": {
+          "firstName": "Yoan",
+          "lastName": "Bernabeu",
+          "username": "yoan-bernabeu",
+          "url": "https://www.linkedin.com/in/yoan-bernabeu"
+        },
+        "image": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4D22AQFXOfhEJj4O2g/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1727075084358?e=1735171200\u0026v=beta\u0026t=mTeRmfCT0QjjnoBM1EHDYPVIoubkXG6vq6QzcZ2GyH0"
+          }
+        ],
+        "company": {},
+        "document": {},
+        "celebration": {},
+        "poll": {},
+        "article": {},
+        "entity": {}
+      },
+      "text": "Super initiative ! Bravo Yoan !",
+      "totalReactionCount": 43,
+      "likeCount": 33,
+      "empathyCount": 4,
+      "praiseCount": 6,
+      "commentsCount": 2,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7243902936555077632/",
+      "postedAt": "1mo",
+      "postedDate": "2024-09-23 08:44:05.283 +0000 UTC",
+      "postedDateTimestamp": 1727081045283,
+      "reposted": true,
+      "urn": "7243902936555077632",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Publicatione pourvu. Merci pour vos contacts.\n[MISSION] Bonjour ! Je recherche un développeur #Laravel / #ReactJS en #freelance pour rejoindre une super équipe :\n- #fullremote\n- durée : 4 mois renouvelable \n- TJ : autour de 500€\n- ASAP\nDes intéressés ?",
+      "totalReactionCount": 153,
+      "likeCount": 132,
+      "appreciationCount": 7,
+      "empathyCount": 13,
+      "funnyCount": 1,
+      "commentsCount": 95,
+      "repostsCount": 8,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7243885258348068865/",
+      "postedAt": "1mo",
+      "postedDate": "2024-09-23 07:33:50.47 +0000 UTC",
+      "postedDateTimestamp": 1727076830470,
+      "urn": "7243885258348068865",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "[CDI] Je recherche un profil #Chefdeprojet technique pour un poste à Paris, possible #fullremote avec des déplacements. Projet from scratch, développement d'une nouvelle plateforme. Si vous aimez suivre, coordonner, organiser, accompagner, relancer... Appelez-moi. Equipe de choc et entreprise au top : le groupe Actual ! \n\n#icicarecrute #recrutementopensource \nJodia Pansart",
+      "totalReactionCount": 31,
+      "likeCount": 30,
+      "empathyCount": 1,
+      "commentsCount": 7,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7239261861177688066/",
+      "postedAt": "2mo",
+      "postedDate": "2024-09-10 13:22:06.686 +0000 UTC",
+      "postedDateTimestamp": 1725974526686,
+      "urn": "7239261861177688066",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "[TOP PROFIL] Hello, voici le profil d'un développeur intermédiaire à Lyon: \n-Développeur #PHP/#Symfony depuis 2022\n-Mise en place des bonnes pratiques, du code review, de la CI/CD, des outils de test #PHPunit, Symfony Inside, PHP Stan, CS Fixer ..\n-Contributeur open source dans plusieurs communautés\n-Formation sur de la #cleanarchi\n-Salaire 40/45K€\n-Dispo sous 2 mois \n\nOn en discute ?\nBon lundi !\n\nJodia Pansart",
+      "totalReactionCount": 23,
+      "likeCount": 19,
+      "appreciationCount": 3,
+      "empathyCount": 1,
+      "commentsCount": 5,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7238811448771063809/",
+      "postedAt": "2mo",
+      "postedDate": "2024-09-09 07:32:20 +0000 UTC",
+      "postedDateTimestamp": 1725867140000,
+      "urn": "7238811448771063809",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "[Conférence] Je parlerai du marché de l'emploi en 2024 avec Olivier Mansour et Clément Talleu lors de la table ronde de l'#APIPlatform cette année !\n\nNous discuterons notamment de l'évolution des salaires, du télétravail, des freelances / CDI, des juniors \u0026 des reconvertis, de l'impact du contexte économique sur notre secteur.  \n\nNous aborderons aussi un volet entreprise avec l'évolution des postes au sein des équipes IT, ou des initiatives des entreprises pour maintenir un juste équilibre entre attractivité et réalité afin d'attirer et de garder les bonnes personnes...  \n\nBref, beaucoup de sujets intéressants. Hâte de vous y croiser ! \n\n#recrutementopensource #PHP @JLRecrutement",
+      "totalReactionCount": 60,
+      "likeCount": 50,
+      "empathyCount": 4,
+      "praiseCount": 6,
+      "commentsCount": 1,
+      "repostsCount": 4,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7236662968250249216/",
+      "postedAt": "2mo",
+      "postedDate": "2024-09-03 09:15:02.327 +0000 UTC",
+      "postedDateTimestamp": 1725354902327,
+      "urn": "7236662968250249216",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEYnkbBbwLImw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1725110728248?e=1735171200\u0026v=beta\u0026t=IOXOeN9xmvS1JOP_DXTaKCDzKZdrK5MbJA2V-f8_BvM"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Bonne reprise à tous ! \nCette année s'annonce magnifique et challengeante ! Au programme chez JL Recrutement : \n- accompagner au mieux Jodia Pansart sur sa reprise du boulot après un heureux evenement\n- intégrer une nouvelle personne à l'équipe, quelqu'un qui m'est très cher, vous en saurez plus début octobre ! L'objectif être une équipe de choc : 3 nanas spécialisées en recrutement PHP avec écoute, bienveillance et compétence +++ !\n- être présente en équipe au ForumPHP, SymfonyLive et dès le 18-19 septembre à l'#APIPlatform, pour continuer d'être proche de la communauté et surtout de boire du punch avec vous ! #goodiesliquide\n- travailler sur un rythme de travail différent. Je réalise que mon entreprise est très classique sur ce point et ne correspond pas vraiment à ma personnalité et vos/mes attentes. Si en tant que chef d'entreprise, je n'essaie par de faire bouger les lignes, à quoi ça sert ? J'aimerais prendre du temps pour y réfléchir et proposer des choses à mon équipe. Des idées, propositions ? \n\nEt vous, quels sont vos objectifs ? \n\n#recrutementopensource #rentrée #PHP",
+      "totalReactionCount": 90,
+      "likeCount": 66,
+      "appreciationCount": 2,
+      "empathyCount": 13,
+      "praiseCount": 9,
+      "commentsCount": 15,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7236266605930840064/",
+      "postedAt": "2mo",
+      "postedDate": "2024-09-02 07:00:02.186 +0000 UTC",
+      "postedDateTimestamp": 1725260402186,
+      "urn": "7236266605930840064",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "/!\\ Super profil expert backend Lyonnais disponible:\nExpérience en passage à l’échelle/scalabilité et architecture\nExp en archi DDD, CQRS et event sourcing\n#PHP/ #Symfony, touche aussi à du Golang, Python et C/C++\nExpérience en infra et monitoring\nTrès orienté bonnes pratiques et qualité\nExp en AWS, Docker, Kuberneteset programmation asynchrone\nAnglais courant\nRecherche une belle équipe et un produit final\nSalaire : 65-75K€ en fonction de Paris ou Lyon. \nDisponible rapidement\n\nDes entreprises intéressées pour en savoir plus ? \nA bientôt ! \nJeanne",
+      "totalReactionCount": 33,
+      "likeCount": 32,
+      "empathyCount": 1,
+      "commentsCount": 2,
+      "repostsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7234113632584757248/",
+      "postedAt": "2mo",
+      "postedDate": "2024-08-27 08:24:53.34 +0000 UTC",
+      "postedDateTimestamp": 1724747093340,
+      "urn": "7234113632584757248",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Vous savez quoi? Je suis ravie de reprendre après une belle coupure! J'aime toujours autant mon job après plus de 13 ans dans l'écosystème #PHP #recrutementIT #accompagnement. Cette année s'annonce belle.\n\nVous êtes prêts? Beaucoup de choses à venir JL Recrutement.\n\nJe suis là pour vous accompagner :\n- côté candidats afin de trouver le bon job en fonction de vos attentes !\n- côté entreprises, afin de trouver les bonnes personnes pour vos équipes ! \n\n\n #recrutementopensource #PHP",
+      "totalReactionCount": 112,
+      "likeCount": 90,
+      "appreciationCount": 2,
+      "empathyCount": 17,
+      "praiseCount": 3,
+      "commentsCount": 16,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7231951556055609345/",
+      "postedAt": "2mo",
+      "postedDate": "2024-08-21 09:13:34.126 +0000 UTC",
+      "postedDateTimestamp": 1724231614126,
+      "urn": "7231951556055609345",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFJpAXcAgEo_g/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1724231612425?e=1735171200\u0026v=beta\u0026t=juIJ3c9igaNt39Vd1AQfNA6cLjQvYgfVtii6un-Zti0"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "[CDI] Bonjour ! Je recherche, pour intégrer l'équipe platform de Brevo, une personne capable de construire une #infrastructure d’hébergement de base de données #data #MongoDB et #clickhouse et de l’exploiter en production. \n\nBrevo construit sa propre plateforme as a service, donc un cloud interne. Démarche de platform as a product depuis du baremetal jusqu’à la consommation. \n\n=\u003e Venez participer à ce beau projet ! \n\n#platform #platformasaproduct #recrutementopensource",
+      "totalReactionCount": 19,
+      "likeCount": 19,
+      "commentsCount": 2,
+      "repostsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7219331552088915970/",
+      "postedAt": "4mo",
+      "postedDate": "2024-07-17 13:26:10.712 +0000 UTC",
+      "postedDateTimestamp": 1721222770712,
+      "urn": "7219331552088915970",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "[CDI \u0026 #Fullremote] Nouveau poste de Lead dev #PHP #Symfony #Sylius pour Resee, super entreprise dans le domaine de la seconde main. Beaucoup de belles missions. Profil bon communicant, autonome et passionné par l'univers startup recherché !\nPlus d'infos à venir très vite. \nJeanne \n\n#recrutementopensource",
+      "totalReactionCount": 64,
+      "likeCount": 62,
+      "empathyCount": 2,
+      "commentsCount": 7,
+      "repostsCount": 5,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7216428020964691968/",
+      "postedAt": "4mo",
+      "postedDate": "2024-07-09 13:08:34.947 +0000 UTC",
+      "postedDateTimestamp": 1720530514947,
+      "urn": "7216428020964691968",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "[CDI] Publicatione pour Brevo de Data Platform Infrastructure Engineer: #clickhouse #postgreSQL #MongoDB #bearmetal #cloud\nVenez construire une infra d’hébergement de base de données et l’exploiter en production. Orientée data et moteur de base de données\n-excellent cadre de travail \n-#fullremote\n-90K€\n\nPlus d'infos : jeanne@jlrecrutement.com\nBonne journée.",
+      "totalReactionCount": 10,
+      "likeCount": 10,
+      "commentsCount": 4,
+      "repostsCount": 4,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7216020466275094528/",
+      "postedAt": "4mo",
+      "postedDate": "2024-07-08 10:09:06.337 +0000 UTC",
+      "postedDateTimestamp": 1720433346337,
+      "urn": "7216020466275094528",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Nous sommes ravis d'accueillir le meetup @afup Paris de juillet ! 🎉\n\nhttps://lnkd.in/eMkzvWmr\n\nAu programme :\n\n- 🎙️ \"Du back-end au front-end : une intégration de Symfony et Storybook\" par Mathéo Daninos\n- 🎙️ \"Castor, un task runner qui vous veut du bien\" par Joël Wurtz",
+      "totalReactionCount": 15,
+      "likeCount": 15,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7213451555759423488/",
+      "postedAt": "4mo",
+      "postedDate": "2024-07-01 08:01:10.342 +0000 UTC",
+      "postedDateTimestamp": 1719820870342,
+      "reposted": true,
+      "urn": "7213451555759423488",
+      "author": {},
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQHHU7CWfz3FQQ/image-shrink_1280/image-shrink_1280/0/1719231175833?e=1732705200\u0026v=beta\u0026t=EJt-2xsdJlNoT3lX9CzOHfh_0WRwRYB9iRsB2afO9IM"
+        }
+      ],
+      "company": {
+        "name": "JoliCode",
+        "url": "https://www.linkedin.com/company/jolicode/",
+        "urn": "urn:li:fsd_company:2516997"
+      },
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Hello, \nNew poste de Lead Product Designer en 𝒇𝒖𝒍𝒍-𝒓𝒆𝒎𝒐𝒕𝒆 ! 65K \n\nGroupe actual est devenu un groupe référent sur le marché du travail avec ses solutions innovantes dans le recrutement et le détachement de compétences.\nL'équipe technique est composée de gens brillants ! \n\n𝑭𝙖𝒄𝙩𝒔 \u0026 𝑭𝙞𝒈𝙪𝒓𝙚𝒔\n600 agences en 🇫🇷\n3 550 collaborateurs permanents\n33 000 entreprises clientes\n99 agences d'intérim \u0026 insertion\n70 000 collaborateurs intérimaires détachés en mission chaque année\n165 000 candidats à l'emploi accompagnés\n\nEn charge d’une équipe de 8 à 9 Product designer, vous serez le/la guide du processus de design grâce à une profonde connaissance de la conception de produit et des principes généraux dʼune interface utilisateur. Vous serez le/la garant(e) de la création et de lʼapplication des stratégies UX au sein des produits. Votre rôle en tant que lead sera de tirer partie des forces de votre équipe et prendre des décisions de conception fondées sur les résultats de l'analyse des recherches utilisateurs/data en cas dʼarbitrage nécessaire.\n\nmissions principales tournées autour de \n- 𝗩𝗶𝘀𝗶𝗼𝗻 𝗱𝗲𝘀𝗶𝗴𝗻 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗶𝘁 (𝗨𝗫/𝗨𝗜)\n- 𝗦𝘂𝗶𝘃𝗶 𝗱𝗲 𝗹𝗮 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲\n- 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗱'𝗲́𝗾𝘂𝗶𝗽𝗲\n\nPlus d'infos sur le Github 100% open source : https://lnkd.in/gmr_8ZAR\n\nDispos en DM\n\nBelle journée",
+      "totalReactionCount": 19,
+      "likeCount": 17,
+      "appreciationCount": 2,
+      "repostsCount": 5,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7211677307751542785/",
+      "postedAt": "4mo",
+      "postedDate": "2024-06-26 10:30:56.653 +0000 UTC",
+      "postedDateTimestamp": 1719397856653,
+      "urn": "7211677307751542785",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "job-board-php/GROUPE_ACTUAL.md at master · jlondiche/job-board-php",
+        "subtitle": "github.com",
+        "link": "https://github.com/jlondiche/job-board-php/blob/master/GROUPE_ACTUAL.md"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Hello tout le monde,\nJ'ai plusieurs #postes très intéressants dans différents domaines  :\n\n - de la QA\n - de la BI/Data \n - du Product Design \n - du Front (React.js/Typescript)\n - et évidemment en Backend sur PHP/Symfony \n\nAu sein d'entreprises coup de ❤️, remote flexible et très humaines !\n\n+ d'infos sur le Github 100% open source : https://lnkd.in/egxSJ2v\n\nInfos et contact en DM ;)",
+      "totalReactionCount": 43,
+      "likeCount": 37,
+      "appreciationCount": 4,
+      "empathyCount": 1,
+      "praiseCount": 1,
+      "commentsCount": 4,
+      "repostsCount": 10,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7211375929833533442/",
+      "postedAt": "4mo",
+      "postedDate": "2024-06-25 14:33:22.558 +0000 UTC",
+      "postedDateTimestamp": 1719326002558,
+      "urn": "7211375929833533442",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "job-board-php/README.md at master · jlondiche/job-board-php",
+        "subtitle": "github.com",
+        "link": "https://github.com/jlondiche/job-board-php/blob/master/README.md"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Nouveau poste #QA Automatisation à Paris 3J de TT, 55/65K 👇🏼\n\n\n𝗗𝗿𝗗𝗮𝘁𝗮 𝗲𝘀𝘁 𝗹’𝗮𝘂𝘁𝗲𝘂𝗿 𝗱𝘂 𝟭𝗲𝗿 𝗯𝗿𝗲𝘃𝗲𝘁 𝗳𝗿𝗮𝗻𝗰̧𝗮𝗶𝘀 𝗽𝗼𝘂𝗿 𝗹𝗲 𝘁𝗿𝗮𝗶𝘁𝗲𝗺𝗲𝗻𝘁 𝗱𝗲 𝗱𝗼𝗻𝗻𝗲́𝗲𝘀 𝗱𝗲 𝗰𝗼𝗻𝘀𝗲𝗻𝘁𝗲𝗺𝗲𝗻𝘁 𝘃𝗶𝗮 𝗹𝗮 𝘁𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲 𝗯𝗹𝗼𝗰𝗸𝗰𝗵𝗮𝗶𝗻 👩🏽‍⚕️👨🏻‍⚕️\nL’entreprise milite pour la transparence et l’éthique des données de santé. C’est une société dédiée à l’environnement dynamique du Big Data et de l’innovation. DrDATA est partis du constat selon lequel notre environnement quotidien est piloté par l’utilisation massive et systématique de données personnelles, parfois sans en avoir connaissance. L’essence de leur projet est de contribuer à la régulation intelligente de l’utilisation de ces données dans l’intérêt commun, tout en accompagnant les acteurs dans la protection de ces données et en garantissant les opportunités économiques pour ces derniers.\n\nDans un contexte de #croissance, DrData recherche un(e) chargé(e) de test et qualité logicielle pour renforcer l'équipe technique composée d’une dizaine de personnes et l'aider à contrôler la qualité du produit isalid.\n\n- Conception, rédaction et estimation d’exécution des scénarios de tests fonctionnels et techniques\n- Mise en place de procédures d’automatisation des tests\n- Création et à la gestion des jeux de données dédiés à ces tests\n- Exécution des scénarios de tests manuels et automatiques\n- Analyser les résultats des tests\n- Qualifier les anomalies remontées\n- Réalisation de tests de sécurité, tests d’accessibilité,\n- Analyse de données pour scaler la solution, intervention sur les éventuelles déviations entre les spécifications et les développements réalisés\n- Communiquer avec les équipes internes sur la résolution des anomalies\n- Communiquer sur la progression et les résultats des tests\n- Rédaction/mise à jour de la documentation fonctionnelle interne et de la documentation à l’usage des utilisateurs\n\nTechnos : Python, Jest, Cypress, Behat\n\nInfos supplémentaires et contact en DM\n\nBelle journée :)",
+      "totalReactionCount": 3,
+      "likeCount": 3,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7209487795042566144/",
+      "postedAt": "5mo",
+      "postedDate": "2024-06-20 09:30:36.144 +0000 UTC",
+      "postedDateTimestamp": 1718875836144,
+      "urn": "7209487795042566144",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHSAGer4L2QuA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1718875835263?e=1735171200\u0026v=beta\u0026t=8a3ZGbE_wk5HvpQRL5InzmfY864Ky2qThag0s-FRi58"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "resharedPublication": {
+        "text": "[CDI] Nouveau poste de lead developpeur(se) #PHP / #Symfony #APIPlatform à Paris pour Dayuse.com ! Entreprise rentable et avec une forte croissance. L'équipe IT recherche son lead ! Contactez-moi pour plus d'infos ! \n\nDomaine : Hôtellerie #tourismelocal \nOù : Paris 9, rythme hybride : 3 j au bureau / semaine \nQuoi : Le leader des hôtels day use.\n\nDayuse bouscule l’industrie en donnant accès aux chambres et aux services de l'hôtel en journée et en permettant aux hôteliers de diversifier leurs sources de revenus. \n\nDans 26 pays, 500 villes et avec plus de 7000 partenaires hôteliers. Du “daycation” près de chez soi à un meeting de dernière minute, il est désormais possible de découvrir les hôtels d’une manière inédite. \n\nDayuse ouvre la porte à un monde de possibilités où les utilisateurs composent un séjour à la carte et les hôteliers une offre au goût du jour, orientée vers un tourisme local.\n\n𝐅𝐚𝐜𝐭𝐬 \u0026 𝐅𝐢𝐠𝐮𝐫𝐞𝐬\n* 13 Ans d'existence \n* Entreprise rentable depuis plus de 4 ans \u0026 Croissance à 2 chiffres\n* Start-up innovante et internationale\n* Et surtout un super CTO que je connais depuis plus de 6 ans !!\n\n𝐒𝐭𝐚𝐜𝐤 :\n* Back end : Php8, Symfony6, MySql8, ElasticSearch8, RabbitMq\n* Front end : React, ReactNative, Nextjs, TypeScript, Twig\n\n𝐏𝐨𝐬𝐭𝐞 : 𝐋𝐞𝐚𝐝 𝐝𝐞́𝐯𝐞𝐥𝐨𝐩𝐩𝐞𝐮𝐫(𝐬𝐞) 𝐛𝐚𝐜𝐤-𝐞𝐧𝐝 𝐒𝐲𝐦𝐟𝐨𝐧𝐲 𝟔 \u0026 𝐀𝐏𝐈 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌\n\nRattaché au CTO, vous rejoindrez une équipe composée de développeurs Back-end, Front-end, PO et Data analystes. Le front-end et l'app mobile de Dayuse.com ont été totalement refait et utilisent toutes les technologies de pointe de l’écosystème React. Ils interagissent avec le Back-end via une API basée sur API platform.\n\nAujourd'hui l'équipe recherche un(e) lead developpeur(se) pour embarquer les équipes et continuer sur une partie de son temps à développer. \n\n𝐌𝐢𝐬𝐬𝐢𝐨𝐧𝐬 :\n\n* Management\n* Développement et architecture\n* Leader des projets techniques de A à Z\n* Sujets autour de la connectivité : se connecte avec ACCOR aujourd'hui et fonctionne tres bien. Aimerait se connecter à d'autres plateformes hotellieres plus petites et des plateformes d'achats et développer la relation hotel\n* Outils marketing à intégrer\n* Intégration des moyens de paiement CB\n\n𝐏𝐫𝐨𝐟𝐢𝐥\n\n* Vous avez une expérience de lead pertinente.\n* Vrai capacité à animer des équipes\n* Profil dynamique\n* Vous êtes passionné par la compréhension métier, l'expérience utilisateur et les bonnes pratiques de développement.\n* Appétence Ops un plus.\n\n𝐒𝐚𝐥𝐚𝐢𝐫𝐞\nSalaire : 60/70K€ selon profil\n\nPlus d'infos, voici la fiche de poste complète : \nhttps://lnkd.in/gpY7DSj8\n\nA très vite ! \n#PHP #Symfony #recrutementopensource\nJodia Pansart Louis Ferraro",
+        "author": {
+          "firstName": "Jeanne",
+          "lastName": "LONDICHE",
+          "username": "jlondiche",
+          "url": "https://www.linkedin.com/in/jlondiche"
+        },
+        "image": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E22AQFopI699IJpRg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1715072848383?e=1735171200\u0026v=beta\u0026t=9CEUhU7zBTz4haoHeuUTx-jWoBGmbiVul8iQzBZY4gk"
+          }
+        ],
+        "company": {},
+        "document": {},
+        "celebration": {},
+        "poll": {},
+        "article": {},
+        "entity": {}
+      },
+      "text": "Point après 1 mois de recherche pour Dayuse.com :\n- Le poste mobile : 1 candidat présenté, 1 proposition envoyée et acceptée. Le candidat a déjà démarré! Bravo Louis Ferraro pour ton travail.\n- Le poste de lead développeur: 4 candidats présentés, 3 entretiens finaux, 2 propositions envoyées \u0026 1 acceptée! Un top candidat de la communauté !! 💙 🐘 💙 \n\nToujours un poste de développeur back-end sénior #PHP #Symfony #APIPlatform, dans cette super équipe. On en discute ? \n\nPassez par JL Recrutement c'est avoir un vrai accompagnement, peu de profils de qualité et de supers équipes techniques !\n\nVous recrutez pour votre équipe IT ? Contactez-moi !\n\nA très vite !\nJeanne \n06 49 35 64 30\njeanne.londiche@jlrecrutement.com",
+      "totalReactionCount": 31,
+      "likeCount": 28,
+      "empathyCount": 1,
+      "praiseCount": 2,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7208475874340319232/",
+      "postedAt": "5mo",
+      "postedDate": "2024-06-17 14:29:35.448 +0000 UTC",
+      "postedDateTimestamp": 1718634575448,
+      "reposted": true,
+      "urn": "7208475874340319232",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Merci Fred de HappyToDev pour cette interview où j'explique mon positionnement, parcours et métier avec la création du recrutement libre et open source en 2018, il y a déjà 6 ans !! \n\n http://go.itanea.fr/nl90\n\nAvec JL Recrutement nous nous efforçons de casser les codes des cabinets de recrutement, pour plus de transparence, dans l'intérêt du candidat. \n\n#recrutementopensource #PHP",
+      "totalReactionCount": 17,
+      "likeCount": 13,
+      "praiseCount": 4,
+      "commentsCount": 2,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7208393512109649921/",
+      "postedAt": "5mo",
+      "postedDate": "2024-06-17 09:02:18.762 +0000 UTC",
+      "postedDateTimestamp": 1718614938762,
+      "urn": "7208393512109649921",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Quoi de neuf les devs ? Numéro 90",
+        "subtitle": "happytodev.substack.com",
+        "link": "http://go.itanea.fr/nl90"
+      },
+      "entity": {}
+    },
+    {
+      "resharedPublication": {
+        "text": "Joyeux anniversaire PHP ! PHP a été créé il y a 29 ans : 29 ans de progrès, d'innovation, d'évolution, et ce n'est pas près de s'arrêter !\nÀ l'AFUP, nous sommes ravis de fédérer la communauté sur le territoire français : une communauté bienveillante, chaleureuse, et curieuse. En route pour une trentième année !",
+        "author": {},
+        "image": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E22AQHKrdxPh5HsVw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1718032313430?e=1735171200\u0026v=beta\u0026t=zTnmpvU04Y9aQf5vioYrKIz_IvQr-0C0cFgZ99ISzbQ"
+          }
+        ],
+        "company": {},
+        "document": {},
+        "celebration": {},
+        "poll": {},
+        "article": {},
+        "entity": {}
+      },
+      "text": "Joyeux Anniversaire #PHP et bravo l'AFUP !",
+      "totalReactionCount": 19,
+      "likeCount": 17,
+      "empathyCount": 1,
+      "praiseCount": 1,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7205952374887047168/",
+      "postedAt": "5mo",
+      "postedDate": "2024-06-10 15:22:06.294 +0000 UTC",
+      "postedDateTimestamp": 1718032926294,
+      "reposted": true,
+      "urn": "7205952374887047168",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Nouveau poste #EngineeringManager chez CCM Benchmark - équipe média\n#Paris, 2J de TT, 55/65K€ 👇🏼\n\n\n𝗔𝘂 𝘀𝗲𝗶𝗻 𝗱’𝘂𝗻𝗲 𝗲́𝗾𝘂𝗶𝗽𝗲 𝗰𝗼𝗺𝗽𝗼𝘀𝗲́𝗲 𝗱𝗲 𝟴 𝗽𝗲𝗿𝘀𝗼𝗻𝗻𝗲𝘀 𝗾𝘂𝗶 𝗴𝗲̀𝗿𝗲 𝘁𝗼𝘂𝘀 𝗹𝗲 𝘄𝗼𝗿𝗸𝗳𝗹𝗼𝘄 𝗱𝗲𝘀 𝗱𝗶𝗳𝗳𝗲́𝗿𝗲𝗻𝘁𝘀 𝘀𝗶𝘁𝗲𝘀 𝗱𝘂 𝗴𝗿𝗼𝘂𝗽𝗲 (𝗟’𝗶𝗻𝘁𝗲𝗿𝗻𝗮𝘂𝘁𝗲, 𝗝𝗼𝘂𝗿𝗻𝗮𝗹 𝗱𝗲𝘀 𝗳𝗲𝗺𝗺𝗲𝘀...), 𝘃𝗼𝘂𝘀 𝘃𝗶𝗲𝗻𝗱𝗿𝗲𝘇 𝗱𝗶𝗿𝗶𝗴𝗲𝗿 𝗰𝗲𝘁𝘁𝗲 𝗲́𝗾𝘂𝗶𝗽𝗲 𝗮𝗳𝗶𝗻 𝗱𝗲 𝗹𝗲𝘀 𝗴𝘂𝗶𝗱𝗲𝗿 𝘀𝘂𝗿 𝗱𝗲𝘀 𝘀𝘂𝗷𝗲𝘁𝘀 𝘁𝗿𝗲̀𝘀 𝘁𝗲𝗰𝗵𝗻𝗶𝗾𝘂𝗲𝘀, 𝗮𝘂𝘅 𝗰𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲𝘀 𝘁𝗿𝗲̀𝘀 𝗻𝗼𝗺𝗯𝗿𝗲𝘂𝘅 𝗮𝗶𝗻𝘀𝗶 𝗾𝘂𝗲 𝘀𝘂𝗿 𝘁𝗼𝘂𝘁𝗲 𝗹𝗮 𝗽𝗮𝗿𝘁𝗶𝗲 𝗱'𝗮𝗰𝗰𝗼𝗺𝗽𝗮𝗴𝗻𝗲𝗺𝗲𝗻𝘁 𝗱𝗲 𝗹'𝗲́𝗾𝘂𝗶𝗽𝗲.\n\n#Missions :\n\n- Vous dirigez les différents projets : dette technique, ré-architecture, migration \u0026 re-factorisation\n- Vous apporterez votre expertise pour la conception et la mise en œuvre des nouvelles fonctionnalités au sein de ces briques.\n- Vous serez sollicité(e) en tant qu’expert technique par les équipes de développement et devrez être en mesure de comprendre rapidement leurs enjeux techniques.\n- Vous accompagnerez l'équipe au quotidien : montées en compétences, travail en équipe, gestion des conflits, recrutements\n\n1ère XP réussie en tant que manager(euse) d'équipe technique\nVous êtes autonome et doté(e) de bonnes capacités de communication\nVous disposez d'une expertise technique en PHP/Symfony et docker.\nVous êtes capable de débloquer les devs sur des challenges techniques complexes\n\nQu’en pensez-vous ? \nPlus d’informations en DM\n\nJodia Pansart Louis Ferraro",
+      "totalReactionCount": 8,
+      "likeCount": 8,
+      "commentsCount": 1,
+      "repostsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7203331130362601472/",
+      "postedAt": "5mo",
+      "postedDate": "2024-06-03 09:46:12.899 +0000 UTC",
+      "postedDateTimestamp": 1717407972899,
+      "urn": "7203331130362601472",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF1q1YW4v4yDg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1717407972040?e=1735171200\u0026v=beta\u0026t=pfmAHMBssKlIjKtc3rpHOYqlcHGFyKP-xMpeEC7p-Dk"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Hey ! L'avez-vous vu passer celui-là ?  Publicatione de #Leaddev en CDI chez Dayuse à Paris. Salaire : 70/75K€ #PHP #APIPlatform #Symfony  ⬇ \n\nhttps://lnkd.in/gpY7DSj8\n\n#recrutementopensource #icicarecrute\navec Jodia Pansart et Louis Ferraro",
+      "totalReactionCount": 38,
+      "likeCount": 36,
+      "empathyCount": 2,
+      "commentsCount": 2,
+      "repostsCount": 5,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7200860950378283008/",
+      "postedAt": "5mo",
+      "postedDate": "2024-05-27 14:10:36.097 +0000 UTC",
+      "postedDateTimestamp": 1716819036097,
+      "urn": "7200860950378283008",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFJqcQEKM5hVQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1716819035166?e=1735171200\u0026v=beta\u0026t=5Oboi9mPNC6Vxm46FhuuakVnMIupGVCp13ToRSSwd54"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "J-2 #AFUPday2024 🔥\nRetrouvez l’équipe de JL Recrutement à #Lyon et #Lille \n\nCette année encore nous sommes heureux d'être sponsor national des 4 éditions afin de soutenir au maximum la communauté ! \n\nNous avons hâte de retrouver tout le monde et découvrir les différentes confs'\n\nÀ vendredi :)",
+      "totalReactionCount": 20,
+      "likeCount": 15,
+      "empathyCount": 3,
+      "praiseCount": 2,
+      "commentsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7198950918820614144/",
+      "postedAt": "5mo",
+      "postedDate": "2024-05-22 07:40:49.087 +0000 UTC",
+      "postedDateTimestamp": 1716363649087,
+      "urn": "7198950918820614144",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHgtyo-SMnqyw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1716363648601?e=1735171200\u0026v=beta\u0026t=A20tVf_c1L_CcizDYN7UHEuCdYwX_cvuiY1jyo6cgq0"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Excellent profil #Lead sur #Paris disponible\ncercle d'expertise très large #PHP #SYMFONY #DDD #TDD #ARCHI #API\n\nPlus d'informations en DM",
+      "totalReactionCount": 13,
+      "likeCount": 13,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7198672502565281794/",
+      "postedAt": "5mo",
+      "postedDate": "2024-05-21 13:14:29.479 +0000 UTC",
+      "postedDateTimestamp": 1716297269479,
+      "urn": "7198672502565281794",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEXdZx1yA_yMw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1716297267954?e=1735171200\u0026v=beta\u0026t=gyplQx5citBMg9oaf5Z1IrpK7IxBQC4kOwtmNK_bm0M"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Hello, importante mise à jour #Github aujourd’hui !!\nplusieurs nouveaux postes à pourvoir - Paris et Lyon 👇🏼\n\nNotre Github 𝟭𝟬𝟬% 𝗼𝗽𝗲𝗻-𝘀𝗼𝘂𝗿𝗰𝗲 est à jour - https://lnkd.in/egxSJ2v\n\nChez #Evenizer à Paris, 2J de TT\naprès avoir recruté leur CTO cette start-up éditrice d’un logiciel PaaS recherche son #Lead \néquipe tech à créer, #PHP #Symfony #Redis #OVH\n55/60K\n\nChez #CMI Média à Paris, 3J de TT\nActuellement en forte croissance, l’entreprise recherche deux personnes\nUn #Lead PHP/Symfony + Node.JS dans un environnement DDD avec de l’architecture Hexagonale \n60/65K\nUn #Dev Back-end PHP/Symfony + SQL qui a déjà évolué dans un contexte fort trafic \n50/60K \n\nChez #Synapsun à Lyon, 2J de TT\nEngagée dans l’innovation et la transition energétique, l’entreprise monte une nouvelle équipe tech !\nIls recherchent donc un #Lead PHP/Symfony avec une XP sur des applis/solutions déjà mise en production\n50/55K\nUn développeur #fullstack PHP/Symfony pour gérer la solution technique dans son intégralité : conception, développement et maintenance \n40/45K \nUn #PO junior pour superviser le développement produit et les users story\n40/45K \n\nJe suis disponible en MP pour toutes informations complémentaires\n\nBon week-end :)\n\nJL",
+      "totalReactionCount": 32,
+      "likeCount": 31,
+      "InterestCount": 1,
+      "commentsCount": 3,
+      "repostsCount": 4,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7197242735857156098/",
+      "postedAt": "6mo",
+      "postedDate": "2024-05-17 14:33:06.532 +0000 UTC",
+      "postedDateTimestamp": 1715956386532,
+      "urn": "7197242735857156098",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "GitHub - jlondiche/job-board-php",
+        "subtitle": "github.com",
+        "link": "https://github.com/jlondiche/job-board-php/blob/master/README.md"
+      },
+      "entity": {}
+    },
+    {
+      "resharedPublication": {
+        "text": "",
+        "author": {},
+        "company": {
+          "name": "Les-Tilleuls.coop",
+          "url": "https://www.linkedin.com/company/les-tilleuls-coop/",
+          "urn": "urn:li:fsd_company:2935739"
+        },
+        "document": {},
+        "celebration": {},
+        "poll": {},
+        "article": {},
+        "entity": {}
+      },
+      "text": "J'ai le plaisir de vous annoncer que je prendrai la parole dans le cadre de l'évènement #APIPlatform ; conférence organisée par Les-Tilleuls.coop. 🎉 \n\nOn se retrouver le 19 \u0026 20 septembre à Lille ! \n\nPour venir : https://lnkd.in/eaFbQh-V",
+      "totalReactionCount": 53,
+      "likeCount": 36,
+      "appreciationCount": 2,
+      "empathyCount": 5,
+      "praiseCount": 10,
+      "commentsCount": 8,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7196810036969361408/",
+      "postedAt": "6mo",
+      "postedDate": "2024-05-16 09:53:43.078 +0000 UTC",
+      "postedDateTimestamp": 1715853223078,
+      "reposted": true,
+      "urn": "7196810036969361408",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "!! Nouveau poste développeur(euse) #mobile React Native IOS/Android\nParis, 2J de TT, 50/60K \n\nVenez reprendre en main l'app mobile de Dayuse.com\nIls bousculent l’industrie en donnant accès aux chambres et aux services de l'hôtel en journée et en permettant aux hôteliers de diversifier leurs sources de revenus.\nPrésent dans plus de 26 Pays ! \n\n#reactnative #stipe #sentry #effector #GraphQL\n\n- Forts eujeux dans les prochains mois et années. \n- Focus fort sur le mobile et Dayuse . com souhaite développer de la diversification sur leur application.\n- Etre le garant de l'application mobile.\n- Beaucoup de projets ambitieux à venir !\n\nToutes les infos sur le Github 100% open source : https://lnkd.in/gpY7DSj8\n\nN’hésitez pas à me contacter en DM pour plus d'infos\nJodia Pansart Louis Ferraro",
+      "totalReactionCount": 12,
+      "likeCount": 11,
+      "empathyCount": 1,
+      "commentsCount": 1,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7196149041624215552/",
+      "postedAt": "6mo",
+      "postedDate": "2024-05-14 14:07:09.507 +0000 UTC",
+      "postedDateTimestamp": 1715695629507,
+      "urn": "7196149041624215552",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Dayuse.com : hotels available during the day -75%",
+        "subtitle": "dayuse.com",
+        "link": "http://Dayuse.com"
+      },
+      "entity": {}
+    },
+    {
+      "text": "[CDI] Nouveau poste de lead developpeur(se) #PHP / #Symfony #APIPlatform à Paris pour Dayuse.com ! Entreprise rentable et avec une forte croissance. L'équipe IT recherche son lead ! Contactez-moi pour plus d'infos ! \n\nDomaine : Hôtellerie #tourismelocal \nOù : Paris 9, rythme hybride : 3 j au bureau / semaine \nQuoi : Le leader des hôtels day use.\n\nDayuse bouscule l’industrie en donnant accès aux chambres et aux services de l'hôtel en journée et en permettant aux hôteliers de diversifier leurs sources de revenus. \n\nDans 26 pays, 500 villes et avec plus de 7000 partenaires hôteliers. Du “daycation” près de chez soi à un meeting de dernière minute, il est désormais possible de découvrir les hôtels d’une manière inédite. \n\nDayuse ouvre la porte à un monde de possibilités où les utilisateurs composent un séjour à la carte et les hôteliers une offre au goût du jour, orientée vers un tourisme local.\n\n𝐅𝐚𝐜𝐭𝐬 \u0026 𝐅𝐢𝐠𝐮𝐫𝐞𝐬\n* 13 Ans d'existence \n* Entreprise rentable depuis plus de 4 ans \u0026 Croissance à 2 chiffres\n* Start-up innovante et internationale\n* Et surtout un super CTO que je connais depuis plus de 6 ans !!\n\n𝐒𝐭𝐚𝐜𝐤 :\n* Back end : Php8, Symfony6, MySql8, ElasticSearch8, RabbitMq\n* Front end : React, ReactNative, Nextjs, TypeScript, Twig\n\n𝐏𝐨𝐬𝐭𝐞 : 𝐋𝐞𝐚𝐝 𝐝𝐞́𝐯𝐞𝐥𝐨𝐩𝐩𝐞𝐮𝐫(𝐬𝐞) 𝐛𝐚𝐜𝐤-𝐞𝐧𝐝 𝐒𝐲𝐦𝐟𝐨𝐧𝐲 𝟔 \u0026 𝐀𝐏𝐈 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌\n\nRattaché au CTO, vous rejoindrez une équipe composée de développeurs Back-end, Front-end, PO et Data analystes. Le front-end et l'app mobile de Dayuse.com ont été totalement refait et utilisent toutes les technologies de pointe de l’écosystème React. Ils interagissent avec le Back-end via une API basée sur API platform.\n\nAujourd'hui l'équipe recherche un(e) lead developpeur(se) pour embarquer les équipes et continuer sur une partie de son temps à développer. \n\n𝐌𝐢𝐬𝐬𝐢𝐨𝐧𝐬 :\n\n* Management\n* Développement et architecture\n* Leader des projets techniques de A à Z\n* Sujets autour de la connectivité : se connecte avec ACCOR aujourd'hui et fonctionne tres bien. Aimerait se connecter à d'autres plateformes hotellieres plus petites et des plateformes d'achats et développer la relation hotel\n* Outils marketing à intégrer\n* Intégration des moyens de paiement CB\n\n𝐏𝐫𝐨𝐟𝐢𝐥\n\n* Vous avez une expérience de lead pertinente.\n* Vrai capacité à animer des équipes\n* Profil dynamique\n* Vous êtes passionné par la compréhension métier, l'expérience utilisateur et les bonnes pratiques de développement.\n* Appétence Ops un plus.\n\n𝐒𝐚𝐥𝐚𝐢𝐫𝐞\nSalaire : 60/70K€ selon profil\n\nPlus d'infos, voici la fiche de poste complète : \nhttps://lnkd.in/gpY7DSj8\n\nA très vite ! \n#PHP #Symfony #recrutementopensource\nJodia Pansart Louis Ferraro",
+      "totalReactionCount": 34,
+      "likeCount": 30,
+      "empathyCount": 4,
+      "commentsCount": 4,
+      "repostsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7193536912479989760/",
+      "postedAt": "6mo",
+      "postedDate": "2024-05-07 09:07:29.388 +0000 UTC",
+      "postedDateTimestamp": 1715072849388,
+      "urn": "7193536912479989760",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFopI699IJpRg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1715072848383?e=1735171200\u0026v=beta\u0026t=9CEUhU7zBTz4haoHeuUTx-jWoBGmbiVul8iQzBZY4gk"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "CDI / Mise à jour du github ! \n3 #opportunitées tech à Paris pour CCM Benchmark 👇🏼\n\nLe groupe CCM Benchmark, éditeur web leader en France (L’internaute, Journal des femmes, Comment ça marche) est à la recherche de différents profils.\n\nL’équipe technique évolue dans un contexte de très forte charge. La performance et l’innovation sont au coeur de ses préoccupations du quotidien. Les équipes disposent de temps dédié à la veille / R\u0026D et peuvent assister à des meetups / conférences. 2 à 3 de TT par semaine\n\n-Un·e #EM pour diriger l’équipe et les différents projets : dette technique, ré-architecture, migration \u0026 re-factorisation. \n55/70K\n\n-Un·e dev senior #PHP #Symfony pour participer à la conception et au développement de nouvelles fonctionnalités pour améliorer l’expérience des utilisateurs.\n45/55K\n\n-Un·e chef de projet #Adtech / #JavaScript pour mettre en place toute la stack de monétisation et d’intégration des différents sites du groupe. \n45/55K\n\nTout est sur notre Github : https://lnkd.in/gKrZ53gY\n\nDispo pour plus d’informations. \n\nBelle journée :)",
+      "totalReactionCount": 14,
+      "likeCount": 14,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7191706195722706944/",
+      "postedAt": "6mo",
+      "postedDate": "2024-05-02 07:52:52.5 +0000 UTC",
+      "postedDateTimestamp": 1714636372500,
+      "urn": "7191706195722706944",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Nouveau poste dev expert fullstack Laravel / React.js + Design System \nFull remote 🏠 55/65K€\n\nActual est devenu un groupe référent sur le marché du travail avec ses solutions innovantes dans le recrutement et le détachement de compétences.\nAujourd'hui, Edouard Bardet le CTO souhaite constituer une équipe CORE, une garde rapprochée travaillant essentiellement sur la technique.\n\n𝙋𝙧𝙤𝙛𝙞𝙡 𝙧𝙚𝙘𝙝𝙚𝙧𝙘𝙝𝙚́ :\n- Un minimun de 5 ans d'expérience en tant que développeur.se JS / ReactJS avec une capacité à développer sur du back-end également, idéalement en Laravel\n- Expérience en lead tech pour pouvoir gérer des sujets de A à Z\n- Capacité à collaborer en Agile\n- Expérience réussie sur TypeScript et Jest avec une attention particulière sur la production d'un code de qualité\n- Expérience sur la mise en place d'un design system\n- Sensibilité UX/UI afin de proposer une UX à l'état de l'art\n#agility #kiss #datadriven #softwarecraftsmanship #solid\n\nTous les autres postes en ligne sur le Github : https://lnkd.in/gmr_8ZAR\n\nN'hésitez pas à m'envoyer un MP pour en savoir davantage :)",
+      "totalReactionCount": 33,
+      "likeCount": 28,
+      "appreciationCount": 3,
+      "empathyCount": 1,
+      "praiseCount": 1,
+      "commentsCount": 4,
+      "repostsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7188893118425899008/",
+      "postedAt": "6mo",
+      "postedDate": "2024-04-24 13:34:42.608 +0000 UTC",
+      "postedDateTimestamp": 1713965682608,
+      "urn": "7188893118425899008",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Hello, je serai au 1st meetup #php \u0026 #js ce soir à Lyon chez Wanadev\nl'occasion de discuter des postes ouverts sur la région 👇🏼\n\n\nChez Bsoft, leader dans l'émargement digital qui a développé ses propres solutions à la suite de la pandémie. \n\n#Developpeur(se) sénior / #lead developpeur(se) \n\n- Gérer la solution technique dans son intégralité : Conception, architecture, maintenant, déploiement\n- Mettre en place de nouvelles solutions techniques d'architecture et de mise en production\n- Corriger les bugs, moderniser la plateforme et faire face aux problématiques\n- Participer à la migration vers les dernières versions de PHP et Symfony\n- Collaborer avec les équipes front-end\n- Mettre en place les bonnes pratiques de développement au sein des différentes équipes\n5 ans d'XP sur symfony et expérience significative sur des applications/solutions déjà mises en production\n\nJ'ai également plusieurs postes de devs #PHP/ #Symfony avec de belles problématiques dans de super(s) environnement(s) techniques WIMOVA Activinnov\n\nAu plaisir d'échanger ce soir ou directement en DM ! \n\nBelle fin de semaine :)\n\n#recrutementopensource #recrutementtech",
+      "totalReactionCount": 21,
+      "likeCount": 21,
+      "commentsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7186376483274207233/",
+      "postedAt": "7mo",
+      "postedDate": "2024-04-17 14:54:30.031 +0000 UTC",
+      "postedDateTimestamp": 1713365670031,
+      "urn": "7186376483274207233",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEyIEQJWg0uvg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1713365669219?e=1735171200\u0026v=beta\u0026t=v9WAN_oTztCQzQ1xSb8IM5ttLabJHqU1R0Gvat6j2j0"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "resharedPublication": {
+        "text": "Aujourd'hui petit tour au Japon pour le nouveau poste sur le jobboard #PHP.\nRejoignez la 1ère agence française spécialisée dans l'organisation des voyages au Japon. Publicatione de développeur·euse PHP/Symfony #DDD #CQRS et #APIPlatform. \nParis 2ème. 3jours de Remote/semaine.\ntoutes les infos dans l'article : \n\nJeanne LONDICHE",
+        "author": {
+          "firstName": "Jodia",
+          "lastName": "Pansart",
+          "username": "jodia-pansart-294ab7152",
+          "url": "https://www.linkedin.com/in/jodia-pansart-294ab7152"
+        },
+        "company": {},
+        "document": {},
+        "celebration": {},
+        "poll": {},
+        "article": {},
+        "entity": {}
+      },
+      "text": "Ce week-end je suis allée voir leur concept store rue saint anne, quelle jolie boutique !\nAvez-vous regardé cette super annonce ?\nPublicatione en cours de recrutement, ne tardez pas, contactez-nous pour en savoir plus !\n\nBonne journée. \n#recrutementopensource \n#PHP #symfony #CQRS #DDD",
+      "totalReactionCount": 8,
+      "likeCount": 8,
+      "commentsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7185553026445639682/",
+      "postedAt": "7mo",
+      "postedDate": "2024-04-15 08:22:22.624 +0000 UTC",
+      "postedDateTimestamp": 1713169342624,
+      "reposted": true,
+      "urn": "7185553026445639682",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "[CDI]2 Nouveaux postes 𝐅𝐮𝐥𝐥𝐫𝐞𝐦𝐨𝐭𝐞 pr le Groupe Actual, salaire autour 60K€: \n- Dév sénior fullstack #Laravel / #ReactJS, mise en place design system +\n- PM Tech, idéal ancien dev #PHP, pour gérer le back log d'une main de maitre.\n⬇ \n\nActual est devenu un groupe référent sur le marché du travail avec ses solutions innovantes dans le recrutement et le détachement de compétences.\n\n𝐃𝐞́𝐯𝐞𝐥𝐨𝐩𝐩𝐞𝐮𝐫(𝐬𝐞) 𝐞𝐱𝐩𝐞𝐫𝐭 𝐟𝐮𝐥𝐥𝐬𝐭𝐚𝐜𝐤 𝐋𝐚𝐫𝐚𝐯𝐞𝐥 / 𝐑𝐞𝐚𝐜𝐭.𝐣𝐬 + 𝐃𝐞𝐬𝐢𝐠𝐧 𝐒𝐲𝐬𝐭𝐞𝐦 \n𝐅𝐮𝐥𝐥 𝐫𝐞𝐦𝐨𝐭𝐞 🏠\n\nEdouard Bardet le CTO souhaite constituer une équipe CORE, une garde rapprochée travaillant essentiellement sur la technique.\n\n𝑃𝑟𝑜𝑓𝑖𝑙 : \n\n*Un minimun de 5 ans d'expérience en tant que développeur.se JS / ReactJS avec une capacité à développer sur du back-end également, idéalement en Laravel\n*Expérience en lead tech pour pouvoir gérer des sujets de A à Z\n*Capacité à collaborer en Agile\n*Expérience réussie sur TypeScript et Jest avec une attention particulière sur la production d'un code de qualité\n*Expérience sur la mise en place d'un design system\n*Sensibilité UX/UI afin de proposer une UX à l'état de l'art\n\n𝑆𝑎𝑙𝑎𝑖𝑟𝑒 :\nFourchette : entre 55 et 65 K€\n\n𝐏𝐌 𝐓𝐞𝐜𝐡\n🏠 𝐅𝐮𝐥𝐥 𝐫𝐞𝐦𝐨𝐭𝐞\n\n𝑀𝑖𝑠𝑠𝑖𝑜𝑛𝑠 :\n\nVous intégrerez la CORE Team d'Edouard Bardet et aurez pour missions de :\nDétailler le back log\nD'accompagner la mise en production : publier les messages, contacter les opérationnesl\nFormaliser et mettre en forme de manière claire et compréhensible\nSuivre et tenir pas à pas ce back log\n\n𝑃𝑟𝑜𝑓𝑖𝑙 :\n*Notions fortes en techniques et en sécurité\n*Ancien.ne développeur.se un +\n*Profil rigoureux et aimant mettre en place des process\n*Excellent relationnel, la persévérance est votre amie, votre créativité vous permet de penser out of the box, autonome, réactif, dynamique et goût pour les responsabilités\n\n𝑆𝑎𝑙𝑎𝑖𝑟𝑒 :\nFourchette : 55-65K€\n\nToutes les infos sur le github : \nhttps://lnkd.in/gmr_8ZAR\n\nAvec Jodia Pansart et Louis Ferraro\n#recrutementopensource #icicarecrute",
+      "totalReactionCount": 48,
+      "likeCount": 40,
+      "appreciationCount": 1,
+      "empathyCount": 5,
+      "InterestCount": 1,
+      "praiseCount": 1,
+      "commentsCount": 10,
+      "repostsCount": 9,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7184214884480389122/",
+      "postedAt": "7mo",
+      "postedDate": "2024-04-11 15:45:04.718 +0000 UTC",
+      "postedDateTimestamp": 1712850304718,
+      "urn": "7184214884480389122",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Aujourd'hui petit tour au Japon pour le nouveau poste sur le jobboard #PHP.\nRejoignez la 1ère agence française spécialisée dans l'organisation des voyages au Japon. Publicatione de développeur·euse PHP/Symfony #DDD #CQRS et #APIPlatform. \nParis 2ème. 3jours de Remote/semaine.\ntoutes les infos dans l'article : \n\nJeanne LONDICHE",
+      "totalReactionCount": 34,
+      "likeCount": 29,
+      "appreciationCount": 1,
+      "empathyCount": 4,
+      "commentsCount": 5,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7183451503720824832/",
+      "postedAt": "7mo",
+      "postedDate": "2024-04-09 13:11:40.562 +0000 UTC",
+      "postedDateTimestamp": 1712668300562,
+      "reposted": true,
+      "urn": "7183451503720824832",
+      "author": {
+        "firstName": "Jodia",
+        "lastName": "Pansart",
+        "username": "jodia-pansart-294ab7152",
+        "url": "https://www.linkedin.com/in/jodia-pansart-294ab7152"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "🇯🇵 JAPAN EXPERIENCE 🇯🇵",
+        "subtitle": "Jodia Pansart",
+        "link": "https://www.linkedin.com/pulse/japan-experience-jodia-pansart-rlftf?trackingId=Qb3zHAr7ubRXaqOuvtsYyQ%3D%3D"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Ryan Weaver - My thoughts are with you and your family. What a sad but powerfull message. You have always been a key leader for our community, it was a pleasure talking to you at the API platform. \nRyan needs support, time to give back : https://lnkd.in/esjUs5jq",
+      "totalReactionCount": 11,
+      "likeCount": 3,
+      "appreciationCount": 6,
+      "empathyCount": 2,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7183400292049125377/",
+      "postedAt": "7mo",
+      "postedDate": "2024-04-09 09:48:10.748 +0000 UTC",
+      "postedDateTimestamp": 1712656090748,
+      "urn": "7183400292049125377",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Donate to Support Ryan's Brain Cancer Battle, organized by Ryan Weaver",
+        "subtitle": "gofundme.com",
+        "link": "https://www.gofundme.com/f/support-ryans-brain-cancer-battle"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Bonjour! EXCELLENT profil de #lead dev, #archi disponible! Très hands-on, expert #archihexa #eventdriven et #DDD. Salaire : actuellement à 75K€.\n\n- Actuellement CTO dans une petite structure dans la santé, il souhaite se recentrer sur de la tech. Recherche un poste de dev sénior, lead dev ou archi dans un bel environnement.\n- Backend : #PHP / #Symfony 7 / Doctrine\n- Psalm / PHPStan / Rector\n- MySQL / ElasticSearch / MongoDB / Redis/ RabbitMQ\n- Font-end : React / Next.js\n- Très orienté bonnes pratiques / testing\n- Hexagonal Architecture, Event-Driven architecture et DDD\n- Tests unitaires (PHPUnit, PHPSpec, Jest), fonctionnels (Behat) et E2E (Cypress)\n- CI/CD (Github workflow)\n- Blockchain (Quorum, Solidity, Kaleido)\n- Signature eIDAS simple et avancée (IDnow)\n- Docker / Docker Compose / Docker Swarm\n- Management (5-7 personnes)\n- Gestion de problématiques de performance \u0026 optimisation des données\n- Monitoring/Alerting (Datadog, Sentry, Statuspal)\n- Gestion de projet (Jira / Scrum)\n- Expérience Ops et Infrastructure (VM Azure / AWS / Heroku / HDS / Cloudflare / Traefik)\n- Développement de plusieurs projets from scratch\n- Intégration d'un solution de vidéoconférence (Vonage)\n- Mise en place d'une solution de gestion de parc informatique (Jamf / Okta)\n- PoC d'une application utilisant des modèles de langage d'IA générative avec le framework LangChain\n- Aujourd’hui 50% hands-off, très tech encore dans l'équipe, code review...\n- Localisation : IDF, recherche un format hybride\n- Salaire : Actuellement à 75K€\n\nSi ce profil vous intéresse, contactez-moi pour plus d'infos ! \n\nJodia Pansart Louis Ferraro JL Recrutement\n\nA bientôt,\nJeanne",
+      "totalReactionCount": 14,
+      "likeCount": 11,
+      "empathyCount": 3,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7183104647857868803/",
+      "postedAt": "7mo",
+      "postedDate": "2024-04-08 14:13:23.68 +0000 UTC",
+      "postedDateTimestamp": 1712585603680,
+      "urn": "7183104647857868803",
+      "author": {
+        "firstName": "Jeanne",
+        "lastName": "LONDICHE",
+        "username": "jlondiche",
+        "url": "https://www.linkedin.com/in/jlondiche"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFrFGO6pvaSsw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1712585602032?e=1735171200\u0026v=beta\u0026t=c2Dc79_rtgSORAoMlIBMlL55vW6gs-ZRMicymH_jKE4"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Hello, j'ai un super poste sur Lyon dans le domaine de la formation. \nBsoft recrute une personne pour prendre en main un projet, en toute autonomie. Vous serez en lien quotidien avec le reste de l'équipe tech. L'occasion pour un·e développeur·se sénior de monter en compétence sur un poste de lead ! \n\non en discute ? \n#Lyon #PHP #symfony \ntoutes les infos : \nhttps://lnkd.in/dNzPvjDh\n\n\nJeanne LONDICHE",
+      "totalReactionCount": 12,
+      "likeCount": 10,
+      "empathyCount": 1,
+      "InterestCount": 1,
+      "commentsCount": 5,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7181951966149783552/",
+      "postedAt": "7mo",
+      "postedDate": "2024-04-05 09:53:02.945 +0000 UTC",
+      "postedDateTimestamp": 1712310782945,
+      "reposted": true,
+      "urn": "7181951966149783552",
+      "author": {
+        "firstName": "Jodia",
+        "lastName": "Pansart",
+        "username": "jodia-pansart-294ab7152",
+        "url": "https://www.linkedin.com/in/jodia-pansart-294ab7152"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGt9MJ7T7Lk4Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1712302109230?e=1735171200\u0026v=beta\u0026t=mRprH5LpyrebkPQKglML9mPyYw-dhPr1EbW2nr_GARM"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    }
+  ]
+}

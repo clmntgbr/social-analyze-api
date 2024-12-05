@@ -13,6 +13,7 @@ readonly class LinkedinRapidApi implements RapidApiInterface
 {
     public function __construct(
         private HttpClientInterface $httpClient,
+        private string              $projectRoot,
         private string              $rapidApiKey,
         private string              $rapidApiLinkedinHost,
         private string              $rapidApiLinkedinUrl
@@ -41,8 +42,9 @@ readonly class LinkedinRapidApi implements RapidApiInterface
      */
     public function getProfile(string $username): array
     {
+        $url = sprintf('%s%s?username=%s', $this->rapidApiLinkedinUrl, 'profile-data-connection-count-posts', $username);
         try {
-            $response = $this->httpClient->request('GET', sprintf('%s%s?username=%s', $this->rapidApiLinkedinUrl, 'profile-data-connection-count-posts', $username), [
+            $response = $this->httpClient->request('GET', $url, [
                 'headers' => [
                     'x-rapidapi-host' => $this->rapidApiLinkedinHost,
                     'x-rapidapi-key' => $this->rapidApiKey,
@@ -62,7 +64,7 @@ readonly class LinkedinRapidApi implements RapidApiInterface
         }
     }
 
-    public function getPosts(string $username)
+    public function getPosts(string $username, ?string $paginationToken)
     {
         // TODO: Implement getPosts() method.
     }
@@ -70,7 +72,7 @@ readonly class LinkedinRapidApi implements RapidApiInterface
     public function mockGetProfile(string $username): array
     {
         try {
-            $jsonString = file_get_contents("../src/Mock/$username.json");
+            $jsonString = file_get_contents("$this->projectRoot/src/Mock/linkedin/$username.json");
         } catch (\Exception $exception) {
             return $this->mockGetProfileFail();
         }
@@ -79,7 +81,7 @@ readonly class LinkedinRapidApi implements RapidApiInterface
 
     public function mockGetProfileFail(): array
     {
-        $jsonString = file_get_contents('../src/Mock/fail.json');
+        $jsonString = file_get_contents("$this->projectRoot/src/Mock/linkedin/fail.json");
         return json_decode($jsonString, true);
     }
 }

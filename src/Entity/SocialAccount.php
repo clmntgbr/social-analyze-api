@@ -51,11 +51,11 @@ class SocialAccount
 
     #[ORM\Column(type: Types::STRING, nullable: true)]
     #[Groups(['social-accounts:full'])]
-    private ?string $firstName = null;
+    private ?string $name = null;
 
-    #[ORM\Column(type: Types::STRING, nullable: true)]
+    #[ORM\Column(type: Types::TEXT, nullable: true)]
     #[Groups(['social-accounts:full'])]
-    private ?string $lastName = null;
+    private ?string $headline = null;
 
     #[ORM\Column(type: Types::TEXT, nullable: true)]
     #[Groups(['social-accounts:full'])]
@@ -124,6 +124,18 @@ class SocialAccount
         return $this;
     }
 
+    public function getHeadline(): ?string
+    {
+        return $this->headline;
+    }
+
+    public function setHeadline(?string $headline): static
+    {
+        $this->headline = $headline;
+
+        return $this;
+    }
+
     public function getId(): ?int
     {
         return $this->id;
@@ -145,12 +157,6 @@ class SocialAccount
         });
 
         return array_slice($postsArray, 0, $limit);
-    }
-
-    #[Groups(['social-accounts:full'])]
-    public function getName(): string
-    {
-        return sprintf('%s %s', $this->firstName, $this->lastName);
     }
 
     #[Groups(['social-accounts:full'])]
@@ -191,30 +197,6 @@ class SocialAccount
     public function setUsername(?string $username): static
     {
         $this->username = $username;
-
-        return $this;
-    }
-
-    public function getFirstName(): ?string
-    {
-        return $this->firstName;
-    }
-
-    public function setFirstName(?string $firstName): static
-    {
-        $this->firstName = $firstName;
-
-        return $this;
-    }
-
-    public function getLastName(): ?string
-    {
-        return $this->lastName;
-    }
-
-    public function setLastName(?string $lastName): static
-    {
-        $this->lastName = $lastName;
 
         return $this;
     }
@@ -383,6 +365,18 @@ class SocialAccount
     public function setEngagementRate(float $engagementRate): static
     {
         $this->engagementRate = $engagementRate;
+
+        return $this;
+    }
+
+    public function getName(): ?string
+    {
+        return $this->name;
+    }
+
+    public function setName(?string $name): static
+    {
+        $this->name = $name;
 
         return $this;
     }

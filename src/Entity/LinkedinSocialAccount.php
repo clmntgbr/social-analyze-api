@@ -26,10 +26,6 @@ class LinkedinSocialAccount extends SocialAccount
     #[Groups(['social-accounts:full'])]
     private ?string $summary = null;
 
-    #[ORM\Column(type: Types::TEXT, nullable: true)]
-    #[Groups(['social-accounts:full'])]
-    private ?string $headline = null;
-
     #[ORM\Column(type: Types::STRING, length: 255, nullable: true)]
     #[Groups(['social-accounts:full'])]
     private ?string $country = null;
@@ -101,18 +97,6 @@ class LinkedinSocialAccount extends SocialAccount
     public function setSummary(?string $summary): static
     {
         $this->summary = $summary;
-
-        return $this;
-    }
-
-    public function getHeadline(): ?string
-    {
-        return $this->headline;
-    }
-
-    public function setHeadline(?string $headline): static
-    {
-        $this->headline = $headline;
 
         return $this;
     }

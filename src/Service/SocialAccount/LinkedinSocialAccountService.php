@@ -19,7 +19,7 @@ use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
 
 readonly class LinkedinSocialAccountService implements SocialAccountInterface
 {
-    private const ENGAGEMENT_WEIGHTS = [
+    const ENGAGEMENT_WEIGHTS = [
         'like' => 1,
         'comment' => 2,
         'repost' => 3,
@@ -33,17 +33,6 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
         private SerializerInterface $serializer
     ){}
 
-    public function isProfileExist(string $username): bool
-    {
-        $response = $this->linkedinRapidApi->isProfileExist($username);
-
-        if ($response['success'] === true) {
-            return true;
-        }
-
-        return false;
-    }
-
     /**
      * @throws ServerExceptionInterface
      * @throws RedirectionExceptionInterface
@@ -51,7 +40,7 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
      */
     public function getProfile(string $username): ?array
     {
-        return $this->linkedinRapidApi->getProfile($username);
+        return $this->linkedinRapidApi->mockGetProfile($username);
     }
 
     public function hydrate(array $payload): void
@@ -78,8 +67,7 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
             'followingCount' => $profile->following,
             'isVerified' => false,
             'username' => $profile->data->username,
-            'firstName' => ucwords(strtolower($profile->data->firstName)),
-            'lastName' => ucwords(strtolower($profile->data->lastName)),
+            'name' => sprintf('%s %s', ucwords(strtolower($profile->data->firstName)), ucwords(strtolower($profile->data->lastName))),
             'profilePicture' => $profile->data->profilePicture,
             'backgroundImage' => $profile->data->backgroundImageToString(),
             'isOpenToWork' => $profile->data->isOpenToWork,
@@ -110,13 +98,7 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
 
     private function createPosts(LinkedinProfile $profile, SocialAccount $socialAccount): array
     {
-        $calculate = [
-            'like' => 0,
-            'comment' => 0,
-            'repost' => 0,
-            'post' => 0,
-            'engagementRate' => 0,
-        ];
+        $calculate = ['like' => 0, 'comment' => 0, 'repost' => 0, 'post' => 0, 'engagementRate' => 0];
 
         /** @var LinkedinProfilePost $post */
         foreach ($profile->posts as $post) {
@@ -151,7 +133,6 @@ readonly class LinkedinSocialAccountService implements SocialAccountInterface
 
             $calculate['like'] += $post->likeCount ?? 0;
             $calculate['comment'] += $post->commentsCount ?? 0;
-            $calculate['repost'] += $post->repostsCount ?? 0;
             $calculate['repost'] += $post->repostsCount ?? 0;
             $calculate['engagementRate'] += $engagementRate;
             $calculate['post']++;

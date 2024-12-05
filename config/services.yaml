@@ -7,10 +7,19 @@ services:
         bind:
             string $encryptionKey: '%env(resolve:ENCRYPTION_KEY)%'
             string $frontUrl: '%env(resolve:FRONT_URL)%'
+            string $backUrl: '%env(resolve:BACK_URL)%'
+            string $projectRoot: '%env(resolve:PROJECT_ROOT)%'
             string $publicJwt: '%env(resolve:PUBLIC_JWT)%'
             string $rapidApiKey: '%env(resolve:RAPIDAPI_KEY)%'
+
             string $rapidApiLinkedinHost: '%env(resolve:RAPIDAPI_LINKEDIN_HOST)%'
             string $rapidApiLinkedinUrl: '%env(resolve:RAPIDAPI_LINKEDIN_URL)%'
+
+            string $rapidApiInstagramHost: '%env(resolve:RAPIDAPI_INSTAGRAM_HOST)%'
+            string $rapidApiInstagramUrl: '%env(resolve:RAPIDAPI_INSTAGRAM_URL)%'
+
+            string $chatGptApiUrl: '%env(resolve:CHATGPT_API_URL)%'
+            string $chatGptApiKey: '%env(resolve:CHATGPT_API_KEY)%'
 
     App\:
         resource: '../src/'

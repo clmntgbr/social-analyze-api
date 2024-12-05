@@ -1,0 +1,878 @@
+{
+  "success": true,
+  "connection": 1107,
+  "data": {
+    "id": 303301290,
+    "urn": "ACoAABIUAqoB5Gd28npUvy9HgfH1d4W0-uXUjto",
+    "username": "clementgoubier",
+    "firstName": "Cl\u00e9ment",
+    "lastName": "Goubier",
+    "isCreator": false,
+    "isOpenToWork": false,
+    "isHiring": false,
+    "profilePicture": "https:\/\/media.licdn.com\/dms\/image\/v2\/C4E03AQG7iiaVSURYMQ\/profile-displayphoto-shrink_800_800\/profile-displayphoto-shrink_800_800\/0\/1516970121170?e=1737590400&v=beta&t=0HF2ZhiC5Figk4_z17cm8H9X6Aeq9MNxrK2iviTD6us",
+    "backgroundImage": null,
+    "summary": "",
+    "headline": "Back-end Developer chez Display",
+    "geo": {
+      "country": "France",
+      "city": "Chevilly-Larue, \u00cele-de-France",
+      "full": "Chevilly-Larue, \u00cele-de-France, France"
+    },
+    "languages": [
+      {
+        "name": "Allemand",
+        "proficiency": "ELEMENTARY"
+      },
+      {
+        "name": "Anglais",
+        "proficiency": "PROFESSIONAL_WORKING"
+      },
+      {
+        "name": "Fran\u00e7ais",
+        "proficiency": "NATIVE_OR_BILINGUAL"
+      }
+    ],
+    "educations": [
+      {
+        "start": {
+          "year": 2014,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2016,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "D\u00e9veloppement Web et E-Business",
+        "degree": "Master",
+        "grade": "",
+        "schoolName": "ESGI",
+        "description": "La sp\u00e9cialisation en Ing\u00e9nierie du Web et e-Business vise \u00e0 r\u00e9pondre \u00e0 la demande des industriels en profils double comp\u00e9tence, capables de d\u00e9velopper des projets et de cr\u00e9er de la valeur gr\u00e2ce \u00e0 la technologie. Elle permet d'acqu\u00e9rir des comp\u00e9tences d'expertise dans trois grands secteurs: technologies innovantes et d'int\u00e9gration de l'Internet, conduite de projets (interfaces avec les prestataires sp\u00e9cialis\u00e9s, travail en \u00e9quipes interdisciplinaire) et e-Commerce et gestion de l'activit\u00e9 de site (strat\u00e9gie marketing, communication, suivi de trafic, r\u00e9f\u00e9rencement, gestion de bases de donn\u00e9es, maintenance technique, ergonomie de navigation).",
+        "activities": "",
+        "url": "",
+        "schoolId": ""
+      },
+      {
+        "start": {
+          "year": 2013,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2014,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "Web",
+        "degree": "DEES",
+        "grade": "",
+        "schoolName": "OiiO Formation",
+        "description": "Le Dipl\u00f4me Europ\u00e9en d'Etudes Sup\u00e9rieures Webmaster (DEESWEB) est une formation compl\u00e8te permettant d'acc\u00e9der aux fonctions de Webmaster et Webdesigner gr\u00e2ce \u00e0 l'\u00e9tude de l'environement num\u00e9rique et l'apprentissage des techniques de cr\u00e9ation de sites internet, de la gestion de projet au d\u00e9veloppement web. ",
+        "activities": "",
+        "url": "",
+        "schoolId": ""
+      },
+      {
+        "start": {
+          "year": 2010,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2012,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "Ing\u00e9nierie informatique",
+        "degree": "BTS IRIS",
+        "grade": "",
+        "schoolName": "Lyc\u00e9e Louis Jouvet",
+        "description": "Le BTS informatique IRIS forme des professionnels capables de cr\u00e9er et g\u00e9rer des applications et des syst\u00e8mes informatiques lourds et complexes destin\u00e9s \u00e0 la production de biens d'\u00e9quipements ou de services techniques. Depuis la conception mat\u00e9rielle et logicielle de syst\u00e8mes informatiques \u00e0 l'installation, maintenance et suivi des installations informatiques. Les travaux informatiques sont caract\u00e9ris\u00e9s par un lien \u00e9troit entre le mat\u00e9riel et le logiciel, une interaction avec un environnement industriel et\/ou technique (robotique, Conception assist\u00e9e par ordinateur CAO mais aussi t\u00e9l\u00e9communication et r\u00e9seaux...)",
+        "activities": "",
+        "url": "",
+        "schoolId": ""
+      }
+    ],
+    "position": [
+      {
+        "companyId": 486906,
+        "companyName": "Display Interactive",
+        "companyUsername": "display-interactive",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/display-interactive\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/D4E0BAQH7biUwkIGEog\/company-logo_400_400\/company-logo_400_400\/0\/1700233490950\/display_interactive_logo?e=1740009600&v=beta&t=TGTDEpK-RbPIy89X7_w8MRtPmZ3i4fxWh6Ejzu6YnI0",
+        "companyIndustry": "Aviation & Aerospace",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Display Interactive"
+        },
+        "location": "Montrouge, \u00cele-de-France, France",
+        "description": "\u2022 Develop and maintain websites, back-offices for airline clients\n\u2022 Install our solution on Board\n\u2022 Contribute to the maintenance and evolution of existing projects\n\u2022 Set up the processes necessary for a constant quality of the code\n\u2022 Organize sprints and apply agile principles\n\nStack technique\n\u2022 PHP 8, Symfony (API Platform), React, Python\n\u2022 Mysql\n\u2022 Docker, RabbitMQ, AWS, SSO, Ansible\n\u2022 PHPUnit, Behat",
+        "employmentType": "Permanent",
+        "start": {
+          "year": 2022,
+          "month": 3,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 124080,
+        "companyName": "Webcentric-Fanaticalhelp",
+        "companyUsername": "webcentric",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/webcentric\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/D4E0BAQHy2N2Tx8NWLQ\/company-logo_400_400\/company-logo_400_400\/0\/1682669429110\/webcentric_logo?e=1740009600&v=beta&t=XetwtSyaUkcGL33QgUGKc-V06U9M67tF8yIlvMkbXB4",
+        "companyIndustry": "Information Technology & Services",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Webcentric-Fanaticalhelp"
+        },
+        "location": "R\u00e9gion de Paris, France",
+        "description": "Depuis 2002, Webcentric intervient dans quatre domaines de comp\u00e9tence aupr\u00e8s de ses clients B2b : ventes de mat\u00e9riels, syst\u00e8mes et r\u00e9seaux, h\u00e9bergement & d\u00e9veloppement web. Sur ce dernier volet, Webcentric travaille en mode projet et d\u00e9veloppe des sites, back-offices et applications \u00e0 forte charge. Les projets durent en moyenne entre 3 et 6 mois et concernent des secteurs tr\u00e8s vari\u00e9s comme l\u2019industrie ou l\u2019\u00e9v\u00e9nementiel.\n\nMissions\n\u2022 D\u00e9velopper de sites web, back-offices et applications mobiles pour les clients\n\u2022 Tester et d\u00e9ployer lecode\n\u2022 Contribuer \u00e0 la maintenance et \u00e0 l\u2019\u00e9volution des projets existants\n\u2022 Mettre en place les process n\u00e9cessaires \u00e0 une qualit\u00e9 constante du code\n\u2022 Organiser les sprints et appliquer les principes agiles\n\nStack technique\n\u2022 PHP 7, Symfony (API Platform)\n\u2022 MySQL \/ MariaDB\n\u2022 Docker, Kubernetes\n\u2022 API REST\n\u2022 RabbitMQ\n\u2022 Git \/ Gitlab\n\u2022 Architecture micro-services",
+        "employmentType": "Permanent",
+        "start": {
+          "year": 2021,
+          "month": 10,
+          "day": 0
+        },
+        "end": {
+          "year": 2022,
+          "month": 3,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 913165,
+        "companyName": "Castelis",
+        "companyUsername": "castelis",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/castelis\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/C4E0BAQHmFsVQsKCh1g\/company-logo_400_400\/company-logo_400_400\/0\/1669904071911\/castelis_logo?e=1740009600&v=beta&t=5nPT8RgIR0tKUrFzS9rTEozyBjPdUKsxM06rfief6EI",
+        "companyIndustry": "Computer Software",
+        "companyStaffCountRange": "51 - 200",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Castelis"
+        },
+        "location": "Ivry-sur-Seine, \u00cele-de-France, France",
+        "description": "Castelis con\u00e7oit, d\u00e9veloppe, d\u00e9ploie et exploite des solutions digitales innovantes et sur mesure pour le compte de clients issus de tous secteurs d\u2019activit\u00e9 : industriel, tertiaire, etc. Fort de ses 85 collaborateurs, ing\u00e9nieurs d\u2019\u00e9tudes et d\u00e9veloppement, ing\u00e9nieurs cloud, data scientists, chefs de projets, architectes et consultants.\n\nStack technique\n\u2022 PHP 5.4\n\u2022 MySQL\n\u2022 Docker\n\u2022 API REST\n\u2022 RabbitMQ\n\u2022 Git \/ Gitlab",
+        "employmentType": "",
+        "start": {
+          "year": 2020,
+          "month": 2,
+          "day": 0
+        },
+        "end": {
+          "year": 2021,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 2541908,
+        "companyName": "Mention",
+        "companyUsername": "mention",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/mention\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/C560BAQEBGRZlcccKew\/company-logo_400_400\/company-logo_400_400\/0\/1631386740343?e=1740009600&v=beta&t=TGdenv1uTXsE11KkYueWTkXWJ4--euFS8O5ExWXRUrk",
+        "companyIndustry": "Computer Software",
+        "companyStaffCountRange": "51 - 200",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Mention"
+        },
+        "location": "R\u00e9gion de Paris, France",
+        "description": "Mention changes the way companies monitor their online presence. Monitor your company name, brand, competitors, or industry trends for real\u00adtime updates on any mentions over the web and social networks. Take action to react, collaborate, and analyze your online presence ! \n\nWith over 750,000 professionals using the app in 125+ countries from companies such as Spotify, Airbnb, MIT, Microsoft, Lamborghini and Etsy, Mention is focused on helping companies of any size to know what\u2019s being said about their brand, competitors, industry, etc\n\nStack technique\n\u2022 PHP 7, Symfony\n\u2022 MySQL\n\u2022 Docker\n\u2022 API REST, GraphQL\n\u2022 RabbitMQ",
+        "employmentType": "Full-time",
+        "start": {
+          "year": 2019,
+          "month": 4,
+          "day": 0
+        },
+        "end": {
+          "year": 2020,
+          "month": 2,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 2903499,
+        "companyName": "Youmiam",
+        "companyUsername": "dubruitdanslesrecettes",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/dubruitdanslesrecettes\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/D4E0BAQFVDdXoNzAH2w\/company-logo_400_400\/company-logo_400_400\/0\/1711009684164\/dubruitdanslesrecettes_logo?e=1740009600&v=beta&t=GSNlWHhqgzAAuzcNCC23k2hVKRoawOaCNNZtudL5GbI",
+        "companyIndustry": "Computer Software",
+        "companyStaffCountRange": "2 - 10",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Youmiam"
+        },
+        "location": "R\u00e9gion de Paris, France",
+        "description": "\u2022 Gestion de l'API REST en liaison avec l'\u00e9quipe mobile pour les applications IOS & Android\n\u2022 D\u00e9velopper et int\u00e9grer de nouvelles fonctionnalit\u00e9s-cl\u00e9s en partenariat avec Franprix, Auchan, Frichti, etc ...\n\u2022 Identifier les pistes d\u2019optimisations pour proposer un service toujours plus rapide et robuste.\n\u2022 Livrer du code de qualit\u00e9 et test\u00e9\n\u2022 Participer aux t\u00e2ches de d\u00e9veloppement Front.\n\u2022 Cr\u00e9ation de fichiers techniques pour la mise en place des features",
+        "employmentType": "",
+        "start": {
+          "year": 2018,
+          "month": 1,
+          "day": 0
+        },
+        "end": {
+          "year": 2019,
+          "month": 2,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 9370762,
+        "companyName": "TWIL - The Wine I Love",
+        "companyUsername": "twil---the-wine-i-love",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/twil---the-wine-i-love\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/C4E0BAQHcGv_c2MlO_g\/company-logo_400_400\/company-logo_400_400\/0\/1657281460170\/twil___the_wine_i_love_logo?e=1740009600&v=beta&t=dpMBcUQto_fVFqj7MJ99dXMCrc8k7QwU3aWzSlfq9Xk",
+        "companyIndustry": "Wine & Spirits",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "TWIL - The Wine I Love"
+        },
+        "location": "Saint-Ouen, \u00cele-de-France, France",
+        "description": "\u2022 Assurer le d\u00e9veloppement de nouvelles fonctionnalit\u00e9s du BackOffice SF2, du site Magento et de l\u2019API REST pour l'application mobile.\n\u2022 Assurer les int\u00e9grations avec les syst\u00e8mes tiers (Mirakl, UPELA, SMoney, UPS, etc ...) en s'appuyant sur le Webservice REST.\n\u2022 Assurer la gestion des serveurs et des mises en production.\n\u2022 Renforcer la fiabilit\u00e9 en am\u00e9liorant les tests unitaires et la qualit\u00e9 g\u00e9n\u00e9rale du code.\n\u2022 Participer aux t\u00e2ches de d\u00e9veloppement Front.",
+        "employmentType": "Full-time",
+        "start": {
+          "year": 2016,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2018,
+          "month": 1,
+          "day": 0
+        }
+      }
+    ],
+    "fullPositions": [
+      {
+        "companyId": 486906,
+        "companyName": "Display Interactive",
+        "companyUsername": "display-interactive",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/display-interactive\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/D4E0BAQH7biUwkIGEog\/company-logo_400_400\/company-logo_400_400\/0\/1700233490950\/display_interactive_logo?e=1740009600&v=beta&t=TGTDEpK-RbPIy89X7_w8MRtPmZ3i4fxWh6Ejzu6YnI0",
+        "companyIndustry": "Aviation & Aerospace",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Display Interactive"
+        },
+        "location": "Montrouge, \u00cele-de-France, France",
+        "description": "\u2022 Develop and maintain websites, back-offices for airline clients\n\u2022 Install our solution on Board\n\u2022 Contribute to the maintenance and evolution of existing projects\n\u2022 Set up the processes necessary for a constant quality of the code\n\u2022 Organize sprints and apply agile principles\n\nStack technique\n\u2022 PHP 8, Symfony (API Platform), React, Python\n\u2022 Mysql\n\u2022 Docker, RabbitMQ, AWS, SSO, Ansible\n\u2022 PHPUnit, Behat",
+        "employmentType": "Permanent",
+        "start": {
+          "year": 2022,
+          "month": 3,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 124080,
+        "companyName": "Webcentric-Fanaticalhelp",
+        "companyUsername": "webcentric",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/webcentric\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/D4E0BAQHy2N2Tx8NWLQ\/company-logo_400_400\/company-logo_400_400\/0\/1682669429110\/webcentric_logo?e=1740009600&v=beta&t=XetwtSyaUkcGL33QgUGKc-V06U9M67tF8yIlvMkbXB4",
+        "companyIndustry": "Information Technology & Services",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Webcentric-Fanaticalhelp"
+        },
+        "location": "R\u00e9gion de Paris, France",
+        "description": "Depuis 2002, Webcentric intervient dans quatre domaines de comp\u00e9tence aupr\u00e8s de ses clients B2b : ventes de mat\u00e9riels, syst\u00e8mes et r\u00e9seaux, h\u00e9bergement & d\u00e9veloppement web. Sur ce dernier volet, Webcentric travaille en mode projet et d\u00e9veloppe des sites, back-offices et applications \u00e0 forte charge. Les projets durent en moyenne entre 3 et 6 mois et concernent des secteurs tr\u00e8s vari\u00e9s comme l\u2019industrie ou l\u2019\u00e9v\u00e9nementiel.\n\nMissions\n\u2022 D\u00e9velopper de sites web, back-offices et applications mobiles pour les clients\n\u2022 Tester et d\u00e9ployer lecode\n\u2022 Contribuer \u00e0 la maintenance et \u00e0 l\u2019\u00e9volution des projets existants\n\u2022 Mettre en place les process n\u00e9cessaires \u00e0 une qualit\u00e9 constante du code\n\u2022 Organiser les sprints et appliquer les principes agiles\n\nStack technique\n\u2022 PHP 7, Symfony (API Platform)\n\u2022 MySQL \/ MariaDB\n\u2022 Docker, Kubernetes\n\u2022 API REST\n\u2022 RabbitMQ\n\u2022 Git \/ Gitlab\n\u2022 Architecture micro-services",
+        "employmentType": "Permanent",
+        "start": {
+          "year": 2021,
+          "month": 10,
+          "day": 0
+        },
+        "end": {
+          "year": 2022,
+          "month": 3,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 913165,
+        "companyName": "Castelis",
+        "companyUsername": "castelis",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/castelis\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/C4E0BAQHmFsVQsKCh1g\/company-logo_400_400\/company-logo_400_400\/0\/1669904071911\/castelis_logo?e=1740009600&v=beta&t=5nPT8RgIR0tKUrFzS9rTEozyBjPdUKsxM06rfief6EI",
+        "companyIndustry": "Computer Software",
+        "companyStaffCountRange": "51 - 200",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Castelis"
+        },
+        "location": "Ivry-sur-Seine, \u00cele-de-France, France",
+        "description": "Castelis con\u00e7oit, d\u00e9veloppe, d\u00e9ploie et exploite des solutions digitales innovantes et sur mesure pour le compte de clients issus de tous secteurs d\u2019activit\u00e9 : industriel, tertiaire, etc. Fort de ses 85 collaborateurs, ing\u00e9nieurs d\u2019\u00e9tudes et d\u00e9veloppement, ing\u00e9nieurs cloud, data scientists, chefs de projets, architectes et consultants.\n\nStack technique\n\u2022 PHP 5.4\n\u2022 MySQL\n\u2022 Docker\n\u2022 API REST\n\u2022 RabbitMQ\n\u2022 Git \/ Gitlab",
+        "employmentType": "",
+        "start": {
+          "year": 2020,
+          "month": 2,
+          "day": 0
+        },
+        "end": {
+          "year": 2021,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 2541908,
+        "companyName": "Mention",
+        "companyUsername": "mention",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/mention\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/C560BAQEBGRZlcccKew\/company-logo_400_400\/company-logo_400_400\/0\/1631386740343?e=1740009600&v=beta&t=TGdenv1uTXsE11KkYueWTkXWJ4--euFS8O5ExWXRUrk",
+        "companyIndustry": "Computer Software",
+        "companyStaffCountRange": "51 - 200",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Mention"
+        },
+        "location": "R\u00e9gion de Paris, France",
+        "description": "Mention changes the way companies monitor their online presence. Monitor your company name, brand, competitors, or industry trends for real\u00adtime updates on any mentions over the web and social networks. Take action to react, collaborate, and analyze your online presence ! \n\nWith over 750,000 professionals using the app in 125+ countries from companies such as Spotify, Airbnb, MIT, Microsoft, Lamborghini and Etsy, Mention is focused on helping companies of any size to know what\u2019s being said about their brand, competitors, industry, etc\n\nStack technique\n\u2022 PHP 7, Symfony\n\u2022 MySQL\n\u2022 Docker\n\u2022 API REST, GraphQL\n\u2022 RabbitMQ",
+        "employmentType": "Full-time",
+        "start": {
+          "year": 2019,
+          "month": 4,
+          "day": 0
+        },
+        "end": {
+          "year": 2020,
+          "month": 2,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 2903499,
+        "companyName": "Youmiam",
+        "companyUsername": "dubruitdanslesrecettes",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/dubruitdanslesrecettes\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/D4E0BAQFVDdXoNzAH2w\/company-logo_400_400\/company-logo_400_400\/0\/1711009684164\/dubruitdanslesrecettes_logo?e=1740009600&v=beta&t=GSNlWHhqgzAAuzcNCC23k2hVKRoawOaCNNZtudL5GbI",
+        "companyIndustry": "Computer Software",
+        "companyStaffCountRange": "2 - 10",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Youmiam"
+        },
+        "location": "R\u00e9gion de Paris, France",
+        "description": "\u2022 Gestion de l'API REST en liaison avec l'\u00e9quipe mobile pour les applications IOS & Android\n\u2022 D\u00e9velopper et int\u00e9grer de nouvelles fonctionnalit\u00e9s-cl\u00e9s en partenariat avec Franprix, Auchan, Frichti, etc ...\n\u2022 Identifier les pistes d\u2019optimisations pour proposer un service toujours plus rapide et robuste.\n\u2022 Livrer du code de qualit\u00e9 et test\u00e9\n\u2022 Participer aux t\u00e2ches de d\u00e9veloppement Front.\n\u2022 Cr\u00e9ation de fichiers techniques pour la mise en place des features",
+        "employmentType": "",
+        "start": {
+          "year": 2018,
+          "month": 1,
+          "day": 0
+        },
+        "end": {
+          "year": 2019,
+          "month": 2,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 9370762,
+        "companyName": "TWIL - The Wine I Love",
+        "companyUsername": "twil---the-wine-i-love",
+        "companyURL": "https:\/\/www.linkedin.com\/company\/twil---the-wine-i-love\/",
+        "companyLogo": "https:\/\/media.licdn.com\/dms\/image\/v2\/C4E0BAQHcGv_c2MlO_g\/company-logo_400_400\/company-logo_400_400\/0\/1657281460170\/twil___the_wine_i_love_logo?e=1740009600&v=beta&t=dpMBcUQto_fVFqj7MJ99dXMCrc8k7QwU3aWzSlfq9Xk",
+        "companyIndustry": "Wine & Spirits",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Back-end Developer",
+        "multiLocaleTitle": {
+          "fr_FR": "Back-end Developer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "TWIL - The Wine I Love"
+        },
+        "location": "Saint-Ouen, \u00cele-de-France, France",
+        "description": "\u2022 Assurer le d\u00e9veloppement de nouvelles fonctionnalit\u00e9s du BackOffice SF2, du site Magento et de l\u2019API REST pour l'application mobile.\n\u2022 Assurer les int\u00e9grations avec les syst\u00e8mes tiers (Mirakl, UPELA, SMoney, UPS, etc ...) en s'appuyant sur le Webservice REST.\n\u2022 Assurer la gestion des serveurs et des mises en production.\n\u2022 Renforcer la fiabilit\u00e9 en am\u00e9liorant les tests unitaires et la qualit\u00e9 g\u00e9n\u00e9rale du code.\n\u2022 Participer aux t\u00e2ches de d\u00e9veloppement Front.",
+        "employmentType": "Full-time",
+        "start": {
+          "year": 2016,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2018,
+          "month": 1,
+          "day": 0
+        }
+      }
+    ],
+    "skills": [
+      {
+        "name": "Symfony",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 3
+      },
+      {
+        "name": "MySQL",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "PHP",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 6
+      },
+      {
+        "name": "E-commerce",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "Programmation web",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "SEO",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Node.js",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 3
+      },
+      {
+        "name": "SQL",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "HTML 5",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "jQuery",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "JavaScript",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 4
+      },
+      {
+        "name": "CSS3",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "C++",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "WordPress",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Photoshop",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Illustrator",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "InDesign",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Flash",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Bash",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "UML",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "JSON",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "CSS",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Linux",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "HTML",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Anglais",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Gantt",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "PERT",
+        "passedSkillAssessment": false
+      }
+    ],
+    "givenRecommendation": null,
+    "givenRecommendationCount": 0,
+    "receivedRecommendation": null,
+    "receivedRecommendationCount": 0,
+    "courses": null,
+    "certifications": null,
+    "honors": null,
+    "projects": {
+      "total": 0,
+      "items": null
+    },
+    "volunteering": null,
+    "supportedLocales": [
+      {
+        "country": "FR",
+        "language": "fr"
+      }
+    ],
+    "multiLocaleFirstName": {
+      "fr": "Cl\u00e9ment"
+    },
+    "multiLocaleLastName": {
+      "fr": "Goubier"
+    },
+    "multiLocaleHeadline": {
+      "fr": "Back-end Developer chez Display"
+    }
+  },
+  "follower": 1101,
+  "posts": [
+    {
+      "text": "ENCORE MERCI A TOUS, je n\u2019ai plus besoin de partage \ud83e\udd0d\n\n\nIl y a 3 semaines, on m\u2019a cong\u00e9di\u00e9 en periode d\u2019essai. En plein divorce. Pourtant on m\u2019avait dit \u201cne t\u2019en fait pas, on sera la\u201d il y a 1 semaine j\u2019ai fait confiance \u00e0 ma m\u00e8re qui m\u2019a dit de venir chez elle et de quitter mon logement. Sauf qu\u2019elle n\u2019a pas support\u00e9 mon fils, qui est trop vivant trop elle. \n depuis dimanche soir, je loge chez des amis. \nJe n\u2019ai pas le droit au chomage car mon dernier boss \u00e0 pr\u00e9f\u00e9r\u00e9 arr\u00eater la p\u00e9riode d\u2019essai avant. \nSe montrer aussi vuln\u00e9rable n\u2019est pas dans mes habitudes. Mais j\u2019ai pas le choix, j\u2019ai un enfant \u00e0 nourrir et une vie \u00e0 retrouver\nComment retrouver de la dignit\u00e9 maintenant? Que quelqu\u2019un me fasse confiance pour un poste. Je travaille bien. Peut etre un peu trop. Et surtout je dis les choses et \u00e7a dans une soci\u00e9t\u00e9 ou tout le monde fait semblant, \u00e7a gene. \nAlors pour ceux qui seront content de ce qui m\u2019arrive, oubliez pas qu\u2019on peut tr\u00e8s facilement tomber. \nPour les bienveillants, merci. Pour ceux qui peuvent m\u2019aider. Hesitez pas. Je peux travailler de n\u2019importe ou dans le monde. J\u2019ai rien qui me retient, le petit suit.",
+      "totalReactionCount": 30278,
+      "likeCount": 17289,
+      "appreciationCount": 11305,
+      "empathyCount": 431,
+      "InterestCount": 20,
+      "praiseCount": 1231,
+      "funnyCount": 2,
+      "commentsCount": 1767,
+      "repostsCount": 6240,
+      "postUrl": "https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:7218523421406605312\/",
+      "postedAt": "4mo",
+      "postedDate": "2024-07-15 07:54:57.343 +0000 UTC",
+      "postedDateTimestamp": 1721030097343,
+      "reposted": true,
+      "urn": "7218523421406605312",
+      "author": {
+        "firstName": "Charlotte",
+        "lastName": "Ballouard ",
+        "username": "charlotte-ballouard-144620a0",
+        "url": "https:\/\/www.linkedin.com\/in\/charlotte-ballouard-144620a0"
+      },
+      "image": [
+        {
+          "url": "https:\/\/media.licdn.com\/dms\/image\/v2\/D4E22AQEDDSKFuq2Fkg\/feedshare-shrink_2048_1536\/feedshare-shrink_2048_1536\/0\/1720702244040?e=1734566400&v=beta&t=P0HdKeGQ-JHfETVS0GMiwBPFQmh9r_6Wt2ZpwR-sZaU"
+        }
+      ],
+      "company": [],
+      "document": [],
+      "celebration": [],
+      "poll": [],
+      "article": [],
+      "entity": []
+    },
+    {
+      "text": "#Recrutement \ud83d\udd0e\n\nGVA recrute en #CDI sur \ud83d\udccd#Paris :\n\ud83d\udca0Auditeur Senior (H\/F)\n\ud83d\udca0Responsable de Mission Expertise Conseil TPE\/PME (H\/F)\n\ud83d\udca0Collaborateur Expertise Comptable et Conseil PME\/ETI - Senior (H\/F)\n\ud83d\udca0Collaborateur Comptable Junior (H\/F)\n\nD\u00e9couvrez toutes nos offres disponibles \u27a1\ufe0f https:\/\/lnkd.in\/g2aJbC6U\n\nVous correspondez \u00e0 l\u2019un des profils recherch\u00e9s\u00a0? N'attendez plus pour postuler !\n\n#GVArecrute #avoscv #expertise #expertscomptables #consultant #conseil\n#audit #Auditeur #Senior #Junior #Comptable #Responsable #TPE #PME #ETI #expertcomptable #responsabledemission\n\nGROUPE ALPHA SEMAPHORES TH Conseil Lafayette \nPhilippe Bonnin Emmanuel Gayte",
+      "totalReactionCount": 37,
+      "likeCount": 36,
+      "appreciationCount": 1,
+      "repostsCount": 16,
+      "postUrl": "https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:7202410191470903296\/",
+      "postedAt": "5mo",
+      "postedDate": "2024-05-31 20:46:43.957 +0000 UTC",
+      "postedDateTimestamp": 1717188403957,
+      "reposted": true,
+      "urn": "7202410191470903296",
+      "author": [],
+      "image": [
+        {
+          "url": "https:\/\/media.licdn.com\/dms\/image\/v2\/D5622AQEY2RQGQmcbWg\/feedshare-shrink_2048_1536\/feedshare-shrink_2048_1536\/0\/1717075660087?e=1734566400&v=beta&t=MKt7eESV7rUPOuNkPAX2ozrQ29o_1tv_SmyKnOjEee4"
+        }
+      ],
+      "company": {
+        "name": "GVA",
+        "url": "https:\/\/www.linkedin.com\/company\/gva-fr\/",
+        "urn": "urn:li:fsd_company:1672703"
+      },
+      "document": [],
+      "celebration": [],
+      "poll": [],
+      "article": [],
+      "entity": []
+    },
+    {
+      "text": "Display is\u00a0#hiring\u00a0! There are many open positions ! Join us and help planes communicate with clouds.",
+      "totalReactionCount": 4,
+      "likeCount": 4,
+      "repostsCount": 6,
+      "postUrl": "https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:7113436646083018752\/",
+      "postedAt": "1yr",
+      "postedDate": "2023-09-29 08:17:37.688 +0000 UTC",
+      "postedDateTimestamp": 1695975457688,
+      "reposted": true,
+      "urn": "7113436646083018752",
+      "author": {
+        "firstName": "Julien",
+        "lastName": "Bennamias",
+        "username": "julien-bennamias-1a63b13",
+        "url": "https:\/\/www.linkedin.com\/in\/julien-bennamias-1a63b13"
+      },
+      "company": [],
+      "document": [],
+      "celebration": [],
+      "poll": [],
+      "article": [],
+      "entity": []
+    },
+    {
+      "text": "Display is\u00a0#hiring\u00a0! There are many open positions ! Join us and help planes communicate with clouds.",
+      "totalReactionCount": 10,
+      "likeCount": 10,
+      "repostsCount": 6,
+      "postUrl": "https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:7112738043555405824\/",
+      "postedAt": "1yr",
+      "postedDate": "2023-09-27 10:01:37.866 +0000 UTC",
+      "postedDateTimestamp": 1695808897866,
+      "reposted": true,
+      "urn": "7112738043555405824",
+      "author": {
+        "firstName": "Julien",
+        "lastName": "Bennamias",
+        "username": "julien-bennamias-1a63b13",
+        "url": "https:\/\/www.linkedin.com\/in\/julien-bennamias-1a63b13"
+      },
+      "company": [],
+      "document": [],
+      "celebration": [],
+      "poll": [],
+      "article": [],
+      "entity": []
+    },
+    {
+      "text": "Display is\u00a0#hiring\u00a0! There are many open positions ! Join us and help planes communicate with clouds.",
+      "totalReactionCount": 3,
+      "likeCount": 3,
+      "repostsCount": 7,
+      "postUrl": "https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:7110282325120143360\/",
+      "postedAt": "1yr",
+      "postedDate": "2023-09-20 15:23:28.966 +0000 UTC",
+      "postedDateTimestamp": 1695223408966,
+      "reposted": true,
+      "urn": "7110282325120143360",
+      "author": {
+        "firstName": "Julien",
+        "lastName": "Bennamias",
+        "username": "julien-bennamias-1a63b13",
+        "url": "https:\/\/www.linkedin.com\/in\/julien-bennamias-1a63b13"
+      },
+      "company": [],
+      "document": [],
+      "celebration": [],
+      "poll": [],
+      "article": [],
+      "entity": []
+    },
+    {
+      "resharedPublication": {
+        "text": "[NEW] \ud83d\udd25We analyzed how the top universities\ud83d\udc69\u200d\ud83c\udf93 use social media and put our key learning points in a free guidebook! Get it here \u27a1\ufe0f https:\/\/lnkd.in\/gCjdk2V",
+        "author": [],
+        "company": {
+          "name": "Mention",
+          "url": "https:\/\/www.linkedin.com\/company\/mention\/",
+          "urn": "urn:li:fsd_company:2541908"
+        },
+        "document": [],
+        "celebration": [],
+        "poll": [],
+        "article": [],
+        "entity": []
+      },
+      "text": "",
+      "totalReactionCount": 1,
+      "likeCount": 1,
+      "postUrl": "https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:6579697324174516224\/",
+      "postedAt": "5yr",
+      "postedDate": "2019-09-17 12:08:06.948 +0000 UTC",
+      "postedDateTimestamp": 1568722086948,
+      "reposted": true,
+      "urn": "6579697324174516224",
+      "author": {
+        "firstName": "Cl\u00e9ment",
+        "lastName": "Goubier",
+        "username": "clementgoubier",
+        "url": "https:\/\/www.linkedin.com\/in\/clementgoubier"
+      },
+      "company": [],
+      "document": [],
+      "celebration": [],
+      "poll": [],
+      "article": [],
+      "entity": []
+    },
+    {
+      "resharedPublication": {
+        "text": "Bonjour \/ Bonsoir \u00e0 mon r\u00e9seau\n\nMalgr\u00e9 qu'il ne me reste plus beaucoup de temps et la fin d'ann\u00e9e 2018, je ne renonce pas \u00e0 trouver mon entreprise. \n\nJe suis toujours a la recherche d'une #entreprise pour effectuer ma formation actuel, BTS Services Informatiques aux Organisations option D\u00e9veloppement, dans les meilleurs conditions, au poste de #D\u00e9veloppeur #web ou d'Assistant D\u00e9veloppeur Web en #alternance, contrat d'#apprentissage ou #professionnalisation.\n\nAu rythme de 2 jours en formation et 3 jours en entreprise, pour une dur\u00e9e d'1 an et demi. De pr\u00e9f\u00e9rence en r\u00e9gion \u00cele-de-France.\n\nN'h\u00e9sitez pas a m'appeler ou m'envoyer un message au : 06 75 27 50 32 \nOu par e-mail : isagna95490@gmail.com pour toutes \u00e9ventuelles questions. \n\nJe remercie \u00e9galement toutes les personnes aimant ou partageant ce poste, cela me permettra d'accro\u00eetre la visibilit\u00e9 de ce poste et augmente mes chances de trouver l'entreprise.\n\nBonne journ\u00e9e \/ soir\u00e9e \u00e0 vous ! (et f\u00eates de fin d\u2019ann\u00e9e) \n#cv #it #bts",
+        "author": {
+          "firstName": "Ibrahima",
+          "lastName": "Sagna",
+          "username": "ibrahima-sagna",
+          "url": "https:\/\/www.linkedin.com\/in\/ibrahima-sagna"
+        },
+        "image": [
+          {
+            "url": "https:\/\/media.licdn.com\/dms\/image\/v2\/C5122AQHHBEaOedanbw\/feedshare-shrink_2048_1536\/feedshare-shrink_2048_1536\/0\/1580299552427?e=1734566400&v=beta&t=c428QJVfM6kEClSTJNtwcIoaKH-7VtH13QhvoRVDeyg"
+          }
+        ],
+        "company": [],
+        "document": [],
+        "celebration": [],
+        "poll": [],
+        "article": [],
+        "entity": []
+      },
+      "text": "",
+      "totalReactionCount": 1,
+      "likeCount": 1,
+      "postUrl": "https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:6483987774402887680\/",
+      "postedAt": "5yr",
+      "postedDate": "2018-12-27 09:32:32.085 +0000 UTC",
+      "postedDateTimestamp": 1545903152085,
+      "reposted": true,
+      "urn": "6483987774402887680",
+      "author": {
+        "firstName": "Cl\u00e9ment",
+        "lastName": "Goubier",
+        "username": "clementgoubier",
+        "url": "https:\/\/www.linkedin.com\/in\/clementgoubier"
+      },
+      "company": [],
+      "document": [],
+      "celebration": [],
+      "poll": [],
+      "article": [],
+      "entity": []
+    },
+    {
+      "text": "",
+      "postUrl": "https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:6407897236642033664\/",
+      "postedAt": "6yr",
+      "postedDate": "2018-05-31 10:15:54.189 +0000 UTC",
+      "postedDateTimestamp": 1527761754189,
+      "urn": "6407897236642033664",
+      "author": {
+        "firstName": "Cl\u00e9ment",
+        "lastName": "Goubier",
+        "username": "clementgoubier",
+        "url": "https:\/\/www.linkedin.com\/in\/clementgoubier"
+      },
+      "company": [],
+      "document": [],
+      "celebration": [],
+      "poll": [],
+      "article": {
+        "title": "Key Account Manager - Foodtech - STAGE : Youmiam recrute !",
+        "subtitle": "welcometothejungle.co",
+        "link": "https:\/\/www.welcometothejungle.co\/companies\/youmiam\/jobs\/key-account-manager-stage_paris_YOUMI_7aRM6g"
+      },
+      "entity": []
+    },
+    {
+      "resharedPublication": {
+        "text": "Quand un client a mal choisi l'emplacement de ses locaux et qu'il essaie de convaincre un de mes devs de venir chez lui :D",
+        "author": {
+          "firstName": "S\u00e9bastien",
+          "lastName": "Bianchi",
+          "username": "bianchis1",
+          "url": "https:\/\/www.linkedin.com\/in\/bianchis1"
+        },
+        "image": [
+          {
+            "url": "https:\/\/media.licdn.com\/dms\/image\/v2\/C4E22AQHGBtzKet2Ufw\/feedshare-shrink_2048_1536\/feedshare-shrink_2048_1536\/0\/1583565207001?e=1734566400&v=beta&t=DkuCvgOejklIAwIwV3bDlV6w7JPYN-EVAMUUxKBIfcw"
+          }
+        ],
+        "company": [],
+        "document": [],
+        "celebration": [],
+        "poll": [],
+        "article": [],
+        "entity": []
+      },
+      "text": "",
+      "postUrl": "https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:6155122762923941888\/",
+      "postedAt": "8yr",
+      "postedDate": "2016-07-02 21:40:23.332 +0000 UTC",
+      "postedDateTimestamp": 1467495623332,
+      "reposted": true,
+      "urn": "6155122762923941888",
+      "author": {
+        "firstName": "Cl\u00e9ment",
+        "lastName": "Goubier",
+        "username": "clementgoubier",
+        "url": "https:\/\/www.linkedin.com\/in\/clementgoubier"
+      },
+      "company": [],
+      "document": [],
+      "celebration": [],
+      "poll": [],
+      "article": [],
+      "entity": []
+    }
+  ]
+}

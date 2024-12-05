@@ -34,9 +34,20 @@ class GetAnalysisInsightsAction extends AbstractController
 
         $data['monthlyStats'] = $this->analysisInsight->calculateMonthlyStats($analysis->getSocialAccount());
         $data['hourlyStats'] = $this->analysisInsight->calculateHourlyStats($analysis->getSocialAccount());
-        $data['averageLikes'] = round($analysis->getSocialAccount()->getLikeCount() / $analysis->getSocialAccount()->getPostCount());
-        $data['averageComments'] = round($analysis->getSocialAccount()->getCommentCount() / $analysis->getSocialAccount()->getPostCount());
-        $data['averageReposts'] = round($analysis->getSocialAccount()->getShareCount() / $analysis->getSocialAccount()->getPostCount());
+
+        $postCount = $analysis->getSocialAccount()->getPostCount();
+
+        $data['averageLikes'] = $postCount > 0
+            ? round($analysis->getSocialAccount()->getLikeCount() / $postCount)
+            : null;
+
+        $data['averageComments'] = $postCount > 0
+            ? round($analysis->getSocialAccount()->getCommentCount() / $postCount)
+            : null;
+
+        $data['averageReposts'] = $postCount > 0
+            ? round($analysis->getSocialAccount()->getShareCount() / $postCount)
+            : null;
 
         return new JsonResponse(
             data: $data,

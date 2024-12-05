@@ -18,7 +18,5 @@ class AppController extends AbstractController
     #[Route('/debug', name: 'debug', methods: ['GET'])]
     public function debug(SocialAccountRepository $socialAccountRepository)
     {
-        $socialAccount = $socialAccountRepository->findBy(['uuid' => '4685edbd-ee16-4b25-ad8a-8fa727fe423e']);
-        dd($socialAccount);
     }
 }

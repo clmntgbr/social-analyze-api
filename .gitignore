@@ -9,7 +9,8 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
-
+!/public/images/.gitkeep
+/public/images/*
 .idea
 ###> lexik/jwt-authentication-bundle ###
 /config/jwt/*.pem

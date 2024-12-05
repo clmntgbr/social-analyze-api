@@ -48,7 +48,7 @@ readonly class AnalysisInsight
 
         foreach ($posts as $post) {
             $postHour = $post->getPostAt()->format('H');
-            $nextHour = str_pad(($postHour + 1) % 24, 2, '0', STR_PAD_LEFT); // Assure un format sur 2 chiffres
+            $nextHour = str_pad(($postHour + 1) % 24, 2, '0', STR_PAD_LEFT);
             $hourRange = $postHour . 'h-' . $nextHour . 'h';
 
             if (!isset($dataByHour[$hourRange])) {

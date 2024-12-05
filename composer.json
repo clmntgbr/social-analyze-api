@@ -41,7 +41,8 @@
         "symfony/validator": "7.1.*",
         "symfony/yaml": "7.1.*",
         "doctrine/doctrine-fixtures-bundle": "^3.6",
-        "hautelook/alice-bundle": "^2.14"
+        "hautelook/alice-bundle": "^2.14",
+      "ext-curl": "*"
     },
     "config": {
         "allow-plugins": {

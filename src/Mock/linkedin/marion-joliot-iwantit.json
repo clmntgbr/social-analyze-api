@@ -1,0 +1,2300 @@
+{
+  "connection": 5335,
+  "success": true,
+  "data": {
+    "id": 692074072,
+    "urn": "ACoAAClANlgB1XvoMEyBK0hNbcDKdSoJWqS0FqI",
+    "username": "marion-joliot-iwantit",
+    "firstName": "Marion",
+    "lastName": "Joliot",
+    "isCreator": false,
+    "isOpenToWork": false,
+    "isHiring": false,
+    "profilePicture": "https://media.licdn.com/dms/image/v2/D4E03AQG8opV_0k_kOg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727089501528?e=1738195200\u0026v=beta\u0026t=XMqcqGY5O5LZsq8VBYQA6z1WkJEm9wZGtRY0mFHWDmY",
+    "backgroundImage": [
+      {
+        "width": 800,
+        "height": 200,
+        "url": "https://media.licdn.com/dms/image/v2/D4E16AQGcgloC7rxywA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1695375663944?e=1738195200\u0026v=beta\u0026t=djaXtJihSi27MvVmItVCbUrejLq_wVbnsDbJ0afkCEA"
+      },
+      {
+        "width": 1400,
+        "height": 350,
+        "url": "https://media.licdn.com/dms/image/v2/D4E16AQGcgloC7rxywA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1695375663944?e=1738195200\u0026v=beta\u0026t=kWpinDKYVLtSND3Gvqvvp7VDblu9MFiZULCISV0oseY"
+      }
+    ],
+    "summary": "Sept Lieues est un cabinet de recrutement spécialisé sur les secteurs Digital et Electronics. \n\nGrâce à notre expertise du digital et nos spécialisations technologiques, nous vous accompagnons dans vos recherches de talents ou d'opportunités en CDI sur toute la France pour des postes en R\u0026D, Sales et Management.\n\nPôle DIGITAL : Web \u0026 E-Commerce | App Mobile \u0026 IOT | Cloud \u0026 Big Data | Edition Logicielle \n\nPôle ELECTRONICS : Logiciel Embarqué | Microélectronique | Electronique | Mécanique \n\nToutes nos offres sur : www.sept-lieues.com\n\nNous contacter : \nMarseille // 113 rue de la République // 04 91 39 39 39 \nParis // 148 rue de l'Université // 09 67 32 04 27",
+    "headline": "Tech recruiter - PHP 🐘",
+    "geo": {
+      "country": "France",
+      "city": "Marseille, Provence-Alpes-Côte d'Azur",
+      "full": "Marseille, Provence-Alpes-Côte d'Azur, France"
+    },
+    "languages": null,
+    "educations": [
+      {
+        "start": {
+          "year": 2021,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2022,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "Commerce international / commerce",
+        "degree": "Bootcamp",
+        "grade": "",
+        "schoolName": "Rocket School",
+        "description": "",
+        "activities": "",
+        "url": "https://www.linkedin.com/school/rocket-school-fr/",
+        "schoolId": "18683877"
+      },
+      {
+        "start": {
+          "year": 2020,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2020,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "MAO, mixage et mastering",
+        "degree": "",
+        "grade": "",
+        "schoolName": "AGESCA",
+        "description": "",
+        "activities": "MAO - production musicale",
+        "url": "",
+        "schoolId": ""
+      },
+      {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2014,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "Violon",
+        "degree": "Licence",
+        "grade": "",
+        "schoolName": "Ecole nationale de Musique et de Danse de Paris",
+        "description": "",
+        "activities": "",
+        "url": "",
+        "schoolId": ""
+      },
+      {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "Quatuor",
+        "degree": "Peefectionnement",
+        "grade": "",
+        "schoolName": "CRR Bourg-La-Reine",
+        "description": "",
+        "activities": "",
+        "url": "",
+        "schoolId": ""
+      },
+      {
+        "start": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "fieldOfStudy": "",
+        "degree": "",
+        "grade": "",
+        "schoolName": "Conservatoire de Musique de Creteil",
+        "description": "",
+        "activities": "",
+        "url": "",
+        "schoolId": ""
+      }
+    ],
+    "position": [
+      {
+        "companyId": 5228258,
+        "companyName": "Sept Lieues",
+        "companyUsername": "sept-lieues-recrutement",
+        "companyURL": "https://www.linkedin.com/company/sept-lieues-recrutement/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQECYgxzkaZ_8g/company-logo_400_400/company-logo_400_400/0/1630596317588/sept_lieues_recrutement_logo?e=1740614400\u0026v=beta\u0026t=qHsBoLOqIdjkaIV8PPHkfQCOQNU9vd2WGn6_6CKXry0",
+        "companyIndustry": "Staffing \u0026 Recruiting",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Tech recruiter - PHP",
+        "multiLocaleTitle": {
+          "fr_FR": "Tech recruiter - PHP"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Sept Lieues"
+        },
+        "location": "",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2023,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 34897002,
+        "companyName": "Erevo Formation",
+        "companyUsername": "erevo-formation",
+        "companyURL": "https://www.linkedin.com/company/erevo-formation/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQGXYiZ2HSVmUg/company-logo_400_400/company-logo_400_400/0/1643807567450?e=1740614400\u0026v=beta\u0026t=c_wRQEx9wojK6ZaxDTvvuCODFx7H01HHrEkCJZrdZDw",
+        "companyIndustry": "Professional Training \u0026 Coaching",
+        "companyStaffCountRange": "11 - 50",
+        "title": "CSM",
+        "multiLocaleTitle": {
+          "fr_FR": "CSM"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Erevo Formation"
+        },
+        "location": "",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2022,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2023,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 10982742,
+        "companyName": "i-wantit",
+        "companyUsername": "i-wantit",
+        "companyURL": "https://www.linkedin.com/company/i-wantit/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQHrLAh5COrVvg/company-logo_400_400/company-logo_400_400/0/1631300477295?e=1740614400\u0026v=beta\u0026t=5JG1K-fJCsyBBXwpJpz9CxlhjprC0oIotQNR4L_GV44",
+        "companyIndustry": "Computer Software",
+        "companyStaffCountRange": "2 - 10",
+        "title": "Business developer, CSM \u0026 Account Executive",
+        "multiLocaleTitle": {
+          "fr_FR": "Business developer, CSM \u0026 Account Executive"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "i-wantit"
+        },
+        "location": "",
+        "description": "Mes missions :\n✤ Gestion de la partie commerciale \u0026 Marketing de l'application :\n\n✢ Définition des objectifs \u0026 préparation au lancement de la nouvelle version de l'application \ni-wantit Connect:\n→ Création et segmentation des ICP \u0026 PERSONA\n→ Mise en place de stratégies inbound \u0026 outbound\n→ Elaboration d’une proposition commerciale : création de l'offre ainsi que d'une plaquette commerciale\n→ Veille commerciale : analyse + identification de nouveaux marchés\n→ Recherche et gestion de partenariats\n→ Valoriser l'image de l'App sur les réseaux\n→ Création et mise en place d’un plan de communication\n→ Création de newsletters\n\n✢ Chasse \u0026 évolution du prospect dans le funnel de conversion :\n→ Mise en place de campagnes multicanales ( Linke\n→ Scrapping, enrichissement \u0026 segmentation des listes de leads\n→ Prospection multicanale\n→ Démonstration produit\n→ Négociation et argumentation de la proposition\n\n\n✢ Gestion portefeuille client :\n→ Relation et satisfaction client\n→ Analyse des KPIs\n→ Identification des besoins\n→ Stratégie de fidélisation",
+        "employmentType": "",
+        "start": {
+          "year": 2021,
+          "month": 6,
+          "day": 0
+        },
+        "end": {
+          "year": 2022,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 18683877,
+        "companyName": "Rocket School",
+        "companyUsername": "rocket-school-fr",
+        "companyURL": "https://www.linkedin.com/school/rocket-school-fr/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQELw4P4EWq0gg/company-logo_400_400/company-logo_400_400/0/1631365526460/rocket_business_school_logo?e=1740614400\u0026v=beta\u0026t=Qnj_T-io3scN2FtDmwJRG78toKHJ3mOoqLbqFSYU7TU",
+        "companyIndustry": "Professional Training \u0026 Coaching",
+        "companyStaffCountRange": "51 - 200",
+        "title": "Aspirante SDR @RocketSchool \u0026 Future BizDev junior chez @I-WantIt",
+        "multiLocaleTitle": {
+          "fr_FR": "Aspirante SDR @RocketSchool \u0026 Future BizDev junior chez @I-WantIt"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Rocket School"
+        },
+        "location": "Marseille, Provence-Alpes-Côte d’Azur, France",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2021,
+          "month": 3,
+          "day": 0
+        },
+        "end": {
+          "year": 2022,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 5129060,
+        "companyName": "Kamp'n",
+        "companyUsername": "kamp'n",
+        "companyURL": "https://www.linkedin.com/company/kamp%27n/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQGLmTE-Ry_n0w/company-logo_400_400/company-logo_400_400/0/1732195785275/kampn_logo?e=1740614400\u0026v=beta\u0026t=I23OuZqXnrthQh2IchHADY5qVIIz0sx-aDKou7JGd-Y",
+        "companyIndustry": "Marketing \u0026 Advertising",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Sales Development Representative",
+        "multiLocaleTitle": {
+          "fr_FR": "Sales Development Representative"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Kamp'n"
+        },
+        "location": "Marseille, Provence-Alpes-Côte d’Azur, France",
+        "description": "- Création d'ICP et personae\n- Recherches de cibles\n- Élaboration de stratégies multicanales\n- Prospection: emailing \u0026 phoning \n- Qualification des leads",
+        "employmentType": "Internship",
+        "start": {
+          "year": 2021,
+          "month": 1,
+          "day": 0
+        },
+        "end": {
+          "year": 2021,
+          "month": 5,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "Joliot",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Sound designer",
+        "multiLocaleTitle": {
+          "fr_FR": "Sound designer"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Joliot"
+        },
+        "location": "Région de Marseille, France",
+        "description": "Création de contenu musical à l’image,du Sound Design et du live !",
+        "employmentType": "",
+        "start": {
+          "year": 2020,
+          "month": 2,
+          "day": 0
+        },
+        "end": {
+          "year": 2021,
+          "month": 3,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 11690158,
+        "companyName": "Agence Crého",
+        "companyUsername": "agence-creho",
+        "companyURL": "https://www.linkedin.com/company/agence-creho/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQET_CfAcs6tNg/company-logo_400_400/company-logo_400_400/0/1702629334489?e=1740614400\u0026v=beta\u0026t=c38BscuzSIGd8CsIehQacU9dCJkkQItQIh3_ju-Fe8o",
+        "companyIndustry": "Hospitality",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Revenue Manager",
+        "multiLocaleTitle": {
+          "fr_FR": "Revenue Manager"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Agence Crého"
+        },
+        "location": "Région de Paris, France",
+        "description": "Revenue Management :\n- Etudes statistiques nécessaires au suivi de l’activité d'hôtels\n- Mise en place de stratégies tarifaires\n- Veille constante de la concurrence\n- Mapping entre extranets et logiciels hôteliers\n\nConsulting :\n- Manager une équipe: expérience client, PMS et facturation\n- Relation clients : réponses aux avis en ligne d'hôtels\n- Réalisation d'audits tarifaires et commerciaux de prospects\n- Exposante au salon EquipHôtel 2018",
+        "employmentType": "",
+        "start": {
+          "year": 2018,
+          "month": 10,
+          "day": 0
+        },
+        "end": {
+          "year": 2020,
+          "month": 2,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 49536344,
+        "companyName": "Hôtel Korner",
+        "companyUsername": "hôtel-korner",
+        "companyURL": "https://www.linkedin.com/company/h%C3%B4tel-korner/",
+        "companyLogo": "",
+        "companyIndustry": "Hospitality",
+        "companyStaffCountRange": "",
+        "title": "Réceptionniste polyvalente",
+        "multiLocaleTitle": {
+          "fr_FR": "Réceptionniste polyvalente"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Hôtel Korner"
+        },
+        "location": "Région de Paris, France",
+        "description": "Réception:\n- Accueil et conseil client, conciergerie\n- Prise de réservations en ligne et en direct\n- Effectuer les tâches d'un cahier de consignes\n- Facturation\nManagement:\n- Formation, élaboration de procédures de travail\n- Gouvernance, organisation des services de ménage\n- Création d'un journal mensuel interne ( Chiffres, points à\naméliorer, news\n et évènements divers)\nRelations clients et partenaires:\n- Prospecter, négocier et finaliser des contrats avec des\nparticuliers et des entreprises\n- Réponses aux avis en ligne\n- Commandes de produits (alimentaires,fournitures,goodies)\n\nYield management:\n- Gestion d'occupation des chambres en autonomie\n- Ouverture et fermeture de tarifs en équipe",
+        "employmentType": "Permanent",
+        "start": {
+          "year": 2016,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2018,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 10253722,
+        "companyName": "Direction générale des Finances publiques",
+        "companyUsername": "direction-g-n-rale-des-finances-publiques",
+        "companyURL": "https://www.linkedin.com/company/direction-g-n-rale-des-finances-publiques/",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQEM3Xkm4tGVhw/company-logo_400_400/company-logo_400_400/0/1678154028002/direction_gnrale_des_finances_publiques_logo?e=1740614400\u0026v=beta\u0026t=5taoADaf97v4Kjm-EZ9bR2NrZW5MtD5Jg5jx5bm4Z5E",
+        "companyIndustry": "Government Administration",
+        "companyStaffCountRange": "10001+",
+        "title": "Stagiaire",
+        "multiLocaleTitle": {
+          "fr_FR": "Stagiaire"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Direction générale des Finances publiques"
+        },
+        "location": "Dax",
+        "description": "",
+        "employmentType": "Contract",
+        "start": {
+          "year": 2015,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2015,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "Orchestre Régional Bayonne Côte Basque",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Violoniste",
+        "multiLocaleTitle": {
+          "fr_FR": "Violoniste"
+        },
+        "multiLocaleCompanyName": {
+          "fr_FR": "Orchestre Régional Bayonne Côte Basque"
+        },
+        "location": "Bayonne",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2008,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2015,
+          "month": 0,
+          "day": 0
+        }
+      }
+    ],
+    "fullPositions": [
+      {
+        "companyId": 5228258,
+        "companyName": "Sept Lieues",
+        "companyUsername": "sept-lieues-recrutement",
+        "companyURL": "https://www.linkedin.com/company/sept-lieues-recrutement",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQECYgxzkaZ_8g/company-logo_400_400/company-logo_400_400/0/1630596317588/sept_lieues_recrutement_logo?e=1740614400\u0026v=beta\u0026t=qHsBoLOqIdjkaIV8PPHkfQCOQNU9vd2WGn6_6CKXry0",
+        "companyIndustry": "Staffing and Recruiting",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Tech recruiter - PHP",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2023,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 34897002,
+        "companyName": "Erevo Formation",
+        "companyUsername": "erevo-formation",
+        "companyURL": "https://www.linkedin.com/company/erevo-formation",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQGXYiZ2HSVmUg/company-logo_400_400/company-logo_400_400/0/1643807567450?e=1740614400\u0026v=beta\u0026t=c_wRQEx9wojK6ZaxDTvvuCODFx7H01HHrEkCJZrdZDw",
+        "companyIndustry": "Professional Training \u0026 Coaching",
+        "companyStaffCountRange": "11 - 50",
+        "title": "CSM",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2022,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2023,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 10982742,
+        "companyName": "i-wantit",
+        "companyUsername": "i-wantit",
+        "companyURL": "https://www.linkedin.com/company/i-wantit",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQHrLAh5COrVvg/company-logo_400_400/company-logo_400_400/0/1631300477295?e=1740614400\u0026v=beta\u0026t=5JG1K-fJCsyBBXwpJpz9CxlhjprC0oIotQNR4L_GV44",
+        "companyIndustry": "Computer Software",
+        "companyStaffCountRange": "2 - 10",
+        "title": "Business developer, CSM \u0026 Account Executive",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "",
+        "description": "Mes missions :\n✤ Gestion de la partie commerciale \u0026 Marketing de l'application :\n\n✢ Définition des objectifs \u0026 préparation au lancement de la nouvelle version de l'application \ni-wantit Connect:\n→ Création et segmentation des ICP \u0026 PERSONA\n→ Mise en place de stratégies inbound \u0026 outbound\n→ Elaboration d’une proposition commerciale : création de l'offre ainsi que d'une plaquette commerciale\n→ Veille commerciale : analyse + identification de nouveaux marchés\n→ Recherche et gestion de partenariats\n→ Valoriser l'image de l'App sur les réseaux\n→ Création et mise en place d’un plan de communication\n→ Création de newsletters\n\n✢ Chasse \u0026 évolution du prospect dans le funnel de conversion :\n→ Mise en place de campagnes multicanales ( Linke\n→ Scrapping, enrichissement \u0026 segmentation des listes de leads\n→ Prospection multicanale\n→ Démonstration produit\n→ Négociation et argumentation de la proposition\n\n\n✢ Gestion portefeuille client :\n→ Relation et satisfaction client\n→ Analyse des KPIs\n→ Identification des besoins\n→ Stratégie de fidélisation",
+        "employmentType": "",
+        "start": {
+          "year": 2021,
+          "month": 6,
+          "day": 0
+        },
+        "end": {
+          "year": 2022,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 18683877,
+        "companyName": "Rocket School",
+        "companyUsername": "rocket-school-fr",
+        "companyURL": "https://www.linkedin.com/company/rocket-school-fr",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQELw4P4EWq0gg/company-logo_400_400/company-logo_400_400/0/1631365526460/rocket_business_school_logo?e=1740614400\u0026v=beta\u0026t=Qnj_T-io3scN2FtDmwJRG78toKHJ3mOoqLbqFSYU7TU",
+        "companyIndustry": "Professional Training \u0026 Coaching",
+        "companyStaffCountRange": "51 - 200",
+        "title": "Aspirante SDR @RocketSchool \u0026 Future BizDev junior chez @I-WantIt",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "Marseille, Provence-Alpes-Côte d’Azur, France",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2021,
+          "month": 3,
+          "day": 0
+        },
+        "end": {
+          "year": 2022,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 5129060,
+        "companyName": "Kamp'n",
+        "companyUsername": "kamp'n",
+        "companyURL": "https://www.linkedin.com/company/kamp'n",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQGLmTE-Ry_n0w/company-logo_400_400/company-logo_400_400/0/1732195785275/kampn_logo?e=1740614400\u0026v=beta\u0026t=I23OuZqXnrthQh2IchHADY5qVIIz0sx-aDKou7JGd-Y",
+        "companyIndustry": "Marketing and Advertising",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Sales Development Representative",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "Marseille, Provence-Alpes-Côte d’Azur, France",
+        "description": "- Création d'ICP et personae\n- Recherches de cibles\n- Élaboration de stratégies multicanales\n- Prospection: emailing \u0026 phoning \n- Qualification des leads",
+        "employmentType": "",
+        "start": {
+          "year": 2021,
+          "month": 1,
+          "day": 0
+        },
+        "end": {
+          "year": 2021,
+          "month": 5,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "Joliot",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Sound designer",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "Région de Marseille, France",
+        "description": "Création de contenu musical à l’image,du Sound Design et du live !",
+        "employmentType": "",
+        "start": {
+          "year": 2020,
+          "month": 2,
+          "day": 0
+        },
+        "end": {
+          "year": 2021,
+          "month": 3,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 11690158,
+        "companyName": "Agence Crého",
+        "companyUsername": "agence-creho",
+        "companyURL": "https://www.linkedin.com/company/agence-creho",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/D4E0BAQET_CfAcs6tNg/company-logo_400_400/company-logo_400_400/0/1702629334489?e=1740614400\u0026v=beta\u0026t=c38BscuzSIGd8CsIehQacU9dCJkkQItQIh3_ju-Fe8o",
+        "companyIndustry": "Hospitality",
+        "companyStaffCountRange": "11 - 50",
+        "title": "Revenue Manager",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "Région de Paris, France",
+        "description": "Revenue Management :\n- Etudes statistiques nécessaires au suivi de l’activité d'hôtels\n- Mise en place de stratégies tarifaires\n- Veille constante de la concurrence\n- Mapping entre extranets et logiciels hôteliers\n\nConsulting :\n- Manager une équipe: expérience client, PMS et facturation\n- Relation clients : réponses aux avis en ligne d'hôtels\n- Réalisation d'audits tarifaires et commerciaux de prospects\n- Exposante au salon EquipHôtel 2018",
+        "employmentType": "",
+        "start": {
+          "year": 2018,
+          "month": 10,
+          "day": 0
+        },
+        "end": {
+          "year": 2020,
+          "month": 2,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 49536344,
+        "companyName": "Hôtel Korner",
+        "companyUsername": "hôtel-korner",
+        "companyURL": "https://www.linkedin.com/company/hôtel-korner",
+        "companyLogo": "",
+        "companyIndustry": "Hospitality",
+        "companyStaffCountRange": "",
+        "title": "Réceptionniste polyvalente",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "Région de Paris, France",
+        "description": "Réception:\n- Accueil et conseil client, conciergerie\n- Prise de réservations en ligne et en direct\n- Effectuer les tâches d'un cahier de consignes\n- Facturation\nManagement:\n- Formation, élaboration de procédures de travail\n- Gouvernance, organisation des services de ménage\n- Création d'un journal mensuel interne ( Chiffres, points à\naméliorer, news\n et évènements divers)\nRelations clients et partenaires:\n- Prospecter, négocier et finaliser des contrats avec des\nparticuliers et des entreprises\n- Réponses aux avis en ligne\n- Commandes de produits (alimentaires,fournitures,goodies)\n\nYield management:\n- Gestion d'occupation des chambres en autonomie\n- Ouverture et fermeture de tarifs en équipe",
+        "employmentType": "",
+        "start": {
+          "year": 2016,
+          "month": 9,
+          "day": 0
+        },
+        "end": {
+          "year": 2018,
+          "month": 9,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 10253722,
+        "companyName": "Direction générale des Finances publiques",
+        "companyUsername": "direction-g-n-rale-des-finances-publiques",
+        "companyURL": "https://www.linkedin.com/company/direction-g-n-rale-des-finances-publiques",
+        "companyLogo": "https://media.licdn.com/dms/image/v2/C4E0BAQEM3Xkm4tGVhw/company-logo_400_400/company-logo_400_400/0/1678154028002/direction_gnrale_des_finances_publiques_logo?e=1740614400\u0026v=beta\u0026t=5taoADaf97v4Kjm-EZ9bR2NrZW5MtD5Jg5jx5bm4Z5E",
+        "companyIndustry": "Government Administration",
+        "companyStaffCountRange": "10001+",
+        "title": "Stagiaire",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "Dax",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2015,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2015,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "Orchestre Régional Bayonne Côte Basque",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Violoniste",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "Bayonne",
+        "description": "",
+        "employmentType": "",
+        "start": {
+          "year": 2008,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2015,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 0,
+        "companyName": "LABO DESIGN",
+        "companyUsername": "",
+        "companyURL": "",
+        "companyLogo": "",
+        "companyIndustry": "",
+        "companyStaffCountRange": "",
+        "title": "Violoniste",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "Région de Paris, France",
+        "description": "https://www.linkedin.com/in/laurent-casano-2646a683/",
+        "employmentType": "",
+        "start": {
+          "year": 2012,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2014,
+          "month": 0,
+          "day": 0
+        }
+      },
+      {
+        "companyId": 1717885,
+        "companyName": "Independant Musician and Composer",
+        "companyUsername": "independant-musician-and-composer",
+        "companyURL": "https://www.linkedin.com/company/independant-musician-and-composer",
+        "companyLogo": "",
+        "companyIndustry": "Music",
+        "companyStaffCountRange": "",
+        "title": "Violoniste",
+        "multiLocaleTitle": null,
+        "multiLocaleCompanyName": null,
+        "location": "Région de Paris, France",
+        "description": "https://www.linkedin.com/in/carly-blackman-4b916661",
+        "employmentType": "",
+        "start": {
+          "year": 2011,
+          "month": 0,
+          "day": 0
+        },
+        "end": {
+          "year": 2011,
+          "month": 0,
+          "day": 0
+        }
+      }
+    ],
+    "skills": [
+      {
+        "name": "Stratégies commerciales",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "Gestion du pipeline",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "Prospection commerciale",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "Veille concurrentielle",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Composition musicale",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Développement commercial",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "KPI",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Stratégie de tarification",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Gestion de la relation client (CRM)",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "PMS",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Écoute et communication",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 5
+      },
+      {
+        "name": "Relation client",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 3
+      },
+      {
+        "name": "Créativité",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 3
+      },
+      {
+        "name": "Management",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "Gestion du stress",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Curiosité intellectuelle",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 4
+      },
+      {
+        "name": "Gestion des clients",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "Yield",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Outils de veille stratégique",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Inbound marketing",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Marketing sortant",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Persona (marketing)",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Développement de pipeline",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Commerce",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Tableaux de bord d’indicateurs clés de performance",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Qualification des prospects",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Veille commerciale",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Tenace",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "Analyse",
+        "passedSkillAssessment": false,
+        "endorsementsCount": 2
+      },
+      {
+        "name": "Logiciels hoteliers",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Audit hotelier",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Violon professionnel",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Strategies revenus hoteliers",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "féderer",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Scrapping",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Marketing digital",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Processus de vente",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Ventes et marketing",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Stratégie marketing",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Travail d’équipe",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Sens de l’organisation",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Business-to-Business (BtoB)",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Fidélité des clients",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Génération de leads",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Gestion du temps",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Service client",
+        "passedSkillAssessment": false
+      },
+      {
+        "name": "Marketing",
+        "passedSkillAssessment": false
+      }
+    ],
+    "givenRecommendation": null,
+    "givenRecommendationCount": 0,
+    "receivedRecommendation": null,
+    "receivedRecommendationCount": 0,
+    "courses": null,
+    "certifications": [
+      {
+        "name": "Certification Inbound ",
+        "start": {
+          "year": 2021,
+          "month": 4,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "authority": "HubSpot Academy",
+        "company": {
+          "name": "HubSpot Academy",
+          "universalName": "hubspot-academy",
+          "logo": "https://media.licdn.com/dms/image/v2/D560BAQFGt4XAU9bF5w/company-logo_200_200/company-logo_200_200/0/1719518128249/hubspot_academy_logo?e=1740614400\u0026v=beta\u0026t=yTG4dH6aBBEfBCRL59FmPYy7LDMyy6T0hKbNLvy-IUk",
+          "staffCountRange": {},
+          "headquarter": {}
+        },
+        "timePeriod": {
+          "start": {
+            "year": 0,
+            "month": 0,
+            "day": 0
+          },
+          "end": {
+            "year": 0,
+            "month": 0,
+            "day": 0
+          }
+        }
+      },
+      {
+        "name": "Certifications Google",
+        "start": {
+          "year": 2021,
+          "month": 4,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "authority": "Google Ateliers Numériques",
+        "company": {
+          "name": "Google Ateliers Numériques",
+          "universalName": "google-ateliers-num-riques",
+          "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQE93cGK0z5RIw/company-logo_200_200/company-logo_200_200/0/1630612012779/google_atelier_numrique_rennes_logo?e=1740614400\u0026v=beta\u0026t=S-pqCSoC90QbMijdFohrZC8jAu7Qi5nRVTfwSW80CpA",
+          "staffCountRange": {},
+          "headquarter": {}
+        },
+        "timePeriod": {
+          "start": {
+            "year": 0,
+            "month": 0,
+            "day": 0
+          },
+          "end": {
+            "year": 0,
+            "month": 0,
+            "day": 0
+          }
+        }
+      },
+      {
+        "name": "Datananas B2B Sales Machine - Lead Relationship Management",
+        "start": {
+          "year": 2021,
+          "month": 4,
+          "day": 0
+        },
+        "end": {
+          "year": 0,
+          "month": 0,
+          "day": 0
+        },
+        "authority": "Datananas",
+        "company": {
+          "name": "Datananas",
+          "universalName": "datananas",
+          "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQFfkKh-C0qQ-A/company-logo_200_200/company-logo_200_200/0/1630652252689/datananas_logo?e=1740614400\u0026v=beta\u0026t=--XE1B8Lah3EiS4HLRVHMummhDNX1HYYxmItd9W3WGU",
+          "staffCountRange": {},
+          "headquarter": {}
+        },
+        "timePeriod": {
+          "start": {
+            "year": 0,
+            "month": 0,
+            "day": 0
+          },
+          "end": {
+            "year": 0,
+            "month": 0,
+            "day": 0
+          }
+        }
+      }
+    ],
+    "honors": null,
+    "projects": {
+      "total": 0,
+      "items": null
+    },
+    "volunteering": null,
+    "supportedLocales": [
+      {
+        "country": "FR",
+        "language": "fr"
+      }
+    ],
+    "multiLocaleFirstName": {
+      "fr": "Marion"
+    },
+    "multiLocaleLastName": {
+      "fr": "Joliot"
+    },
+    "multiLocaleHeadline": {
+      "fr": "Tech recruiter - PHP 🐘"
+    }
+  },
+  "follower": 5545,
+  "posts": [
+    {
+      "text": "Bonjour,\n\nCette nouvelle opportunité en CDI s'adresse aux développeurs PHP juniors à confirmés.\nTu peux cliquer ici pour voir le détail du poste et postuler: https://lnkd.in/eYtUTA93\n\nEn quelques points:\n\n 🤖 Secteur: Marketing digital / IA\n 🐘 Minimum 1 ans d'expérience en PHP/Symfony\n 📍 Localisation: Levallois\n 💰 Salaire: jusqu'à 55k fixe selon profil\n 🏠 2 à 3j de remote par semaine \n\nA très vite!",
+      "totalReactionCount": 73,
+      "likeCount": 68,
+      "empathyCount": 5,
+      "commentsCount": 19,
+      "repostsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7264554764141580288/",
+      "postedAt": "1w",
+      "postedDate": "2024-11-19 08:27:04.672 +0000 UTC",
+      "postedDateTimestamp": 1732004824672,
+      "urn": "7264554764141580288",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Développeur full-stack PHP/Symfony - Paris - jusqu'à 55k fixe",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111778"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Bonjour,\n\nSi tu es développeur sénior PHP à l'écoute d'une opportunité en CDI, tu peux cliquer ici pour voir le détail du poste et postuler: https://lnkd.in/e6xwpgQW\n\nEn quelques points:\n⚙ Secteur: Edition de logiciel\n🐘 Minimum 6 ans d'expérience en PHP/Symfony/JS\n📍 Localisation: Paris 8e \n💰 Salaire: jusqu'à 58k fixe selon profil\n🏡 2j de remote par semaine \n\nA très vite :) 🍂",
+      "totalReactionCount": 63,
+      "likeCount": 57,
+      "empathyCount": 6,
+      "commentsCount": 12,
+      "repostsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7259844496526307328/",
+      "postedAt": "3w",
+      "postedDate": "2024-11-06 08:30:09.36 +0000 UTC",
+      "postedDateTimestamp": 1730881809360,
+      "urn": "7259844496526307328",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Bonsoir,\n\n🍽  Acteur international de la FoodTech recherche un Développeur sénior (ou Tech Lead en devenir) PHP full-stack pour compléter sa nouvelle feature team.\n\n🧞‍♂️ Si tu es expert en DDD, TDD, et que tu es incollable sur l'architecture hexagonale, voici le détail de l'annonce pour postuler --\u003e https://lnkd.in/eGE_f8ky\n\nA bientôt 🫡",
+      "totalReactionCount": 54,
+      "likeCount": 51,
+      "empathyCount": 3,
+      "commentsCount": 3,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7256716049067184128/",
+      "postedAt": "4w",
+      "postedDate": "2024-10-28 17:18:49.362 +0000 UTC",
+      "postedDateTimestamp": 1730135929362,
+      "urn": "7256716049067184128",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Développeur sénior PHP/JS - Paris - jusqu'à 68k fixe",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111542"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Communauté PHP bonjour!\n\nStart-up dans le secteur automobile recherche un(e) tech lead full-stack.\nLe détail du poste ici 👉 \n https://lnkd.in/ePCmRF-D\n\nEn quelques points:\n ⚙ Secteur: Automobile\n 🎓 Diplôme d'ingénieur (obligatoire) \n🐘  5 ans min. d'expérience en PHP/Symfony/JS\n📍 Localisation: Paris 3e\n💰 Salaire: jusqu'à 70k fixe selon profil\n\nA très vite!",
+      "totalReactionCount": 52,
+      "likeCount": 50,
+      "empathyCount": 2,
+      "commentsCount": 6,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7244629639996870656/",
+      "postedAt": "2mo",
+      "postedDate": "2024-09-25 08:51:44.885 +0000 UTC",
+      "postedDateTimestamp": 1727254304885,
+      "urn": "7244629639996870656",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Tech Lead PHP/JS - Paris - jusqu'à 70k fixe",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111673"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Bonjour,\n\nSi tu es développeur confirmé PHP/Symfony à l'écoute d'un CDI, tu peux cliquer ici:  https://lnkd.in/eRh_BuQN\n\nEn quelques points:\n⚙ Secteur: Edition de logiciel\n🐘  Minimum 3 ans d'expérience en PHP/Symfony\n📍  Localisation: Levallois \n💰  Salaire: jusqu'à 55k fixe selon profil\n🏡 3j de remote par semaine \n\nA très vite 😀",
+      "totalReactionCount": 53,
+      "likeCount": 48,
+      "appreciationCount": 3,
+      "empathyCount": 1,
+      "InterestCount": 1,
+      "commentsCount": 8,
+      "repostsCount": 4,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7239251437866692610/",
+      "postedAt": "2mo",
+      "postedDate": "2024-09-10 12:40:41.575 +0000 UTC",
+      "postedDateTimestamp": 1725972041575,
+      "urn": "7239251437866692610",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Développeur(se) back-end confirmé PHP Symfony - Levallois",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U411654"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Bonjour aux connectés 💻  (et bonjour aux vacanciers 🏖... )\n\nNew CDI - Dev full-stack confirmé - PHP/Symfony/JS\n\n- Secteur: Tourisme  🌍 \n- Localisation: Paris \n- Salaire: jusqu'à 60k fixe selon profil\n- 3j de remote par semaine\n\nPlus de détails par ici: https://lnkd.in/eD85xm4y\nA très vite 😀",
+      "totalReactionCount": 44,
+      "likeCount": 44,
+      "commentsCount": 8,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7219713507297030150/",
+      "postedAt": "4mo",
+      "postedDate": "2024-07-18 14:43:55.93 +0000 UTC",
+      "postedDateTimestamp": 1721313835930,
+      "urn": "7219713507297030150",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Développeur full-stack PHP/JS - Paris - jusqu'à 60K fixe",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111584"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Bonjour, \n\nNew CDI - Dev full-stack confirmé - PHP/Laravel/React Native \n\n- Secteur: Solutions innovantes de contrôle d'accès et interphonie 🚪 \n- Localisation: IDF (94)\n- Salaire: jusqu'à 45k fixe selon profil\n- 2j de remote par semaine\n\nPlus de détails par ici: https://lnkd.in/eR2f4tiE\n\nA très vite 😀",
+      "totalReactionCount": 37,
+      "likeCount": 36,
+      "appreciationCount": 1,
+      "commentsCount": 2,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7214292810626166784/",
+      "postedAt": "4mo",
+      "postedDate": "2024-07-03 15:44:01.132 +0000 UTC",
+      "postedDateTimestamp": 1720021441132,
+      "urn": "7214292810626166784",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Développeur confirmé PHP/Laravel - 45k fixe",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111548"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Oyé oyé communauté PHP 😀 \n\nVoici 3 nouvelles opportunités PHP chez le client final: secteur e-commerce/alimentaire 🍽 \n \n\n- Dev confirmé back-end PHP: https://lnkd.in/e5wD7ESt \n- Dev sénior full-stack PHP/JS/Symfony: https://lnkd.in/eGE_f8ky \n- Tech lead full-stack PHP/JS/Symfony: https://lnkd.in/eYYBDzSP\n\nSi tu souhaites en savoir davantage, discutons-en!\n\nà bientôt,",
+      "totalReactionCount": 62,
+      "likeCount": 58,
+      "appreciationCount": 1,
+      "empathyCount": 2,
+      "InterestCount": 1,
+      "commentsCount": 10,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7213939750263517186/",
+      "postedAt": "4mo",
+      "postedDate": "2024-07-02 16:21:04.982 +0000 UTC",
+      "postedDateTimestamp": 1719937264982,
+      "urn": "7213939750263517186",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Développeur confirmé back-end PHP/Symfony - jusqu'à 58k fixe",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111544"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Bonjour,\n\nVous êtes lead/dev senior PHP à l'écoute d'une nouvelle opportunité?\n+ d'infos par ici: https://lnkd.in/dtHjiYbh\n\nEn quelques mots:\n \n 🐘  6 ans d’XP min en PHP/Symfony/ReactJS\n \n📍 Paris - 2 j de télétravail/semaine\n\n 💰 jusqu'à 65K€ fixe + avantages\n\nVotre profil correspond ?\nJe me tiens à votre disposition pour faire un point rapide par téléphone. \n\nBon week-end!",
+      "totalReactionCount": 34,
+      "likeCount": 34,
+      "commentsCount": 3,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7199421372056408064/",
+      "postedAt": "6mo",
+      "postedDate": "2024-05-23 14:50:13.879 +0000 UTC",
+      "postedDateTimestamp": 1716475813879,
+      "urn": "7199421372056408064",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Développeur sénior full stack PHP/JS (Symfony/React.JS)",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111451"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Bonjour,\n\nVous êtes CTO/CPTO à l'écoute d'une nouvelle opportunité?\n+ d'infos par ici: https://lnkd.in/eKwqMcYb\n\nEn quelques mots:\n \n 🐘 PHP: 10 ans d’XP / XP en tant que CTO/CPTO obligatoire\n\n \n📍 Paris - 1 jours de télétravail/semaine\n\n \n 💰 100K€ fixe\n\nVotre profil correspond ?\nJe me tiens à votre disposition pour faire un point rapide par téléphone. \n\nBon week-end!",
+      "totalReactionCount": 33,
+      "likeCount": 33,
+      "commentsCount": 1,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7197268397091356673/",
+      "postedAt": "6mo",
+      "postedDate": "2024-05-17 16:15:04.647 +0000 UTC",
+      "postedDateTimestamp": 1715962504647,
+      "urn": "7197268397091356673",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "CTO/CPTO Hands-On PHP - Paris",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111429"
+      },
+      "entity": {}
+    },
+    {
+      "text": "☀ CDI - Dev full-stack PHP/JS - Proche Marseille ☀ \n\n\nLeader Européen du e-commerce dans le secteur alimentaire, vous rejoindrez un groupe de plus 1500 personnes en forte croissance.\nAu sein d’une équipe DSI composée de 15 collaborateurs, l’entreprise cherche un développeur afin de renforcer son équipe dans un contexte challengeant de refonte totale du système d’information 🚀 \n\n\n💪 PHP / JS / Laravel: 4 ans d’xp \n\n📍 Marseille alentours - 2 jours de TT/semaine\n\n💰 Salaire fixe jusqu'à 45k fixe €\n\n\nLe détail de l’annonce: https://lnkd.in/d9aJ7tWT\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !",
+      "totalReactionCount": 35,
+      "likeCount": 35,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7196052228615397377/",
+      "postedAt": "6mo",
+      "postedDate": "2024-05-14 07:42:27.487 +0000 UTC",
+      "postedDateTimestamp": 1715672547487,
+      "urn": "7196052228615397377",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Développeur Full-Stack PHP/Laravel/JS",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111405"
+      },
+      "entity": {}
+    },
+    {
+      "text": "📢  CDI - CTO hands-On PHP - Fintech 📢\n\n\nNouvelle opportunité chez le client final! \nLe détail ici: https://lnkd.in/e44p5n4h\n\nRejoignez une Fintech en situation de croissance! Elle recherche son nouveau CTO qui saura encadrer l’équipe tech et participer activement à l’élaboration des stratégies des projets en cours et venir. \n\n \n 🐘 PHP: 10 ans d’XP / XP en tant que CTO obligatoire\n\n \n📍 Paris - 1 jours de télétravail/semaine\n\n \n 💰 90K€ fixe\n\nVotre profil correspond ?\nJe me tiens à votre disposition pour faire un point rapide par téléphone. \n\n Vous n'êtes pas à l'écoute ? Pensez à la cooptation. Recommandez-nous des profils et décrochez une prime de 750€ en cas de succès \n\nÀ très vite !",
+      "totalReactionCount": 31,
+      "likeCount": 31,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7189163298355904513/",
+      "postedAt": "7mo",
+      "postedDate": "2024-04-25 07:28:18.523 +0000 UTC",
+      "postedDateTimestamp": 1714030098523,
+      "urn": "7189163298355904513",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "CTO Hands-On PHP - CDI",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111358"
+      },
+      "entity": {}
+    },
+    {
+      "text": "📣CDI - CTO/LEAD PHP - Fintech  📣\n\nNouvelle opportunité chez le client final!\n\n Le détail de l'annonce: https://lnkd.in/emx2aks9\n\nRejoignez une fintech en situation de croissance exceptionnelle! Elle recherche son nouveau CTO qui saura encadrer l’équipe tech et participer activement à l’élaboration des stratégies des projets en cours et venir. \n\n 🦾 PHP: 10 ans d’XP / 5 ans d’xp en Lead ou CTO\n\n 📍Paris - 1 jours de télétravail/semaine\n\n 💰 Salaire  jusqu'à 120K€ \n\nVotre profil correspond ?\nJe me tiens à votre disposition pour faire un point rapide par téléphone. \n\n Vous n'êtes pas à l'écoute ? Pensez à la cooptation. Recommandez-nous des profils et décrochez une prime de 750€ en cas de succès \n\nÀ très vite !",
+      "totalReactionCount": 48,
+      "likeCount": 48,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7171805175983108097/",
+      "postedAt": "8mo",
+      "postedDate": "2024-03-08 09:53:19.651 +0000 UTC",
+      "postedDateTimestamp": 1709891599651,
+      "urn": "7171805175983108097",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Lead/CTO - CDI",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01P111225"
+      },
+      "entity": {}
+    },
+    {
+      "text": "📣 CDI - Dev PHP/Drupal - Grand groupe (secteur luxe) 📣\n\nExpert(e) Drupal, vous participez à la mise en place et au respect des bonnes pratiques de développement: architecture hexagonale, principe SOLID, clean architecture.\n\n🦾 6 ans d’XP minimum obligatoire PHP/ Drupal\n📍 Paris - 2 jours de télétravail/semaine\n💰 Salaire fixe jusqu’à 75K€ selon xp\n⚙️ Drupal, PHP 8, Symfony 5, DDD,TDD,SOLID\n\nLe détail de l’annonce : https://lnkd.in/es3rTuYv\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !\n\nN’hésitez pas à partager cette offre à votre entourage : Pour toute cooptation réussie, gagnez 750€ ! 🤝",
+      "totalReactionCount": 39,
+      "likeCount": 38,
+      "InterestCount": 1,
+      "commentsCount": 2,
+      "repostsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7165969259523743744/",
+      "postedAt": "9mo",
+      "postedDate": "2024-02-21 07:23:28.741 +0000 UTC",
+      "postedDateTimestamp": 1708500208741,
+      "urn": "7165969259523743744",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Dev PHP Drupal Senior - Paris",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/jobs/item/01p110767?fromSearch=true"
+      },
+      "entity": {}
+    },
+    {
+      "text": "#HIRING #NEWJOBS\n\nCher réseau, \nJe vous propose une nouvelle opportunité sur un poste de Chargé de Qualité à saisir rapidement !\n\n📍 Paris \n\n🔎 Start-up spécialisée dans la conception de jouets électroniques pour enfants.\n\n💼 Vous serez garant de la conformité des produits de l’entreprise et devrez accompagner les différents services, les fournisseurs et les prestataires sur le respect des réglementations. \n\n📚 Vous avez une expérience de 4 ans minimum sur un poste similaire, une bonne connaissance des produits électroniques et une maitrise d’Excel ! \n\nPlus d'informations : https://lnkd.in/eWw8FXjj\n\n💡 Intéressé(e) ? Contactez moi via LinkedIn ou postulez directement à l’annonce.\n\nPas intéressé(e) ? Nous rémunérons à hauteur de 750 € toute cooptation réussie, n'hésitez pas à partager l’annonce !\n\n#cdi #qualité #industrie #électronique #paris #idf #qualitéproduits",
+      "totalReactionCount": 30,
+      "likeCount": 29,
+      "empathyCount": 1,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7160301599213371394/",
+      "postedAt": "9mo",
+      "postedDate": "2024-02-05 16:02:13.223 +0000 UTC",
+      "postedDateTimestamp": 1707148933223,
+      "reposted": true,
+      "urn": "7160301599213371394",
+      "author": {
+        "firstName": "Caroline",
+        "lastName": "Dupuis",
+        "username": "caroline-dupuis-875b72195",
+        "url": "https://www.linkedin.com/in/caroline-dupuis-875b72195"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Chargé(e) de Qualité | Workers at Work",
+        "subtitle": "workersatwork.com",
+        "link": "https://workersatwork.com/job/05P3511146"
+      },
+      "entity": {}
+    },
+    {
+      "text": "Ma formation WealCome plaît vraiment aux devs seniors depuis si longtemps maintenant ! 😉\n\nJe compte placer de nouvelles sessions courant février. \n\n14h de formation étalées sur 2 jours. \n\nTDD et Clean Architecture au travers d’un live coding sur un projet non trivial et riche en échanges de questions/réponses. \n\nJe maîtrise beaucoup de technos, lesquelles vous intéresserez pour Février parmi : \n\n👉 Java / Spring\n👉 Kotlin / Spring\n👉 C# / ASP . NET\n👉 Node / Typescript / Nest\n👉 Swift /SwiftUI\n👉 PHP /  Symfony\n👉 React (ou autre) / Typescript / Redux-RTK (et/ou Context) \n👉 Flutter / Dart \n👉 C++ (oui oui !) \n\nChoisissez si vous comptez y assister et je sélectionnerai les plus demandées pour Février 🙏 ! \n\nQuelle que soit la techno, le niveau est très avancé et riche en apprentissage. \n\nLe but est que les devs constatent l’intérêt de ces pratiques avec un réel passionné (de longue date ! 🙂) du Software Design au clavier autour d’un projet à forte digne de ce que vous trouvez en entreprise niveau logique métier. \n\nChaque dev également interagit en phase d’exercices sur notre projet, car c’est du Mob programming. \n\nLes formations backend incorporent également de fortes notions DDD et BDD. \n\n—— \n\nDès janvier 2024, les nouveaux critères de financement pour Opco-Atlas sont très intéressants pour les Freelances qui ont leur boîte ; bien plus qu’en 2023. \nN’hésitez pas à me contacter pour en savoir plus ! \n\n——\n\nÇa fait 5 ans maintenant que je propose ces formations !\n\nJe les peaufine/revisite sans cesse, pour qu’elles soient encore meilleures de sessions en sessions aussi bien pédagogiquement qu’au niveau du contenu. \n\nPlus de 1000 devs formés en live (présentiel et distanciel) !! Y compris des anglophones, car oui, je forme aussi en full english si besoin. \n\nDes sessions de 3 à 11 devs à chaque fois, pas plus ; pour maximiser la qualité des échanges. \n\nJ’ai toujours autant de plaisir à transmettre tout ce que je sais et toujours si heureux lorsque je lis les feedbacks sur la formation 🙂\n\n#formations #wealcome #tdd #cleanarchitecture #bdd #tdd",
+      "totalReactionCount": 52,
+      "likeCount": 42,
+      "empathyCount": 7,
+      "praiseCount": 3,
+      "commentsCount": 51,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7156929463820165120/",
+      "postedAt": "10mo",
+      "postedDate": "2024-01-27 08:42:33.494 +0000 UTC",
+      "postedDateTimestamp": 1706344953494,
+      "reposted": true,
+      "urn": "7156929463820165120",
+      "author": {
+        "firstName": "⚡️Michaël",
+        "lastName": "Azerhad",
+        "username": "michael-azerhad",
+        "url": "https://www.linkedin.com/in/michael-azerhad"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "🌊  CDI - Lead Dev PHP - Proche Bordeaux 🦪 \n\n\nLeader Européen du e-commerce dans le secteur alimentaire, vous rejoindrez un groupe de plus 1500 personnes en forte croissance.\nAu sein d’une équipe DSI composée de 50 collaborateurs, l’entreprise cherche un développeur PHP afin de renforcer son équipe back-end dans un contexte challengeant de refonte totale du système d’information 🚀\n\n\n💪 PHP: 5 ans d’xp \n\n📍 Bordeaux alentours - 4 jours de TT/semaine\n\n💰 Salaire fixe jusqu'à 45k fixe €\n\n\nLe détail de l’annonce: https://lnkd.in/euWips9q\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !",
+      "totalReactionCount": 38,
+      "likeCount": 34,
+      "appreciationCount": 2,
+      "empathyCount": 2,
+      "commentsCount": 1,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7150491735423406080/",
+      "postedAt": "10mo",
+      "postedDate": "2024-01-09 14:21:19.437 +0000 UTC",
+      "postedDateTimestamp": 1704810079437,
+      "urn": "7150491735423406080",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Développeur back-end PHP",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111068"
+      },
+      "entity": {}
+    },
+    {
+      "text": "☀ CDI - Lead Dev PHP - Proche Marseille ☀  \n\n\nLeader Européen du e-commerce dans le secteur alimentaire, vous rejoindrez un groupe de plus 1500 personnes en forte croissance.\nAu sein d’une équipe DSI composée de 15 collaborateurs, l’entreprise cherche un lead développeur qui saura mener son équipe back-end dans un contexte challengeant de refonte totale du système d’information 🚀 \n\n\n💪 PHP: 5 ans d’xp / Lead: 2 ans d’xp obligatoire\n\n📍 Marseille alentours - 2 jours de TT/semaine\n\n💰 Salaire fixe jusqu'à 60k fixe €\n\n\nLe détail de l’annonce: https://lnkd.in/eMGsHUmd\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !",
+      "totalReactionCount": 24,
+      "likeCount": 23,
+      "appreciationCount": 1,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7148970756478046208/",
+      "postedAt": "11mo",
+      "postedDate": "2024-01-05 09:37:29.798 +0000 UTC",
+      "postedDateTimestamp": 1704447449798,
+      "reposted": true,
+      "urn": "7148970756478046208",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Lead dev back-end PHP",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111054"
+      },
+      "entity": {}
+    },
+    {
+      "text": "🛡 CDI - Cybersécurité - Paris 🛡  \n\n1 poste de Dev PHP/Symfony en CDI chez le client final\n\n🦾 2 ans d’XP minimum  PHP/ Symfony\n📍 Paris - 2 jours de télétravail/semaine\n💰 Salaire fixe jusqu’à 45K€ selon xp + avantages entreprise\n⚙️ PHP, Symfony, API Rest, API Platform, Behat\n\nLe détail de l’annonce : https://lnkd.in/esCE3egr\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !\n\nN’hésitez pas à partager cette offre à votre entourage : Pour toute cooptation réussie, gagnez 750€ ! 🤝",
+      "totalReactionCount": 25,
+      "likeCount": 24,
+      "appreciationCount": 1,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7148591144740745217/",
+      "postedAt": "11mo",
+      "postedDate": "2024-01-04 08:29:03.307 +0000 UTC",
+      "postedDateTimestamp": 1704356943307,
+      "reposted": true,
+      "urn": "7148591144740745217",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Dev Back-End PHP Symfony",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111062"
+      },
+      "entity": {}
+    },
+    {
+      "text": "🛡 CDI - Cybersécurité - Paris 🛡  \n\n1 poste de Dev PHP/Symfony en CDI chez le client final\n\n🦾 2 ans d’XP minimum  PHP/ Symfony\n📍 Paris - 2 jours de télétravail/semaine\n💰 Salaire fixe jusqu’à 45K€ selon xp + avantages entreprise\n⚙️ PHP, Symfony, API Rest, API Platform, Behat\n\nLe détail de l’annonce : https://lnkd.in/esCE3egr\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !\n\nN’hésitez pas à partager cette offre à votre entourage : Pour toute cooptation réussie, gagnez 750€ ! 🤝",
+      "totalReactionCount": 25,
+      "likeCount": 24,
+      "appreciationCount": 1,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7143914748886093825/",
+      "postedAt": "11mo",
+      "postedDate": "2023-12-22 10:46:43.652 +0000 UTC",
+      "postedDateTimestamp": 1703242003652,
+      "urn": "7143914748886093825",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Dev Back-End PHP Symfony",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111062"
+      },
+      "entity": {}
+    },
+    {
+      "text": "☀ CDI - Lead Dev PHP - Proche Marseille ☀  \n\n\nLeader Européen du e-commerce dans le secteur alimentaire, vous rejoindrez un groupe de plus 1500 personnes en forte croissance.\nAu sein d’une équipe DSI composée de 15 collaborateurs, l’entreprise cherche un lead développeur qui saura mener son équipe back-end dans un contexte challengeant de refonte totale du système d’information 🚀 \n\n\n💪 PHP: 5 ans d’xp / Lead: 2 ans d’xp obligatoire\n\n📍 Marseille alentours - 2 jours de TT/semaine\n\n💰 Salaire fixe jusqu'à 60k fixe €\n\n\nLe détail de l’annonce: https://lnkd.in/eMGsHUmd\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !",
+      "totalReactionCount": 24,
+      "likeCount": 23,
+      "appreciationCount": 1,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7143907577217576961/",
+      "postedAt": "11mo",
+      "postedDate": "2023-12-22 10:18:13.793 +0000 UTC",
+      "postedDateTimestamp": 1703240293793,
+      "urn": "7143907577217576961",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Lead dev back-end PHP",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111054"
+      },
+      "entity": {}
+    },
+    {
+      "text": "📣 CDI - Dev senior PHP/Symfony - IDF 📣\n\nEntreprise basée en région parisienne accompagne ses clients dans leur solutions digitales des secteurs d’activités suivants:  L’édition de logiciels, l’intégration de solution et le conseil.\n\nSa particularité? Les équipes ne se déplacent pas chez les clients, elles opèrent depuis les bureaux de l’entreprise!\n\nAujourd’hui, elle cherche un développeur PHP/Symfony afin de renforcer son équipe d’experts back-end  à taille humaine (3 à 10 personnes) pour intervenir sur la conception et l’évolution d’un projet du secteur public. \n\n  💪 PHP/ Symfony - de 0 à 5 ans d’expérience\n\n  💼 De formation bac+5/Ingénieur\n\n📍  IDF - 2 jours de télé travail/semaine\n\n 💰 Salaire fixe jusqu'à 50k fixe €\n\n\nLe détail de l’annonce: https://lnkd.in/ebzD3rgi\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !",
+      "totalReactionCount": 34,
+      "likeCount": 31,
+      "appreciationCount": 2,
+      "empathyCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7140013398309638145/",
+      "postedAt": "11mo",
+      "postedDate": "2023-12-11 16:24:09.191 +0000 UTC",
+      "postedDateTimestamp": 1702311849191,
+      "urn": "7140013398309638145",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Dev back-end PHP/Symfony",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01U111014"
+      },
+      "entity": {}
+    },
+    {
+      "text": "📣 CDI - Dev senior PHP/Symfony - Lyon 📣\n\nExpert PHP et Symfony, vous travaillerez en étroite collaboration avec l’équipe de direction technique et aurez un vrai rôle de référent technique au sein de projets from scratch!\n\n🦾 3 ans d’XP minimum obligatoire en PHP\n📍 Lyon - 2 jours de télétravail/semaine\n💰 Salaire fixe jusqu’à 50K€ selon xp \n\nLe détail de l’annonce: https://lnkd.in/ebWS4q6q\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !\n\nN’hésitez pas à partager cette offre à votre entourage Lyonnais : Pour toute cooptation réussie, gagnez 750€! 🤝",
+      "totalReactionCount": 38,
+      "likeCount": 33,
+      "appreciationCount": 5,
+      "commentsCount": 3,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7135210717191786496/",
+      "postedAt": "11mo",
+      "postedDate": "2023-11-28 10:20:00.783 +0000 UTC",
+      "postedDateTimestamp": 1701166800783,
+      "urn": "7135210717191786496",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Dev back-end PHP/Symfony",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01R110998"
+      },
+      "entity": {}
+    },
+    {
+      "text": "📣 CDI - Dev senior PHP/Symfony - Paris 📣\n\n1 poste de Dev PHP/Symfony sénior chez le client final\n\n🦾 5 ans d’XP minimum obligatoire en PHP/ Symfony\n📍 Paris - 2 jours de télétravail/semaine\n💰 Salaire fixe jusqu’à 60K€ selon xp + nombreux avantages entreprise\n⚙️ PHP 7 et 8, Symfony 5 et 6, API Rest, Google Cloud Platform\n\nLe détail de l’annonce: https://lnkd.in/eR8DYpVE\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !\n\nN’hésitez pas à partager cette offre à votre entourage : Pour toute cooptation réussie, gagnez 750€! 🤝",
+      "totalReactionCount": 40,
+      "likeCount": 39,
+      "empathyCount": 1,
+      "commentsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7131307360454627328/",
+      "postedAt": "1yr",
+      "postedDate": "2023-11-17 15:49:28.016 +0000 UTC",
+      "postedDateTimestamp": 1700236168016,
+      "urn": "7131307360454627328",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Dev sénior PHP/Symfony - CDI",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/Jobs/Item/01P110974"
+      },
+      "entity": {}
+    },
+    {
+      "text": "📣CDI - Dev PHP/Drupal - Grand groupe (secteur luxe) 📣\n\nExpert(e) Drupal, vous participez à la mise en place et au respect des bonnes pratiques de développement: achitecture hexagonale,principe SOLID,clean architecture.\n\n🦾 5 ans d’XP minimum obligatoire PHP/ Drupal\n📍 Paris - 2 jours de télétravail/semaine\n💰 Salaire fixe jusqu’à 70K€ selon xp \n⚙️ Drupal, PHP 8, Symfony 5, DDD,TDD,SOLID\n\nLe détail de l’annonce : https://lnkd.in/es3rTuYv\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !\n\nN’hésitez pas à partager cette offre à votre entourage : Pour toute cooptation réussie, gagnez 750€ ! 🤝",
+      "totalReactionCount": 32,
+      "likeCount": 29,
+      "appreciationCount": 1,
+      "empathyCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7114621604034170881/",
+      "postedAt": "1yr",
+      "postedDate": "2023-10-02 14:46:13.679 +0000 UTC",
+      "postedDateTimestamp": 1696257973679,
+      "urn": "7114621604034170881",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Dev PHP Drupal Senior - Paris",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/jobs/item/01p110767?fromSearch=true"
+      },
+      "entity": {}
+    },
+    {
+      "text": "📣 CDI - Cybersécurité - Paris 📣\n\n1 poste de Dev PHP/Symfony en CDI chez le client final\n\n🦾 2 ans d’XP minimum obligatoire et Expertise PHP/ Symfony\n📍 Paris - 2 jours de télétravail/semaine\n💰 Salaire fixe jusqu’à 45K€ selon xp + avantages entreprise\n⚙️ PHP, Symfony, API Rest, API Platform, Behat\n\nLe détail de l’annonce : https://lnkd.in/e34z--dE\n\n📩 Pour postuler, envoyez votre CV à marion.joliot@sept-lieues.com ou RDV en MP !\n\nN’hésitez pas à partager cette offre à votre entourage : Pour toute cooptation réussie, gagnez 750€ ! 🤝",
+      "totalReactionCount": 38,
+      "likeCount": 37,
+      "empathyCount": 1,
+      "repostsCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7112701204865916931/",
+      "postedAt": "1yr",
+      "postedDate": "2023-09-27 07:35:14.838 +0000 UTC",
+      "postedDateTimestamp": 1695800114838,
+      "urn": "7112701204865916931",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {
+        "title": "Dev Back-End PHP Symfony",
+        "subtitle": "sept-lieues.com",
+        "link": "https://www.sept-lieues.com/jobs/item/01p410743?fromSearch=true"
+      },
+      "entity": {}
+    },
+    {
+      "text": "🚨 À la recherche d'un super graphiste ! 🚨\n\nPour renforcer notre pôle Digital Learning, nous recherchons un graphiste supplémentaire pour sublimer nos formations !\n\n👉🏼 Création d'une charte dédiée aux formations intégrées sur la plateforme d'apprentissage\n👉🏼 Design des formations pour les rendre faciles à lire et graphiquement jolies\n👉🏼 Rejoindre une équipe jeune à 5 min à pied de la mer 🌴\n\n💬 Contactez-nous en MP ou directement en commentaires si vous êtes intéressé !\n\n#learning #recherche #graphiste #cv",
+      "totalReactionCount": 10,
+      "likeCount": 10,
+      "commentsCount": 2,
+      "repostsCount": 8,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7001131262711111680/",
+      "postedAt": "2yr",
+      "postedDate": "2022-11-23 10:36:07.759 +0000 UTC",
+      "postedDateTimestamp": 1669199767759,
+      "reposted": true,
+      "urn": "7001131262711111680",
+      "author": {},
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E22AQEBnrXBjoD4_g/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1669199765955?e=1735776000\u0026v=beta\u0026t=B7n3ypzAGnjXW1vG2c0RILkSXheySne7D0_WMftnkwk"
+        }
+      ],
+      "company": {
+        "name": "Erevo Formation",
+        "url": "https://www.linkedin.com/company/erevo-formation/",
+        "urn": "urn:li:fsd_company:34897002"
+      },
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Cher réseau, \n\n Etudiante en 1ère année de master en Mathématiques Appliquées (Recherche Opérationnelle et Aide à la Décision), je suis à la recherche d'une alternance. Je pourrai alors mettre en pratique ce que j'apprends lors de mes cours :  comprendre un problème et le modéliser grâce aux mathématiques, puis trouver une solution optimale par l'outil informatique. \n\nCe que je préfère dans ma formation : La théorie des graphes, la programmation linéaire, et apprendre des nouveaux langages informatiques (C++ , python, R ). \n\nJ'aimerais commencer dès que possible et jusqu'en août 2024. \n\nSi vous avez des pistes, je suis ouverte à toutes les opportunités !",
+      "totalReactionCount": 7,
+      "likeCount": 7,
+      "repostsCount": 6,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6998422526921961472/",
+      "postedAt": "2yr",
+      "postedDate": "2022-11-15 23:12:34.821 +0000 UTC",
+      "postedDateTimestamp": 1668553954821,
+      "reposted": true,
+      "urn": "6998422526921961472",
+      "author": {
+        "firstName": "Anna",
+        "lastName": "Joliot",
+        "username": "anna-joliot-685b9b225",
+        "url": "https://www.linkedin.com/in/anna-joliot-685b9b225"
+      },
+      "company": {},
+      "document": {
+        "title": "Curriculum Vitae Anna Joliot",
+        "urn": "C4D1FAQEAE6Czrcd9aw",
+        "TranscribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/C4D1FAQEAE6Czrcd9aw/feedshare-document-url-metadata-scrapper-pdf/feedshare-document-url-metadata-scrapper-pdf/0/1668552698808?e=1733313600\u0026v=beta\u0026t=TiDWLt43qGWlMlZ2PrramBeB7eI8v3vCOinrWgLObE4",
+        "TranscribedDocumentUrlExpiresAt": 1733313600000,
+        "manifestUrlExpiresAt": 1733313600000,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/C4D1FAQEAE6Czrcd9aw/feedshare-document-master-manifest/feedshare-document-master-manifest/0/1668552698963?e=1733313600\u0026v=beta\u0026t=Z1eFs2hqvGdPn56idVGR0XcbgKmEtHxliDVMnweGirU",
+        "scanRequiredForDownload": true,
+        "totalPageCount": 1,
+        "coverPages": [
+          {
+            "width": 347,
+            "height": 491,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/C4D1FAQEAE6Czrcd9aw/feedshare-document-cover-images_480/feedshare-document-cover-images_480/0/1668552698630?e=1733313600\u0026v=beta\u0026t=sQ5zIgyOHE7hqSnMBaKgRLCoUOCteotE1Lkoy4Eoj8c"
+            ]
+          },
+          {
+            "width": 570,
+            "height": 807,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/C4D1FAQEAE6Czrcd9aw/feedshare-document-cover-images_800/feedshare-document-cover-images_800/0/1668552698671?e=1733313600\u0026v=beta\u0026t=9ImrVUUISXjlBtabrbpFLGjqgr8jG8NZi-Lwg8zvR6o"
+            ]
+          },
+          {
+            "width": 909,
+            "height": 1286,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/C4D1FAQEAE6Czrcd9aw/feedshare-document-cover-images_1280/feedshare-document-cover-images_1280/0/1668552698688?e=1733313600\u0026v=beta\u0026t=zyzrAJMexCVFsPuSt6uUna3SAbqUT3DbdgOYE1mB1Uk"
+            ]
+          },
+          {
+            "width": 1364,
+            "height": 1930,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/C4D1FAQEAE6Czrcd9aw/feedshare-document-cover-images_1920/feedshare-document-cover-images_1920/0/1668552698931?e=1733313600\u0026v=beta\u0026t=lJGpjLbkuRJUsQi37f2XogRJGgmiWJ8F3lvwC_1eq-s"
+            ]
+          }
+        ]
+      },
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "A l’ère où les sondages sont à la mode, \nJe profite donc que tout le monde donne son avis pour solliciter le vôtre ci-dessous !\n\n👀 Parlons peu, parlons processus d’achat.\n \n\n\n\n\n#marketing #ecommerce Laura Laurent",
+      "totalReactionCount": 8,
+      "likeCount": 6,
+      "empathyCount": 1,
+      "InterestCount": 1,
+      "commentsCount": 5,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6853689908230426624/",
+      "postedAt": "3yr",
+      "postedDate": "2021-10-12 13:56:49.523 +0000 UTC",
+      "postedDateTimestamp": 1634047009523,
+      "urn": "6853689908230426624",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {
+        "title": "Etes-vous familier(e) avec le predictive targeting et le social selling ?\nSi non,je serais ravie d’en savoir un peu plus en commentaire!",
+        "isClosed": true,
+        "uniqueVotersCount": 26,
+        "remainingDuration": "Poll closed",
+        "options": [
+          {
+            "text": "Oui, quelle question Marion …",
+            "voteCount": 10
+          },
+          {
+            "text": "Non",
+            "voteCount": 4
+          },
+          {
+            "text": "Le predict quoi ? 🤔",
+            "voteCount": 12
+          }
+        ]
+      },
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "On vous a manqué ?\n \n \nPendant que nos utilisateurs remplissaient leur wishlist et se couvraient de cadeaux, nous leur concoctions une surprise…. Notre application i-wantit se refait une beauté et présente bientôt i-wantit Connect! \n \n🤔 Qu’est ce donc ?\ni-wantit Connect est le nouvel espace e-shop dédié aux commerçants. Une fois la boutique créée, ils peuvent la personnaliser, accéder aux insights et se démarquer auprès de notre communauté.\n \n 💡 Son but ?\nLeur apporter de la visibilité,élargir leur audience,générer des intentions d’achats, et surtout faire plaisir à un maximum de personnes! \n \n😎 Comment ?\nGrâce aux mises en avant dans les catégories et emplacements stratégiques de l’app, l’analyse des comportements d’achats, une communication à 360° et un travail main dans la main de nos équipes !\n\nDe nombreuses boutiques rejoignent l’aventure 🚀\n\nEt vous, quelles sont les boutiques que vous aimeriez retrouver sur l’app ? \n\n\n#noel#ecommerce",
+      "totalReactionCount": 23,
+      "likeCount": 18,
+      "empathyCount": 2,
+      "InterestCount": 1,
+      "praiseCount": 2,
+      "commentsCount": 3,
+      "repostsCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6849638931756003328/",
+      "postedAt": "3yr",
+      "postedDate": "2021-10-01 09:39:41.468 +0000 UTC",
+      "postedDateTimestamp": 1633081181468,
+      "urn": "6849638931756003328",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D22AQG8phn0JCcPKQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1633081180719?e=1735776000\u0026v=beta\u0026t=nU6baF5P_sO-k-dB_zpAt-7c7iYjZlTq9iLdLKhcB9w"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "“Il y a un mois c’était mon anniversaire, j’ai retenu mes larmes en ouvrant mes cadeaux. Vieillir est déjà assez pénible, mais recevoir un livre sur les champignons c’était trop.”\n\nChaque année,c’est près de 800 millions de cadeaux ratés qui font des déçus, (là vous réalisez sans doute que vous en faites partie), les annonces de reventes de cadeaux battent malheureusement des records… 😬\n\nC’est donc grâce à vos attentions ratées qu’est né i-wantit  : \n\n• I-wantit est une application universelle qui permet de constituer sa whishlist,d’explorer,de s’inspirer et de partager sa liste de souhaits avec ses proches. \n\n• Notre communauté, que nous surnommons les Wanties, compte aujourd’hui 160 000 individus qui ont fait leurs adieux aux cadeaux inutiles, au gaspillage et aux situations gênantes.\n\nNotre solution permet en un clic de faire plaisir aux personnes que l’on aime, et comme dirait Aqua “ life in I-wantit, it’s fantastic” \n\nEt vous, quel est le premier article que vous ajouteriez à votre liste? 🎁 \n\n\n\nFabrice Blisson Laura Laurent",
+      "totalReactionCount": 25,
+      "likeCount": 21,
+      "empathyCount": 4,
+      "commentsCount": 8,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6825712012186681344/",
+      "postedAt": "3yr",
+      "postedDate": "2021-07-27 09:02:39.302 +0000 UTC",
+      "postedDateTimestamp": 1627376559302,
+      "urn": "6825712012186681344",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Productivité,rapidité,fiabilité : voilà ce qui définit les solutions de dématérialisation NEOVACOM 💫\n\nMerci Axel KALETKA  pour cet échange sur votre expertise, la stratégie inbound et le référencement SEO! 😀\n\nEncore une semaine qui commence fort avec Rocket School et Rémy Benfredj 🚀",
+      "totalReactionCount": 20,
+      "likeCount": 16,
+      "empathyCount": 4,
+      "commentsCount": 4,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6797579703109615616/",
+      "postedAt": "3yr",
+      "postedDate": "2021-05-10 17:54:54.145 +0000 UTC",
+      "postedDateTimestamp": 1620669294145,
+      "urn": "6797579703109615616",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D22AQGtJf5IvB1Sww/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1620669293389?e=1735776000\u0026v=beta\u0026t=Tib_ae2B4N8HYxdFlulfFBL_BC8N5CJ6VUZoFAzLIlI"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Il pleut des certifs cette semaine ! 🏅\nAu menu du jour: Le Lead Relationship Management avec Datananas \n\nEn avant la prospection ! Et merci à Rocket School ! 🚀",
+      "totalReactionCount": 37,
+      "likeCount": 32,
+      "empathyCount": 1,
+      "praiseCount": 4,
+      "commentsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6790939372205182976/",
+      "postedAt": "3yr",
+      "postedDate": "2021-04-22 10:08:35.886 +0000 UTC",
+      "postedDateTimestamp": 1619086115886,
+      "urn": "6790939372205182976",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D22AQGu-6kfOmFaSg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1619086114446?e=1735776000\u0026v=beta\u0026t=WzDx8zURU2sLeHN3wBPva2rzoMIJKr50FFVU4WmT7l0"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Certification Google Ateliers Numériques obtenue ! Quel enrichissement ! 😀 \n\nMerci à Rocket School 🚀🔥",
+      "totalReactionCount": 35,
+      "likeCount": 28,
+      "appreciationCount": 1,
+      "praiseCount": 6,
+      "commentsCount": 5,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6790552681556561920/",
+      "postedAt": "3yr",
+      "postedDate": "2021-04-21 08:32:01.651 +0000 UTC",
+      "postedDateTimestamp": 1618993921651,
+      "urn": "6790552681556561920",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4E22AQH1sad9v103tg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1618993920811?e=1735776000\u0026v=beta\u0026t=oRd-NrdG-RRVe23zCN_SMqbGMUBLB1W_qwHgCAyv_4E"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "Certification Hubspot in the pocket! 😎\n\nLes stratégies inbound ça vous parle? \n\n3 étapes clés: \n• Attirer \n• Interagir\n• Fidéliser \n\nLes entreprises ayant adopté l'inbound marketing génèrent 54 % plus de leads que celles qui font du marketing traditionnel!  📈\n\nMerci à Rocket School, HubSpot ! 🚀  \n\n#rocketschool#inbound#marketing#bizdev",
+      "totalReactionCount": 29,
+      "likeCount": 21,
+      "empathyCount": 3,
+      "praiseCount": 5,
+      "commentsCount": 6,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6790186375141445632/",
+      "postedAt": "3yr",
+      "postedDate": "2021-04-20 08:16:27.396 +0000 UTC",
+      "postedDateTimestamp": 1618906587396,
+      "urn": "6790186375141445632",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D22AQEBWChhHhXv0w/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1618906585794?e=1735776000\u0026v=beta\u0026t=HgEHMJ9tFxGTaKHMS3HpySl0IJNXhZS7rjQEcaJjrhU"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "resharedPublication": {
+        "text": "🌞 Superbe Intervention de Benjamin RANDAZZO pour nous Rendre SEXY 🎯 sur LinkedIn et se sensibiliser au #PersonalBranding ! #REX \nEncore une Belle Journée riche en Informations au sein du collectif Apollo XXV de la 🚀 Rocket School #Marseille 🚀\nToujours plus prés des Etoiles ✨",
+        "author": {
+          "firstName": "Rayhan",
+          "lastName": "C.",
+          "username": "rayhan-cheniguer-rocketschool",
+          "url": "https://www.linkedin.com/in/rayhan-cheniguer-rocketschool"
+        },
+        "image": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C5622AQFQdxUTu6drew/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1617731360148?e=1735776000\u0026v=beta\u0026t=RMAXs-FEO8YD7wjMCBMiEk--yiFC5TJbqaHRl7zEmXY"
+          }
+        ],
+        "company": {},
+        "document": {},
+        "celebration": {},
+        "poll": {},
+        "article": {},
+        "entity": {}
+      },
+      "text": "On pimpe son profil avec Benjamin RANDAZZO  aujourd’hui ! \nOn est hyper motivés (mais ça vous l’aviez déjà remarqué) grâce à notre formation sur le personal branding aujourd’hui nous pouvons vous donner encore plus de nous même! \nC’est ça l’esprit Rocket School Marseille 🚀",
+      "totalReactionCount": 4,
+      "likeCount": 3,
+      "praiseCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6785262123099410432/",
+      "postedAt": "3yr",
+      "postedDate": "2021-04-06 18:09:14.221 +0000 UTC",
+      "postedDateTimestamp": 1617732554221,
+      "reposted": true,
+      "urn": "6785262123099410432",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "text": "\"On a tous le droit de réussir!\" une phrase percutante de Cyril Pierre de Geyer 🚀 qui résonne au sein de notre promo Apollo 25 aujourd'hui.\nMerci pour cet échange instructif et passioné 🚀 Rocket School Rocket School Marseille #business",
+      "totalReactionCount": 72,
+      "likeCount": 59,
+      "appreciationCount": 1,
+      "empathyCount": 7,
+      "praiseCount": 4,
+      "maybeCount": 1,
+      "commentsCount": 9,
+      "repostsCount": 3,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6783401414484885504/",
+      "postedAt": "3yr",
+      "postedDate": "2021-04-01 14:55:26.717 +0000 UTC",
+      "postedDateTimestamp": 1617288926717,
+      "urn": "6783401414484885504",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "image": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/C4D22AQGodvl96s199w/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1617288925361?e=1735776000\u0026v=beta\u0026t=WpoUYwrz6yQZnMJ26Ef0w0iiwWNF-kqzg1e6YJ-QhRY"
+        }
+      ],
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "resharedPublication": {
+        "text": "Un grand merci à Marie CARRARA de nous avoir consacré votre temps. Nous avons ainsi découvert Jobstar.io, une Start Up qui réinvente le recrutement, qui allie qualité des candidats, échelle humaine et accompagnement bienveillant ! Merci à Rocket School Marseille de nous avoir donné l’occasion de vous rencontrer ! La Team Aldébaran !  Marion JOLIOT Melyna Ferreira Gael Gomis Nicolas HAUMONT",
+        "author": {
+          "firstName": "Arthur",
+          "lastName": "Millet",
+          "username": "millet-arthur-bizdev",
+          "url": "https://www.linkedin.com/in/millet-arthur-bizdev"
+        },
+        "image": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/C4D22AQFaxqmDkLKuHA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1617034146889?e=1735776000\u0026v=beta\u0026t=hndr3Pon8Jt9kClOZwHiFew0dMO2EsaOzzYw-s4kfM0"
+          }
+        ],
+        "company": {},
+        "document": {},
+        "celebration": {},
+        "poll": {},
+        "article": {},
+        "entity": {}
+      },
+      "text": "🚀",
+      "totalReactionCount": 2,
+      "likeCount": 2,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6782333884928417792/",
+      "postedAt": "3yr",
+      "postedDate": "2021-03-29 16:13:27.837 +0000 UTC",
+      "postedDateTimestamp": 1617034407837,
+      "reposted": true,
+      "urn": "6782333884928417792",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "resharedPublication": {
+        "text": "Hôteliers : comparez votre évolution de RevPar au marché\n\nhttps://lnkd.in/gbPTxaR",
+        "author": {},
+        "company": {
+          "name": "Agence Crého",
+          "url": "https://www.linkedin.com/company/agence-creho/",
+          "urn": "urn:li:fsd_company:11690158"
+        },
+        "document": {},
+        "celebration": {},
+        "poll": {},
+        "article": {},
+        "entity": {}
+      },
+      "text": "",
+      "totalReactionCount": 1,
+      "likeCount": 1,
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6501338611601022976/",
+      "postedAt": "5yr",
+      "postedDate": "2019-02-13 06:38:34.036 +0000 UTC",
+      "postedDateTimestamp": 1550039914036,
+      "reposted": true,
+      "urn": "6501338611601022976",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    },
+    {
+      "resharedPublication": {
+        "text": "Depuis EquipHotel, plusieurs hôtels ont rejoint l'Agence Creho. \nL'humain est la force de cette industrie. Travaillons ensemble pour développer leur chiffre d'affaires.",
+        "author": {
+          "firstName": "Damien",
+          "lastName": "Gourribon",
+          "username": "damien-gourribon-b1847142",
+          "url": "https://www.linkedin.com/in/damien-gourribon-b1847142"
+        },
+        "company": {},
+        "document": {},
+        "celebration": {},
+        "poll": {},
+        "article": {},
+        "entity": {}
+      },
+      "text": "",
+      "postUrl": "https://www.linkedin.com/feed/update/urn:li:activity:6473892051305013249/",
+      "postedAt": "5yr",
+      "postedDate": "2018-11-29 12:55:44.129 +0000 UTC",
+      "postedDateTimestamp": 1543496144129,
+      "reposted": true,
+      "urn": "6473892051305013249",
+      "author": {
+        "firstName": "Marion",
+        "lastName": "Joliot",
+        "username": "marion-joliot-iwantit",
+        "url": "https://www.linkedin.com/in/marion-joliot-iwantit"
+      },
+      "company": {},
+      "document": {},
+      "celebration": {},
+      "poll": {},
+      "article": {},
+      "entity": {}
+    }
+  ]
+}

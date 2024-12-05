@@ -17,7 +17,7 @@ final readonly class CreateAnalysisMessageHandler
 
     public function __invoke(CreateAnalysisMessage $message): void
     {
-        $this->logger->info(sprintf('CreateAnalysisMessage with username : %s', $message->getUsername()));
+        $this->logger->info(sprintf('Create Analysis with username : %s', $message->getUsername()));
 
         $service = $this->socialAccountFactory->getService($message->getPlatform());
         $service->hydrate($message->getPayload());
